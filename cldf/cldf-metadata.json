@@ -12,7 +12,9 @@
   "dc:title": "Burmish Etymological Database",
   "rdf:ID": "bed",
   "dialect": {
-    "commentPrefix": null
+    "commentPrefix": null,
+    "delimiter": "\t",
+    "encoding": "utf-8-sig"
   },
   "notes": [
     {
@@ -26,6 +28,7 @@
  "tables": [
   {
    "url": "forms.tsv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
    "tableSchema": {
     "columns": [
      {
@@ -93,6 +96,7 @@
   },
   {
    "url": "cognates.tsv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
    "tableSchema": {
     "columns": [
      {
@@ -146,6 +150,7 @@
   },
   {
    "url": "partial.tsv",
+   "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#PartialCognateTable",
    "tableSchema": {
     "columns": [
      {
