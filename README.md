@@ -8,7 +8,7 @@ Just unpack the zip folder and open the file `index.html` in a web-browser.
 
 ## Python Code
 
-Just run the scripts (using Python3, make sure you have LingPy installed):
+Just run the scripts (using Python3, make sure you have LingPy version 2.6 installed):
 
 ```shell
 $ python c_bipartites.py
@@ -31,4 +31,11 @@ Data is given in the following files:
 * d_bed.tsv: the BED data which was used for the study
 * d_stedt.tsv: the original STEDT data for the Burmish languages which we extracted for this purpose
 
+## Data in CLDF (Forkel and List 2017)
+
+Following the [specifications](https://zenodo.org/record/835502) of the [CLDF initiative](http://cldf.clld.org), we provide the data in CLDF format as well. You find the data in the ```cldf``` folder. The script we used to convert the data in CLDF-format is ```c_cldf.py```, and you can run it by writing:
+
+```shell
+$ python3 convert.py
+```
 

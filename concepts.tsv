@@ -1,241 +1,241 @@
-NUMBER	ENGLISH	CONCEPTICON_ID
-1	above	1741
-2	all	98
-3	the ant	587
-4	the armpit	1886
-5	bad	1292
-6	the bamboo	1927
-7	the barley (tibetan or highland)	932
-8	to be alive	1422
-9	the belly	1251
-10	below, under	1485
-11	big	1202
-12	the bird	937
-13	to bite	1403
-14	black	163
-15	the blood	946
-16	to blow (of wind)	175
-17	the body hair (hair or fur)	189
-18	the bone	1394
-19	the branch	1531
-20	the breast (female)	1402
-21	to burn [intransitive]	1428
-22	to buy	1869
-23	to chew	321
-24	the child (young human)	1304
-25	the cloud	1489
-26	cold (of temperature)	1287
-27	to come	1446
-28	correct (right)	1725
-29	to count	1420
-30	to cry (weep)	1420
-31	dark	706
-32	the daughter	1357
-33	the dew	1977
-34	to die	1494
-35	to dig	1418
-36	dirty	1230
-37	the dog	2009
-38	the dream	2374
-39	to drink	1401
-40	dry	1398
-41	the dust	2
-42	the ear	1247
-43	early	672
-44	the earth (soil)	1228
-45	the earthworm	2350
-46	to eat	1336
-47	the egg	744
-48	eight	1705
-49	the eye	1248
-50	far	1406
-51	the father	1217
-52	the feather	1201
-53	to fight	1423
-54	the fire	221
-55	firewood	10
-56	the fish	227
-57	five	493
-58	the flea	232
-59	to float	1574
-60	to flow	2003
-61	the flower	239
-62	to fly (move through air)	1441
-63	the fog	249
-64	the foot	1301
-65	the forest	420
-66	four	1500
-67	the fox	1312
-68	the frog	503
-69	the front (front side)	2194
-70	the frost	2034
-71	the fruit	1507
-72	full	1429
-73	to give	1447
-74	the goat	1502
-75	good	1035
-76	the grass	606
-77	green	1425
-78	the hail	609
-79	the hair (of the head)	1040
-80	the hand	1277
-81	hard	1884
-82	he or she [third person singular]	262
-83	the head	1256
-84	to hear	1408
-85	the heart	1223
-86	heavy	1210
-87	here	136
-88	to hide (conceal)	602
-89	high / tall	1265
-90	to hold	1448
-91	the hoof	152
-92	horizontal	2376
-93	the horn (keratinized skin)	1393
-94	the horse	615
-95	hot	1286
-96	the house	1252
-97	hundred	1634
-98	to hunt	1435
-99	the husband	1200
-100	I [first person singular]	1209
-101	the ice	617
-102	inside	1606
-103	to kill	1417
-104	the knee	1371
-105	the lake	624
-106	late	477
-107	to laugh	1355
-108	the leaf	2250
-109	left	244
-110	to lick	319
-111	to lie down	215
-112	light (of weight)	1052
-113	the lip (the lips)	478
-114	the liver	1224
-115	long	1203
-116	the louse	1392
-117	the lung	688
-118	the man (male human)	2106
-119	many	1198
-120	the meat	634
-121	middle	1093
-122	the moon	1313
-123	morning	1339
-124	the mosquito	1509
-125	the mother	1216
-126	the mountain	639
-127	the mouse or rat	2139
-128	the mouth	674
-129	the mud	640
-130	the nail (fingernail or claw)	2128
-131	the name	1405
-132	narrow	1267
-133	near	1942
-134	the neck	1333
-135	the needle (for sewing)	1382
-136	new	1231
-137	nine	1483
-138	the nit	267
-139	noon	12
-140	the nose	1221
-141	old (of person)	2112
-142	one	1493
-143	the otter	15
-144	outside	762
-145	the pig	1337
-146	to plant (vegetals, rice)	1486
-147	to play	1413
-148	to pull	1455
-149	to push	1452
-150	the rain	658
-151	the rainbow	1733
-152	red	156
-153	to reside (live)	1099
-154	the rice plant	2026
-155	right	1019
-156	the river	666
-157	the road	667
-158	the root	670
-159	the rope	1218
-160	round	1395
-161	the salt	1274
-162	salty	1091
-163	the sand	671
-164	to scratch	1436
-165	the sea	1474
-166	to see	1409
-167	the seed	714
-168	seven	1704
-169	sharp	1396
-170	the sheep	1331
-171	to shoot (an arrow)	1172
-172	short	1645
-173	the shoulder	1482
-174	shy	487
-175	the sickle	341
-176	to sing	1261
-177	six	1703
-178	the skin	763
-179	the sky	1732
-180	to sleep	1585
-181	small	1246
-182	to smell (perceive odor) [transitive]	1586
-183	the smoke	778
-184	smooth	1234
-185	the snake	730
-186	the snow	784
-187	soft	1856
-188	the son	1620
-189	the sparrow	1854
-190	the spider	843
-191	to spit	1440
-192	to stand	1442
-193	the star	1430
-194	to steal	713
-195	the stick	1295
-196	the stone (a piece of)	857
-197	straight	1404
-198	the sun	1343
-199	the tail	1220
-200	ten	1515
-201	that	78
-202	there	1937
-203	thick	1244
-204	the thigh	800
-205	to think (reflect)	1415
-206	this	1214
-207	thou [second person singular]	1215
-208	three	492
-209	to throw	1456
-210	the thunder	1150
-211	the tiger	846
-212	today	1283
-213	tomorrow	1329
-214	the tongue	1205
-215	the tooth (front)	1380
-216	the tree	906
-217	twenty	1710
-218	two	1498
-219	to vomit	1278
-220	to walk	1443
-221	the water	948
-222	we [first person plural inclusive]	1131
-223	wet	1726
-224	what	1236
-225	the wheat	1077
-226	where	1237
-227	white	1335
-228	who	1235
-229	the wife	1199
-230	the wind	960
-231	the wing	1257
-232	to wipe	1454
-233	the wolf	522
-234	the woman	962
-235	the wood (material)	1803
-236	the year	1226
-237	yellow	1424
-238	yesterday	1174
-239	you [second person plural]	1213
-240	young	1207
+NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
+1	above	1741	ABOVE
+2	all	98	ALL
+3	the ant	587	ANT
+4	the armpit	1886	ARMPIT
+5	bad	1292	BAD
+6	the bamboo	1927	BAMBOO
+7	the barley (tibetan or highland)	932	BARLEY
+8	to be alive	1422	BE ALIVE
+9	the belly	1251	BELLY
+10	below, under	1485	BELOW OR UNDER
+11	big	1202	BIG
+12	the bird	937	BIRD
+13	to bite	1403	BITE
+14	black	163	BLACK
+15	the blood	946	BLOOD
+16	to blow (of wind)	175	BLOW (OF WIND)
+17	the body hair (hair or fur)	189	HAIR (BODY)
+18	the bone	1394	BONE
+19	the branch	1531	BRANCH
+20	the breast (female)	1402	BREAST
+21	to burn [intransitive]	1428	BURNING
+22	to buy	1869	BUY
+23	to chew	321	CHEW
+24	the child (young human)	1304	CHILD (YOUNG HUMAN)
+25	the cloud	1489	CLOUD
+26	cold (of temperature)	1287	COLD
+27	to come	1446	COME
+28	correct (right)	1725	CORRECT (RIGHT)
+29	to count	1420	COUNT
+30	to cry (weep)	1420	COUNT
+31	dark	706	DARK
+32	the daughter	1357	DAUGHTER
+33	the dew	1977	DEW
+34	to die	1494	DIE
+35	to dig	1418	DIG
+36	dirty	1230	DIRTY
+37	the dog	2009	DOG
+38	the dream	2374	DREAM
+39	to drink	1401	DRINK
+40	dry	1398	DRY
+41	the dust	2	DUST
+42	the ear	1247	EAR
+43	early	672	EARLY
+44	the earth (soil)	1228	EARTH (SOIL)
+45	the earthworm	2350	EARTHWORM
+46	to eat	1336	EAT
+47	the egg	744	EGG
+48	eight	1705	EIGHT
+49	the eye	1248	EYE
+50	far	1406	FAR
+51	the father	1217	FATHER
+52	the feather	1201	FEATHER
+53	to fight	1423	FIGHT
+54	the fire	221	FIRE
+55	firewood	10	FIREWOOD
+56	the fish	227	FISH
+57	five	493	FIVE
+58	the flea	232	FLEA
+59	to float	1574	FLOAT
+60	to flow	2003	FLOW
+61	the flower	239	FLOWER
+62	to fly (move through air)	1441	FLY (MOVE THROUGH AIR)
+63	the fog	249	FOG
+64	the foot	1301	FOOT
+65	the forest	420	FOREST
+66	four	1500	FOUR
+67	the fox	1312	FOX
+68	the frog	503	FROG
+69	the front (front side)	2194	FRONT (PART)
+70	the frost	2034	FROST
+71	the fruit	1507	FRUIT
+72	full	1429	FULL
+73	to give	1447	GIVE
+74	the goat	1502	GOAT
+75	good	1035	GOOD
+76	the grass	606	GRASS
+77	green	1425	GREEN
+78	the hail	609	HAIL
+79	the hair (of the head)	1040	HAIR
+80	the hand	1277	HAND
+81	hard	1884	HARD
+82	he or she [third person singular]	262	HE OR SHE OR IT
+83	the head	1256	HEAD
+84	to hear	1408	HEAR
+85	the heart	1223	HEART
+86	heavy	1210	HEAVY
+87	here	136	HERE
+88	to hide (conceal)	602	HIDE (CONCEAL)
+89	high / tall	1265	HIGH
+90	to hold	1448	HOLD
+91	the hoof	152	HOOF
+92	horizontal	2376	HORIZONTAL
+93	the horn (keratinized skin)	1393	HORN (ANATOMY)
+94	the horse	615	HORSE
+95	hot	1286	HOT
+96	the house	1252	HOUSE
+97	hundred	1634	HUNDRED
+98	to hunt	1435	HUNT
+99	the husband	1200	HUSBAND
+100	I [first person singular]	1209	I
+101	the ice	617	ICE
+102	inside	1606	INSIDE
+103	to kill	1417	KILL
+104	the knee	1371	KNEE
+105	the lake	624	LAKE
+106	late	477	LATE
+107	to laugh	1355	LAUGH
+108	the leaf	2250	LEAF (LEAFLIKE OBJECT)
+109	left	244	LEFT
+110	to lick	319	LICK
+111	to lie down	215	LIE DOWN
+112	light (of weight)	1052	LIGHT (WEIGHT)
+113	the lip (the lips)	478	LIP
+114	the liver	1224	LIVER
+115	long	1203	LONG
+116	the louse	1392	LOUSE
+117	the lung	688	LUNG
+118	the man (male human)	2106	MALE PERSON
+119	many	1198	MANY
+120	the meat	634	MEAT
+121	middle	1093	MIDDLE
+122	the moon	1313	MOON
+123	morning	1339	MORNING
+124	the mosquito	1509	MOSQUITO
+125	the mother	1216	MOTHER
+126	the mountain	639	MOUNTAIN
+127	the mouse or rat	2139	MUROID (MOUSE OR RAT)
+128	the mouth	674	MOUTH
+129	the mud	640	MUD
+130	the nail (fingernail or claw)	2128	CLAW OR NAIL
+131	the name	1405	NAME
+132	narrow	1267	NARROW
+133	near	1942	NEAR
+134	the neck	1333	NECK
+135	the needle (for sewing)	1382	NEEDLE (FOR SEWING)
+136	new	1231	NEW
+137	nine	1483	NINE
+138	the nit	267	NIT
+139	noon	12	MIDDAY
+140	the nose	1221	NOSE
+141	old (of person)	2112	OLD (AGED)
+142	one	1493	ONE
+143	the otter	15	OTTER
+144	outside	762	OUTSIDE
+145	the pig	1337	PIG
+146	to plant (vegetals, rice)	1486	PLANT (SOMETHING)
+147	to play	1413	PLAY
+148	to pull	1455	PULL
+149	to push	1452	PUSH
+150	the rain	658	RAIN (PRECIPITATION)
+151	the rainbow	1733	RAINBOW
+152	red	156	RED
+153	to reside (live)	1099	RESIDE
+154	the rice plant	2026	RICE PLANT
+155	right	1019	RIGHT
+156	the river	666	RIVER
+157	the road	667	ROAD
+158	the root	670	ROOT
+159	the rope	1218	ROPE
+160	round	1395	ROUND
+161	the salt	1274	SALT
+162	salty	1091	SALTY
+163	the sand	671	SAND
+164	to scratch	1436	SCRATCH
+165	the sea	1474	SEA
+166	to see	1409	SEE
+167	the seed	714	SEED
+168	seven	1704	SEVEN
+169	sharp	1396	SHARP
+170	the sheep	1331	SHEEP
+171	to shoot (an arrow)	1172	SHOOT
+172	short	1645	SHORT
+173	the shoulder	1482	SHOULDER
+174	shy	487	SHY
+175	the sickle	341	SICKLE
+176	to sing	1261	SING
+177	six	1703	SIX
+178	the skin	763	SKIN
+179	the sky	1732	SKY
+180	to sleep	1585	SLEEP
+181	small	1246	SMALL
+182	to smell (perceive odor) [transitive]	1586	SMELL (PERCEIVE)
+183	the smoke	778	SMOKE (EXHAUST)
+184	smooth	1234	SMOOTH
+185	the snake	730	SNAKE
+186	the snow	784	SNOW
+187	soft	1856	SOFT
+188	the son	1620	SON
+189	the sparrow	1854	SPARROW
+190	the spider	843	SPIDER
+191	to spit	1440	SPIT
+192	to stand	1442	STAND
+193	the star	1430	STAR
+194	to steal	713	STEAL
+195	the stick	1295	STICK
+196	the stone (a piece of)	857	STONE
+197	straight	1404	STRAIGHT
+198	the sun	1343	SUN
+199	the tail	1220	TAIL
+200	ten	1515	TEN
+201	that	78	THAT
+202	there	1937	THERE
+203	thick	1244	THICK
+204	the thigh	800	THIGH
+205	to think (reflect)	1415	THINK (REFLECT)
+206	this	1214	THIS
+207	thou [second person singular]	1215	THOU
+208	three	492	THREE
+209	to throw	1456	THROW
+210	the thunder	1150	THUNDER
+211	the tiger	846	TIGER
+212	today	1283	TODAY
+213	tomorrow	1329	TOMORROW
+214	the tongue	1205	TONGUE
+215	the tooth (front)	1380	TOOTH
+216	the tree	906	TREE
+217	twenty	1710	TWENTY
+218	two	1498	TWO
+219	to vomit	1278	VOMIT
+220	to walk	1443	WALK
+221	the water	948	WATER
+222	we [first person plural inclusive]	1131	WE (INCLUSIVE)
+223	wet	1726	WET
+224	what	1236	WHAT
+225	the wheat	1077	WHEAT
+226	where	1237	WHERE
+227	white	1335	WHITE
+228	who	1235	WHO
+229	the wife	1199	WIFE
+230	the wind	960	WIND
+231	the wing	1257	WING
+232	to wipe	1454	WIPE
+233	the wolf	522	WOLF
+234	the woman	962	WOMAN
+235	the wood (material)	1803	WOOD
+236	the year	1226	YEAR
+237	yellow	1424	YELLOW
+238	yesterday	1174	YESTERDAY
+239	you [second person plural]	1213	YOU
+240	young	1207	YOUNG

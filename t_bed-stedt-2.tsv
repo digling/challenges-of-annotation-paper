@@ -1,271 +1,885 @@
 # Wordlist
 
 # DATA
-ID	COGID	POS	CONCEPT	DOCULECT	ORIGINAL_CONCEPT	STEDT_SRCID	ORIGINAL_TAXNAME	ORIGINAL_ENTRY	MORPHEMES	NOTE	COGIDS	SOURCE	STEDT_GLOSS	CONCEPTICON_ID	STEDT_REFLEX	IPA	STEDT_CONCEPT	TOKENS	STEDT_RN	ALIGNMENT	STEDT_ANALYSIS	STEDT_ID
+ID	COGID	POS	ALIGNMENT	CONCEPT	DOCULECT	ORIGINAL_CONCEPT	STEDT_SRCID	ORIGINAL_TAXNAME	ORIGINAL_ENTRY	MORPHEMES	NOTE	COGIDS	SOURCE	STEDT_GLOSS	CONCEPTICON_ID	STEDT_REFLEX	IPA	STEDT_CONCEPT	TOKENS	STEDT_RN	STEDT_ANALYSIS	STEDT_ID
 #
-369	111	other	black	Atsi	black	1005.3	Atsi [Zaiwa] TBL	noʔ²¹  | 1005.30	black		92	TBL		163	noʔ²¹	noʔ²¹	black	n o ʔ ²¹	396807	n o ʔ ²¹	2483	13268
-370	111	other	black	Bola	black	1005.32	Bola (Luxi) TBL	naʔ³¹  | 1005.32	black		92	TBL		163	naʔ³¹	naʔ³¹	black	n a ʔ ³¹	396809	n a ʔ ³¹	2483	5259
-373	111	other	black	Lashi	black	1005.33	Leqi (Luxi) TBL	nɔːʔ³¹  | 1005.33	black		92	TBL		163	nɔːʔ³¹	nɔːʔ³¹	black	n ɔː ʔ ³¹	396810	n ɔː ʔ ³¹	2483	12267
-374	111	other	black	Maru	black	1005.31	Langsu (Luxi) TBL	nɔʔ³¹  | 1005.31	black		92	TBL		163	nɔʔ³¹	nɔʔ³¹	black	n ɔ ʔ ³¹	396808	n ɔ ʔ ³¹	2483	13559
-375	111	other	black	Xiandao	black	1005.29	Achang (Xiandao) TBL	nɔʔ⁵⁵  | 1005.29	black		92	TBL		163	nɔʔ⁵⁵	nɔʔ⁵⁵	black	n ɔ ʔ ⁵⁵	396806	n ɔ ʔ ⁵⁵	2483	12861
-5528	111	other	black	Rangoon		1005.27			black		92	TBL		163	nɛʔ⁴	nɛʔ⁴	black	n ɛ ʔ ⁴	396804	n ɛ ʔ ⁴	2483	10692
-5966	111	other	black	Written_Burmese		1005.26			black		92	TBL		163	nɑk⁴	nɑk⁴	black	n a k ⁴	396803	n a k ⁴	2483	13070
+6489	165		ŋ ɔ ⁵⁵	I [first person singular]	Xiandao	I	0928.29	Achang (Xiandao)	ŋɔ⁵⁵	I-me		91	TBL		1209		ŋɔ⁵⁵		ŋ ɔ ⁵⁵	38607	2530	999
+6187	165		ŋ ɑ ²²	I [first person singular]	Rangoon	I	0928.27	Burmese (Rangoon)	ŋɑ²²	me		91	TBL		1209		ŋɑ²²		ŋ ɑ ²²	34950	2530	5930
+6259	165		ŋ o ⁵¹	I [first person singular]	Atsi	I	0928.30	Atsi [Zaiwa]	ŋo⁵¹	I-me		91	TBL		1209		ŋo⁵¹		ŋ o ⁵¹	42262	2530	5157
+6348	165		ŋ ɔ ³¹	I [first person singular]	Maru	I	0928.31	Langsu (Luxi)	ŋɔ³¹	me		91	TBL		1209		ŋɔ³¹		ŋ ɔ ³¹	44104	2530	9237
+6432	165		ŋ o ³¹	I [first person singular]	Lashi	I	0928.33	Leqi (Luxi)	ŋo³¹	me		91	TBL		1209		ŋo³¹		ŋ o ³¹	47708	2530	7049
+6631	165		ŋ ɔ ⁵⁵	I [first person singular]	Achang_Longchuan	I	0928.28	Achang (Longchuan)	ŋɔ⁵⁵	I-me		91	TBL		1209		ŋɔ⁵⁵		ŋ ɔ ⁵⁵	36827	2530	2684
+6549	165		ŋ a ⁵⁵	I [first person singular]	Bola	I	0928.32	Bola (Luxi)	ŋa⁵⁵	I-me		91	TBL		1209		ŋa⁵⁵		ŋ a ⁵⁵	45887	2530	8136
 #
-674	169	other	cold (of temperature)	Atsi	cold (weather, water)	1063.3	Atsi [Zaiwa] TBL	kjoʔ²¹  | 1063.30	cold	bad concept	40003	TBL		1287	kjoʔ²¹	kjoʔ²¹	cold (water)	k j o ʔ ²¹	399721	k j o - ʔ ²¹	10003	7482
+6324	1154		tʰ o ʔ ⁵⁵ + m a i ²¹	above	Atsi	over / above	0731.30	Atsi [Zaiwa]	thoʔ⁵⁵mai²¹	over on		3 40162	TBL		1741		tʰoʔ⁵⁵mai²¹		tʰ o ʔ ⁵⁵ + m a i ²¹	42049	2718 10162	2903
 #
-3337	12	other	correct (right)	Atsi	right / correct	1045.3	Atsi [Zaiwa] TBL	tʃo²¹  | 1045.30	correct		605	TBL		1725	tʃo²¹	tʃo²¹	right / correct	tʃ o ²¹	398784	tʃ o ²¹	5790	3186
-3339	12	other	correct (right)	Bola	right / correct	1045.32	Bola (Luxi) TBL	tʃɔ³¹  | 1045.32	correct		605	TBL		1725	tʃɔ³¹	tʃɔ³¹	right / correct	tʃ ɔ ³¹	398786	tʃ ɔ ³¹	5790	12702
-3343	12	other	correct (right)	Maru	right / correct	1045.31	Langsu (Luxi) TBL	tʃɔ³¹  | 1045.31	correct		605	TBL		1725	tʃɔ³¹	tʃɔ³¹	right / correct	tʃ ɔ ³¹	398785	tʃ ɔ ³¹	5790	13438
+6326	130		o̰ - - ⁵¹ + m a i ²¹	below, under	Atsi	below / under	0732.30	Atsi [Zaiwa]	o̱⁵¹mai²¹	under on		66 40167	TBL		1485		o̱⁵¹mai²¹		o̰ ⁵¹ + m a i ²¹	42050	2542 10167	13280
+6584	130		ɔ - - ³¹ + m ɛ - ³¹	below, under	Maru	below / under	0732.31	Langsu (Luxi)	ɔ³¹mɛ³¹	below on		66 40055	TBL		1485		ɔ³¹mɛ³¹		ɔ ³¹ + m ɛ ³¹	43908	2542 10055	13019
 #
-6142	86		dark	Achang_Longchuan	dark	1013.28	Achang (Longchuan)	ɕin⁵⁵	dark		1251	TBL		706		ɕin⁵⁵		ɕ i n ⁵⁵	36912	ɕ i n ⁵⁵	2672	11321
-6201	84		dark	Maru	dark	1013.31	Langsu (Luxi)	nɔʔ³¹	black		92	TBL		706		nɔʔ³¹		n ɔ ʔ ³¹	44189	n ɔ ʔ ³¹	2483	13560
-6304	84		dark	Atsi	dark	1013.3	Atsi [Zaiwa]	noʔ²¹	black		92	TBL		706		noʔ²¹		n o ʔ ²¹	42349	n o ʔ ²¹	2483	13269
-6430	84		dark	Bola	dark	1013.32	Bola (Luxi)	naʔ³¹	black		92	TBL		706		naʔ³¹		n a ʔ ³¹	45981	n a ʔ ³¹	2483	5260
+369	111	other	n o ʔ ²¹	black	Atsi	black	1005.30	Atsi [Zaiwa] TBL	noʔ²¹  | 1005.30	black		92	TBL		163	noʔ²¹	noʔ²¹	black	n o ʔ ²¹	396807	2483	13268
+375	111	other	n ɔ ʔ ⁵⁵	black	Xiandao	black	1005.29	Achang (Xiandao) TBL	nɔʔ⁵⁵  | 1005.29	black		92	TBL		163	nɔʔ⁵⁵	nɔʔ⁵⁵	black	n ɔ ʔ ⁵⁵	396806	2483	12861
+370	111	other	n a ʔ ³¹	black	Bola	black	1005.32	Bola (Luxi) TBL	naʔ³¹  | 1005.32	black		92	TBL		163	naʔ³¹	naʔ³¹	black	n a ʔ ³¹	396809	2483	5259
+373	111	other	n ɔː ʔ ³¹	black	Lashi	black	1005.33	Leqi (Luxi) TBL	nɔːʔ³¹  | 1005.33	black		92	TBL		163	nɔːʔ³¹	nɔːʔ³¹	black	n ɔː ʔ ³¹	396810	2483	12267
+374	111	other	n ɔ ʔ ³¹	black	Maru	black	1005.31	Langsu (Luxi) TBL	nɔʔ³¹  | 1005.31	black		92	TBL		163	nɔʔ³¹	nɔʔ³¹	black	n ɔ ʔ ³¹	396808	2483	13559
+5528	111	other	n ɛ ʔ ⁴	black	Rangoon		1005.27			black		92	TBL		163	nɛʔ⁴	nɛʔ⁴	black	n ɛ ʔ ⁴	396804	2483	10692
 #
-5459	287	other	dirty	Rangoon		1086.27			dirty1 dirty2		209 40000	TBL		1230	ȵiʔ⁴pɑʔ⁴	ȵiʔ⁴pɑʔ⁴	dirty	nʲ i ʔ ⁴ + p ɑ ʔ ⁴	400876	nʲ i ʔ ⁴ ◦ p ɑ ʔ ⁴	2520 10000	5964
-5898	287	other	dirty	Written_Burmese		1086.26			dirty1 dirty2		209 40005	TBL		1230	ȵɑs⁴pɑt⁴	ȵɑs⁴pɑt⁴	dirty	ŋʲ a ts ⁴ + p a t ⁴	400875	ŋʲ a ts ⁴ ◦ p a t ⁴	2520 10005	3272
+674	169	other	k j o - ʔ ²¹	cold (of temperature)	Atsi	cold (weather, water)	1063.30	Atsi [Zaiwa] TBL	kjoʔ²¹  | 1063.30	cold	bad concept	40144	TBL		1287	kjoʔ²¹	kjoʔ²¹	cold (water)	k j o ʔ ²¹	399721	10144	7482
 #
-1039	329	other	dry	Atsi	dry	1028.3	Atsi [Zaiwa] TBL	xui⁵⁵  | 1028.30	dry		233	TBL		1398	xui⁵⁵	xui⁵⁵	dry	x u i ⁵⁵	397972	x u i ⁵⁵	3298	5098
-1040	329	other	dry	Bola	dry	1028.32	Bola (Luxi) TBL	kja̱uʔ⁵⁵  | 1028.32	dry		40011	TBL		1398	kja̱uʔ⁵⁵	kja̱uʔ⁵⁵	dry	k j a̰ u ʔ ⁵⁵	397974	k j a̰ u ʔ ⁵⁵	10011	6525
-1043	329	other	dry	Lashi	dry	1028.33	Leqi (Luxi) TBL	kju̱ːʔ⁵⁵  | 1028.33	dry		40008	TBL		1398	kju̱ːʔ⁵⁵	kju̱ːʔ⁵⁵	dry	k j ṵː ʔ ⁵⁵	397975	k j - ṵː ʔ ⁵⁵	10008	11619
-1044	329	other	dry	Maru	dry	1028.31	Langsu (Luxi) TBL	fai⁵⁵  | 1028.31	dry		233	TBL		1398	fai⁵⁵	fai⁵⁵	dry	f a i ⁵⁵	397973	f a i ⁵⁵	3298	12327
-5416	329	other	dry	Rangoon		1028.27			dry		40001	TBL		1398	tɕhɑuʔ⁴	ʨʰɑuʔ⁴	dry	tɕʰ ɑ u ʔ ⁴	397969	tɕʰ - ɑ u ʔ ⁴	10001	3654
+3337	12	other	tʃ o ²¹	correct (right)	Atsi	right / correct	1045.30	Atsi [Zaiwa] TBL	tʃo²¹  | 1045.30	correct		605	TBL		1725	tʃo²¹	tʃo²¹	right / correct	tʃ o ²¹	398784	5790	3186
+3339	12	other	tʃ ɔ ³¹	correct (right)	Bola	right / correct	1045.32	Bola (Luxi) TBL	tʃɔ³¹  | 1045.32	correct		605	TBL		1725	tʃɔ³¹	tʃɔ³¹	right / correct	tʃ ɔ ³¹	398786	5790	12702
+3343	12	other	tʃ ɔ ³¹	correct (right)	Maru	right / correct	1045.31	Langsu (Luxi) TBL	tʃɔ³¹  | 1045.31	correct		605	TBL		1725	tʃɔ³¹	tʃɔ³¹	right / correct	tʃ ɔ ³¹	398785	5790	13438
 #
-6144	94		early	Achang_Longchuan	early	1018.28	Achang (Longchuan)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	36917	n ɔ ʔ ⁵⁵	6227	10910
-6202	94		early	Maru	early	1018.31	Langsu (Luxi)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	44194	n ɔ ʔ ⁵⁵	6227	13561
-6307	94		early	Atsi	early	1018.3	Atsi [Zaiwa]	noʔ²¹	early		35	TBL		672		noʔ²¹		n o ʔ ²¹	42354	n o ʔ ²¹	6227	13270
-6474	94		early	Lashi	early	1018.33	Leqi (Luxi)	nɔːʔ⁵⁵	early		35	TBL		672		nɔːʔ⁵⁵		n ɔː ʔ ⁵⁵	47794	n ɔː ʔ ⁵⁵	6227	12268
-6536	94		early	Xiandao	early	1018.29	Achang (Xiandao)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	38697	n ɔ ʔ ⁵⁵	6227	12862
-6604	94		early	Bola	early	1018.32	Bola (Luxi)	naʔ⁵⁵	early		35	TBL		672		naʔ⁵⁵		n a ʔ ⁵⁵	45986	n a ʔ ⁵⁵	6227	5261
+6201	84		n ɔ ʔ ³¹	dark	Maru	dark	1013.31	Langsu (Luxi)	nɔʔ³¹	black		92	TBL		706		nɔʔ³¹		n ɔ ʔ ³¹	44189	2483	13560
+6304	84		n o ʔ ²¹	dark	Atsi	dark	1013.30	Atsi [Zaiwa]	noʔ²¹	black		92	TBL		706		noʔ²¹		n o ʔ ²¹	42349	2483	13269
+6430	84		n a ʔ ³¹	dark	Bola	dark	1013.32	Bola (Luxi)	naʔ³¹	black		92	TBL		706		naʔ³¹		n a ʔ ³¹	45981	2483	5260
+6142	86		ɕ i n ⁵⁵	dark	Achang_Longchuan	dark	1013.28	Achang (Longchuan)	ɕin⁵⁵	dark		1251	TBL		706		ɕin⁵⁵		ɕ i n ⁵⁵	36912	2672	11321
 #
-1841	688	other	heavy	Achang_Longchuan	heavy	1014.28	Achang (Longchuan) TBL	li³¹  | 1014.28	heavy		355	TBL		1210	li³¹	li³¹	heavy	l i ³¹	397253	l i - ³¹	2415	5634
-1843	688	other	heavy	Atsi	heavy	1014.3	Atsi [Zaiwa] TBL	lai²¹  | 1014.30	heavy		355	TBL		1210	lai²¹	lai²¹	heavy	l a i ²¹	397255	l a i ²¹	2415	7552
-1844	688	other	heavy	Bola	heavy	1014.32	Bola (Luxi) TBL	li³¹  | 1014.32	heavy		355	TBL		1210	li³¹	li³¹	heavy	l i ³¹	397257	l i - ³¹	2415	5224
-1847	688	other	heavy	Lashi	heavy	1014.33	Leqi (Luxi) TBL	laːi³³  | 1014.33	heavy		355	TBL		1210	laːi³³	laːi³³	heavy	l aː i ³³	397258	l aː i ³³	2415	11636
-1848	688	other	heavy	Maru	heavy	1014.31	Langsu (Luxi) TBL	la³⁵  | 1014.31	heavy		355	TBL		1210	la³⁵	la³⁵	heavy	l a ³⁵	397256	l a - ³⁵	2415	12525
-1849	688	other	heavy	Xiandao	heavy	1014.29	Achang (Xiandao) TBL	lai³¹  | 1014.29	heavy		355	TBL		1210	lai³¹	lai³¹	heavy	l a i ³¹	397254	l a i ³¹	2415	12722
-5664	688	other	heavy	Rangoon		1014.27			heavy		355	TBL		1210	le⁵⁵	le⁵⁵	heavy	l e ⁵⁵	397252	l e - ⁵⁵	2415	4178
-6099	688	other	heavy	Written_Burmese		1014.26			heavy		355	TBL		1210	le³	le³	heavy	l e ³	397251	l e - ³	2415	13213
+5459	287	other	nʲ i ʔ ⁴ + p ɑ ʔ ⁴	dirty	Rangoon		1086.27			dirty1 dirty2		209 40113	TBL		1230	ȵiʔ⁴pɑʔ⁴	ȵiʔ⁴pɑʔ⁴	dirty	nʲ i ʔ ⁴ + p ɑ ʔ ⁴	400876	2520 10113	5964
 #
-6145	97		late	Achang_Longchuan	late	1019.28	Achang (Longchuan)	l̥ɔ³¹	late		1259	TBL		477		l̥ɔ³¹		l̥ ɔ ³¹	36918	l̥ ɔ ³¹	6231	5704
+1039	329	other	x u i ⁵⁵	dry	Atsi	dry	1028.30	Atsi [Zaiwa] TBL	xui⁵⁵  | 1028.30	dry		233	TBL		1398	xui⁵⁵	xui⁵⁵	dry	x u i ⁵⁵	397972	3298	5098
+1040	329	other	k j a̰ u ʔ ⁵⁵	dry	Bola	dry	1028.32	Bola (Luxi) TBL	kja̱uʔ⁵⁵  | 1028.32	dry		40031	TBL		1398	kja̱uʔ⁵⁵	kja̱uʔ⁵⁵	dry	k j a̰ u ʔ ⁵⁵	397974	10031	6525
+1043	329	other	k j ṵː - ʔ ⁵⁵	dry	Lashi	dry	1028.33	Leqi (Luxi) TBL	kju̱ːʔ⁵⁵  | 1028.33	dry		40093	TBL		1398	kju̱ːʔ⁵⁵	kju̱ːʔ⁵⁵	dry	k j ṵː ʔ ⁵⁵	397975	10093	11619
+1044	329	other	f a i ⁵⁵	dry	Maru	dry	1028.31	Langsu (Luxi) TBL	fai⁵⁵  | 1028.31	dry		233	TBL		1398	fai⁵⁵	fai⁵⁵	dry	f a i ⁵⁵	397973	3298	12327
+5416	329	other	tɕʰ - ɑ u ʔ ⁴	dry	Rangoon		1028.27			dry		40118	TBL		1398	tɕhɑuʔ⁴	ʨʰɑuʔ⁴	dry	tɕʰ ɑ u ʔ ⁴	397969	10118	3654
 #
-2393	903	other	light (of weight)	Achang_Longchuan	light (weight)	1015.28	Achang (Longchuan) TBL	ʑaŋ⁵⁵  | 1015.28	light		20	TBL		1052	ʑaŋ⁵⁵	ʑaŋ⁵⁵	light (weight)	ʑ a ŋ ⁵⁵	397303	ʑ a ŋ ⁵⁵	2789	11380
-2398	903	other	light (of weight)	Xiandao	light (weight)	1015.29	Achang (Xiandao) TBL	jaŋ⁵⁵  | 1015.29	lightweight		20	TBL		1052	jaŋ⁵⁵	jaŋ⁵⁵	light (weight)	j a ŋ ⁵⁵	397304	j a ŋ ⁵⁵	2789	11452
+6144	94		n ɔ ʔ ⁵⁵	early	Achang_Longchuan	early	1018.28	Achang (Longchuan)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	36917	6227	10910
+6202	94		n ɔ ʔ ⁵⁵	early	Maru	early	1018.31	Langsu (Luxi)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	44194	6227	13561
+6307	94		n o ʔ ²¹	early	Atsi	early	1018.30	Atsi [Zaiwa]	noʔ²¹	early		35	TBL		672		noʔ²¹		n o ʔ ²¹	42354	6227	13270
+6474	94		n ɔː ʔ ⁵⁵	early	Lashi	early	1018.33	Leqi (Luxi)	nɔːʔ⁵⁵	early		35	TBL		672		nɔːʔ⁵⁵		n ɔː ʔ ⁵⁵	47794	6227	12268
+6536	94		n ɔ ʔ ⁵⁵	early	Xiandao	early	1018.29	Achang (Xiandao)	nɔʔ⁵⁵	early		35	TBL		672		nɔʔ⁵⁵		n ɔ ʔ ⁵⁵	38697	6227	12862
+6604	94		n a ʔ ⁵⁵	early	Bola	early	1018.32	Bola (Luxi)	naʔ⁵⁵	early		35	TBL		672		naʔ⁵⁵		n a ʔ ⁵⁵	45986	6227	5261
 #
-2810	1112	other	new	Achang_Longchuan	new	1050.28	Achang (Longchuan) TBL	ʂək⁵⁵  | 1050.28	new		510	TBL		1231	ʂək⁵⁵	ʂək⁵⁵	new	ʂ ə k ⁵⁵	399035	ʂ ə k ⁵⁵	6178	11342
-2814	1112	other	new	Bola	new	1050.32	Bola (Luxi) TBL	sak⁵⁵  | 1050.32	new		510	TBL		1231	sak⁵⁵	sak⁵⁵	new	s a k ⁵⁵	399039	s a k ⁵⁵	6178	12605
-2817	1112	other	new	Lashi	new	1050.33	Leqi (Luxi) TBL	sə̱ːk⁵⁵  | 1050.33	new		510	TBL		1231	sə̱ːk⁵⁵	sə̱ːk⁵⁵	new	s ə̰ː k ⁵⁵	399040	s ə̰ː k ⁵⁵	6178	12314
-2818	1112	other	new	Maru	new	1050.31	Langsu (Luxi) TBL	sa̱k⁵⁵  | 1050.31	new		510	TBL		1231	sa̱k⁵⁵	sa̱k⁵⁵	new	s a̰ k ⁵⁵	399038	s a̰ k ⁵⁵	6178	13668
-2820	1112	other	new	Xiandao	new	1050.29	Achang (Xiandao) TBL	ʂɯk⁵⁵  | 1050.29	new		510	TBL		1231	ʂɯk⁵⁵	ʂɯk⁵⁵	new	ʂ ɯ k ⁵⁵	399036	ʂ ɯ k ⁵⁵	6178	6630
+1150	439	other	ɕ e t ⁵⁵	eight	Achang_Longchuan	eight	0804.28	Achang (Longchuan) TBL	ɕet⁵⁵  | 0804.28	eight		247	TBL		1705	ɕet⁵⁵	ɕet⁵⁵	eight	ɕ e t ⁵⁵	386412	2259	9675
+1152	439	other	ʃ i t ⁵⁵	eight	Atsi	eight	0804.30	Atsi [Zaiwa] TBL	ʃit⁵⁵  | 0804.30	eight		247	TBL		1705	ʃit⁵⁵	ʃit⁵⁵	eight	ʃ i t ⁵⁵	386414	2259	5175
+1153	439	other	ʃ ɛ ʔ ⁵⁵	eight	Bola	eight	0804.32	Bola (Luxi) TBL	ʃɛʔ⁵⁵  | 0804.32	eight		247	TBL		1705	ʃɛʔ⁵⁵	ʃɛʔ⁵⁵	eight	ʃ ɛ ʔ ⁵⁵	386416	2259	8212
+1156	439	other	ʃ ɛ̰ t ⁵⁵	eight	Lashi	eight	0804.33	Leqi (Luxi) TBL	ʃɛ̱t⁵⁵  | 0804.33	eight		247	TBL		1705	ʃɛ̱t⁵⁵	ʃɛ̱t⁵⁵	eight	ʃ ɛ̰ t ⁵⁵	386417	2259	6329
+1157	439	other	ʃ ɛ ʔ ⁵⁵	eight	Maru	eight	0804.31	Langsu (Luxi) TBL	ʃɛʔ⁵⁵  | 0804.31	eight		247	TBL		1705	ʃɛʔ⁵⁵	ʃɛʔ⁵⁵	eight	ʃ ɛ ʔ ⁵⁵	386415	2259	9303
+1158	439	other	ç ɛ ʈ ⁵⁵	eight	Xiandao	eight	0804.29	Achang (Xiandao) TBL	çɛʈ⁵⁵  | 0804.29	eight		247	TBL		1705	çɛʈ⁵⁵	çɛʈ⁵⁵	eight	ç ɛ ʈ ⁵⁵	386413	2259	9827
+5575	439	other	ɕ i ʔ ⁴	eight	Rangoon		0804.27			eight		247	TBL		1705	ɕiʔ⁴	ɕiʔ⁴	eight	ɕ i ʔ ⁴	386411	2259	6134
 #
-2880	1119	other	old (of person)	Achang_Longchuan	old / elderly	1058.28	Achang (Longchuan) TBL	muaŋ³¹  | 1058.28	old		520	TBL		2112	muaŋ³¹	muaŋ³¹	old / elderly	m u a ŋ ³¹	399458	m u a ŋ ³¹	2440	5762
-2883	1119	other	old (of person)	Atsi	old / elderly	1058.3	Atsi [Zaiwa] TBL	maŋ²¹  | 1058.30	old		520	TBL		2112	maŋ²¹	maŋ²¹	old / elderly	m a ŋ ²¹	399460	m a - ŋ ²¹	2440	13242
-2885	1119	other	old (of person)	Bola	old / elderly	1058.32	Bola (Luxi) TBL	mɔ̃³¹  | 1058.32	old-person		520	TBL		2112	mɔ̃³¹	mɔ̃³¹	old / elderly	m ɔ̃ ∼ ³¹	399462	m ɔ̃ - ∼ ³¹	2440	5254
-2888	1119	other	old (of person)	Lashi	old / elderly	1058.33	Leqi (Luxi) TBL	maŋ³³ tso⁵⁵  | 1058.33	old child?		520 1118	TBL		2112	maŋ³³tso⁵⁵	maŋ³³tso⁵⁵	old / elderly	m a ŋ ³³ + ts o ⁵⁵	399463	m a - ŋ ³³ ◦ ts o ⁵⁵	2440 3327	12241
-2889	1119	other	old (of person)	Maru	old / elderly	1058.31	Langsu (Luxi) TBL	mɔ̃³⁵  | 1058.31	old		520	TBL		2112	mɔ̃³⁵	mɔ̃³⁵	old / elderly	m ɔ̃ ∼ ³⁵	399461	m ɔ̃ - ∼ ³⁵	2440	13520
-2891	1119	other	old (of person)	Xiandao	old / elderly	1058.29	Achang (Xiandao) TBL	mɔŋ³¹  | 1058.29	old		520	TBL		2112	mɔŋ³¹	mɔŋ³¹	old / elderly	m ɔ ŋ ³¹	399459	m ɔ - ŋ ³¹	2440	12778
+1241	473	other	v e - ³¹	far	Achang_Longchuan	far	0974.28	Achang (Longchuan) TBL	ve³¹  | 0974.28	far		266	TBL		1406	ve³¹	ve³¹	far / distant	v e ³¹	395204	622	2571
+5272	473	other	w e - ⁵⁵	far	Rangoon		0974.27			far		266	TBL		1406	we⁵⁵	we⁵⁵	far / distant	w e ⁵⁵	395203	622	5876
+1244	473	other	v ɛ - ³¹	far	Bola	far	0974.32	Bola (Luxi) TBL	vɛ³¹  | 0974.32	far		266	TBL		1406	vɛ³¹	vɛ³¹	far / distant	v ɛ ³¹	395208	622	8851
+1247	473	other	v ɛː - ³³	far	Lashi	far	0974.33	Leqi (Luxi) TBL	vɛː³³  | 0974.33	far		266	TBL		1406	vɛː³³	vɛː³³	far / distant	v ɛː ³³	395209	622	6948
+1248	473	other	v a - ³⁵	far	Maru	far	0974.31	Langsu (Luxi) TBL	va³⁵  | 0974.31	far		266	TBL		1406	va³⁵	va³⁵	far / distant	v a ³⁵	395207	622	8944
+1249	473	other	v ɛ - ³¹	far	Xiandao	far	0974.29	Achang (Xiandao) TBL	vɛ³¹  | 0974.29	far		266	TBL		1406	vɛ³¹	vɛ³¹	far / distant	v ɛ ³¹	395205	622	922
+1243	473	other	v e - ²¹	far	Atsi	far	0974.30	Atsi [Zaiwa] TBL	ve²¹  | 0974.30	far		266	TBL		1406	ve²¹	ve²¹	far / distant	v e ²¹	395206	622	5035
 #
-3281	11	other	red	Achang_Longchuan	red	1007.28	Achang (Longchuan) TBL	na⁵⁵  | 1007.28	red		598	TBL		156	na⁵⁵	na⁵⁵	red	n a ⁵⁵	396908	n a ⁵⁵	2499	10894
-3283	11	other	red	Atsi	red	1007.3	Atsi [Zaiwa] TBL	ne⁵¹  | 1007.30	red		598	TBL		156	ne⁵¹	ne⁵¹	red	n e ⁵¹	396910	n e ⁵¹	2499	13266
-3285	11	other	red	Bola	red	1007.32	Bola (Luxi) TBL	nɛ⁵⁵  | 1007.32	red		598	TBL		156	nɛ⁵⁵	nɛ⁵⁵	red	n ɛ ⁵⁵	396912	n ɛ ⁵⁵	2499	5274
-3289	11	other	red	Lashi	red	1007.33	Leqi (Luxi) TBL	nɛː³¹  | 1007.33	red		598	TBL		156	nɛː³¹	nɛː³¹	red	n ɛː ³¹	396913	n ɛː ³¹	2499	12272
-3291	11	other	red	Maru	red	1007.31	Langsu (Luxi) TBL	nɛ³¹  | 1007.31	red		598	TBL		156	nɛ³¹	nɛ³¹	red	n ɛ ³¹	396911	n ɛ ³¹	2499	13570
-3292	11	other	red	Xiandao	red	1007.29	Achang (Xiandao) TBL	na⁵⁵  | 1007.29	red		598	TBL		156	na⁵⁵	na⁵⁵	red	n a ⁵⁵	396909	n a ⁵⁵	2499	12827
-5424	11	other	red	Rangoon		1007.27					598	TBL		156	ni²²	ni²²	red	n i ²²	396907	n i ²²	2499	10685
-5864	11	other	red	Written_Burmese		1007.26					598	TBL		156	ni²	ni²	red	n i ²	396906	n i ²	2499	13062
+1421	518	other	ŋ ɔ ³¹	five	Achang_Longchuan	five	0801.28	Achang (Longchuan) TBL	ŋɔ³¹  | 0801.28	five		290	TBL		493	ŋɔ³¹	ŋɔ³¹	five	ŋ ɔ ³¹	386258	1306	2683
+1423	518	other	ŋ o ²¹	five	Atsi	five	0801.30	Atsi [Zaiwa] TBL	ŋo²¹  | 0801.30	five		290	TBL		493	ŋo²¹	ŋo²¹	five	ŋ o ²¹	386260	1306	5146
+1424	518	other	ŋ a ³¹	five	Bola	five	0801.32	Bola (Luxi) TBL	ŋa³¹  | 0801.32	five		290	TBL		493	ŋa³¹	ŋa³¹	five	ŋ a ³¹	386262	1306	8131
+1427	518	other	ŋ - ³³	five	Lashi	five	0801.33	Leqi (Luxi) TBL	ŋ³³  | 0801.33	five		290	TBL		493	ŋ³³	ŋ³³	five	ŋ ³³	386263	1306	7061
+5524	518	other	ŋ ɑ ⁵⁵	five	Rangoon		0801.27			five		290	TBL		493	ŋɑ⁵⁵	ŋɑ⁵⁵	five	ŋ ɑ ⁵⁵	386257	1306	5940
+1429	518	other	ŋ ɔ ³¹	five	Xiandao	five	0801.29	Achang (Xiandao) TBL	ŋɔ³¹  | 0801.29	five		290	TBL		493	ŋɔ³¹	ŋɔ³¹	five	ŋ ɔ ³¹	386259	1306	996
+1428	518	other	ŋ ɔ ⁵⁵	five	Maru	five	0801.31	Langsu (Luxi) TBL	ŋɔ⁵⁵  | 0801.31	five		290	TBL		493	ŋɔ⁵⁵	ŋɔ⁵⁵	five	ŋ ɔ ⁵⁵	386261	1306	9245
 #
-3649	34	other	sharp	Achang_Longchuan	sharp	1020.28	Achang (Longchuan) TBL	thɔʔ⁵⁵  | 1020.28	sharp	bad concept	651	TBL		1396	thɔʔ⁵⁵	thɔʔ⁵⁵	sharp	tʰ ɔ ʔ ⁵⁵	397567	tʰ ɔ ʔ ⁵⁵	5515	11141
-3655	34	other	sharp	Lashi	sharp	1020.33	Leqi (Luxi) TBL	thɔːʔ⁵⁵  | 1020.33	sharp	bad concept	651	TBL		1396	thɔːʔ⁵⁵	thɔːʔ⁵⁵	sharp	tʰ ɔː ʔ ⁵⁵	397572	tʰ ɔː ʔ ⁵⁵	5515	6682
-3658	34	other	sharp	Atsi	sharp	1020.3	Atsi [Zaiwa] TBL	thoʔ⁵⁵  | 1020.30	sharp	bad concept	651	TBL		1396	thoʔ⁵⁵	thoʔ⁵⁵	sharp	tʰ o ʔ ⁵⁵	397569	tʰ o ʔ ⁵⁵	5515	2897
-3659	34	other	sharp	Bola	sharp	1020.32	Bola (Luxi) TBL	thaʔ⁵⁵  | 1020.32	sharp	bad concept	651	TBL		1396	thaʔ⁵⁵	thaʔ⁵⁵	sharp	tʰ a ʔ ⁵⁵	397571	tʰ a ʔ ⁵⁵	5515	12639
-3660	34	other	sharp	Maru	sharp	1020.31	Langsu (Luxi) TBL	thɔʔ⁵⁵  | 1020.31	sharp	bad concept	651	TBL		1396	thɔʔ⁵⁵	thɔʔ⁵⁵	sharp	tʰ ɔ ʔ ⁵⁵	397570	tʰ ɔ ʔ ⁵⁵	5515	13364
-5398	34	other	sharp	Rangoon		1020.27				bad concept	651	TBL		1396	thɛʔ⁴	tʰɛʔ⁴	sharp	tʰ ɛ ʔ ⁴	397566	tʰ ɛ ʔ ⁴	5515	3461
-5838	34	other	sharp	Written_Burmese		1020.26				bad concept	651	TBL		1396	thɑk	tʰɑk	sharp	tʰ a k	397565	tʰ a k -	5515	1664
+1531	554	other	m - i - ³¹	four	Achang_Longchuan	four	0800.28	Achang (Longchuan) TBL	mi³¹  | 0800.28	four		308	TBL		1500	mi³¹	mi³¹	four	m i ³¹	386207	2409	5752
+1533	554	other	m j i - ²¹	four	Atsi	four	0800.30	Atsi [Zaiwa] TBL	mji²¹  | 0800.30	four		308	TBL		1500	mji²¹	mji²¹	four	m j i ²¹	386209	2409	10003
+1537	554	other	m - e i ³³	four	Lashi	four	0800.33	Leqi (Luxi) TBL	mei³³  | 0800.33	four		308	TBL		1500	mei³³	mei³³	four	m e i ³³	386212	2409	9541
+5418	1165	other	l e ⁵⁵	four	Rangoon		0800.27			four		308	TBL		1500	le⁵⁵	le⁵⁵	four	l e ⁵⁵	386206	2409	4177
+1534	554	other	m - ə i ³¹	four	Bola	four	0800.32	Bola (Luxi) TBL	məi³¹  | 0800.32	four		308	TBL		1500	məi³¹	məi³¹	four	m ə i ³¹	386211	2409	1236
+1539	554	other	m - i - ⁵⁵	four	Xiandao	four	0800.29	Achang (Xiandao) TBL	mi⁵⁵  | 0800.29	four		308	TBL		1500	mi⁵⁵	mi⁵⁵	four	m i ⁵⁵	386208	2409	12767
 #
-6356	106		shy	Written_Burmese	shy, be / bashful	1365.26	Burmese (Written)	hrɑk⁴			46	TBL		487		hrɑk⁴		ɕ a k ⁴	33525	ɕ a k ⁴	379	11532
+5372	567	other	p j e - ⁵³	full	Rangoon		0984.27			full		318	TBL		1429	pje⁵³	pje⁵³	full	p j e ⁵³	395729	111	8865
+1581	567	other	p ʐ ə ŋ ³⁵	full	Achang_Longchuan	full adj	0984.28	Achang (Longchuan) TBL	pʐəŋ³⁵  | 0984.28	full		318	TBL		1429	pʐəŋ³⁵	pʐəŋ³⁵	full	p ʐ ə ŋ ³⁵	395730	111	8793
+1584	567	other	p j i ŋ ⁵⁵	full	Atsi	full adj	0984.30	Atsi [Zaiwa] TBL	pjiŋ⁵⁵  | 0984.30	full		318	TBL		1429	pjiŋ⁵⁵	pjiŋ⁵⁵	full	p j i ŋ ⁵⁵	395732	111	8996
+1586	567	other	p j a ŋ ³⁵	full	Bola	full adj	0984.32	Bola (Luxi) TBL	pjaŋ³⁵  | 0984.32	full		318	TBL		1429	pjaŋ³⁵	pjaŋ³⁵	full	p j a ŋ ³⁵	395734	111	5299
+1589	567	other	p j əː ŋ ⁵⁵	full	Lashi	full adj	0984.33	Leqi (Luxi) TBL	pjəːŋ⁵⁵  | 0984.33	full		318	TBL		1429	pjəːŋ⁵⁵	pjəːŋ⁵⁵	full	p j əː ŋ ⁵⁵	395735	111	8971
+1590	567	other	p j a ŋ ⁵⁵	full	Maru	full adj	0984.31	Langsu (Luxi) TBL	pjaŋ⁵⁵  | 0984.31	full		318	TBL		1429	pjaŋ⁵⁵	pjaŋ⁵⁵	full	p j a ŋ ⁵⁵	395733	111	8926
+1592	567	other	p - ɯ ŋ ³⁵	full	Xiandao	full adj	0984.29	Achang (Xiandao) TBL	pɯŋ³⁵  | 0984.29	full		318	TBL		1429	pɯŋ³⁵	pɯŋ³⁵	full	p ɯ ŋ ³⁵	395731	111	532
 #
-4112	61	other	straight	Achang_Longchuan	straight	1003.28	Achang (Longchuan) TBL	tan³¹  | 1003.28	straight	bad concept	730	TBL		1404	tan³¹	tan³¹	straight	t a n ³¹	396699	t a n ³¹	5734	11083
-4115	61	other	straight	Bola	straight	1003.32	Bola (Luxi) TBL	tɛ̃³⁵  | 1003.32	straight	bad concept	730	TBL		1404	tɛ̃³⁵	tɛ̃³⁵	straight	t ɛ̃ ∼ ³⁵	396703	t ɛ̃ ∼ ³⁵	5734	12678
-4118	61	other	straight	Lashi	straight	1003.33	Leqi (Luxi) TBL	taːn³³  | 1003.33		bad concept	730	TBL		1404	taːn³³	taːn³³	straight	t aː n ³³	396704	t aː n ³³	5734	12318
-5974	64	other	straight	Written_Burmese		1003.26				bad concept	729	TBL		1404	phrɔŋ¹	pʰrɔŋ¹	straight (horizontal)	pʰ r o ŋ ¹	396697	pʰ r o - ŋ ¹	2160	13086
-5998	0	other	straight	Written_Burmese		1003.26				bad concept	22	TBL		1404	mɑt⁴	mɑt⁴	straight	m a t ⁴	434579	m a t ⁴	2160	13086
+5664	688	other	l e - ⁵⁵	heavy	Rangoon		1014.27			heavy		355	TBL		1210	le⁵⁵	le⁵⁵	heavy	l e ⁵⁵	397252	2415	4178
+1841	688	other	l i - ³¹	heavy	Achang_Longchuan	heavy	1014.28	Achang (Longchuan) TBL	li³¹  | 1014.28	heavy		355	TBL		1210	li³¹	li³¹	heavy	l i ³¹	397253	2415	5634
+1843	688	other	l a i ²¹	heavy	Atsi	heavy	1014.30	Atsi [Zaiwa] TBL	lai²¹  | 1014.30	heavy		355	TBL		1210	lai²¹	lai²¹	heavy	l a i ²¹	397255	2415	7552
+1844	688	other	l i - ³¹	heavy	Bola	heavy	1014.32	Bola (Luxi) TBL	li³¹  | 1014.32	heavy		355	TBL		1210	li³¹	li³¹	heavy	l i ³¹	397257	2415	5224
+1847	688	other	l aː i ³³	heavy	Lashi	heavy	1014.33	Leqi (Luxi) TBL	laːi³³  | 1014.33	heavy		355	TBL		1210	laːi³³	laːi³³	heavy	l aː i ³³	397258	2415	11636
+1848	688	other	l a - ³⁵	heavy	Maru	heavy	1014.31	Langsu (Luxi) TBL	la³⁵  | 1014.31	heavy		355	TBL		1210	la³⁵	la³⁵	heavy	l a ³⁵	397256	2415	12525
+1849	688	other	l a i ³¹	heavy	Xiandao	heavy	1014.29	Achang (Xiandao) TBL	lai³¹  | 1014.29	heavy		355	TBL		1210	lai³¹	lai³¹	heavy	l a i ³¹	397254	2415	12722
 #
-5698	1153	verb	the dream	Written_Burmese		1821.26			dream		224	TBL		2374	mɑk⁴	mɑk⁴	dream	m a k ⁴	434506	m a k ⁴	126	11833
+4251	69	other	m̥ ʐ a ŋ ⁵⁵	high / tall	Xiandao	high / tall	0968.29	Achang (Xiandao) TBL	m̥ʐaŋ⁵⁵  | 0968.29	high		749	TBL		1265	m̥ʐaŋ⁵⁵	m̥ʐaŋ⁵⁵	high / tall	m̥ ʐ a ŋ ⁵⁵	394883	2597	8828
+4245	69	other	m j ɔ̰̃ ∼ ⁵⁵	high / tall	Bola	high / tall	0968.32	Bola (Luxi) TBL	mjɔ̱̃⁵⁵  | 0968.32	high		749	TBL		1265	mjɔ̱̃⁵⁵	mjɔ̱̃⁵⁵	high / tall	m j ɔ̰̃ ∼ ⁵⁵	394886	2597	5245
+4242	69	other	m̥ ʐ a ŋ ⁵⁵	high / tall	Achang_Longchuan	high / tall	0968.28	Achang (Longchuan) TBL	m̥ʐaŋ⁵⁵  | 0968.28	high		749	TBL		1265	m̥ʐaŋ⁵⁵	m̥ʐaŋ⁵⁵	high / tall	m̥ ʐ a ŋ ⁵⁵	394882	2597	8785
+4244	69	other	m j a̰ ŋ ⁵¹	high / tall	Atsi	high / tall	0968.30	Atsi [Zaiwa] TBL	mja̱ŋ⁵¹  | 0968.30	high		749	TBL		1265	mja̱ŋ⁵¹	mja̱ŋ⁵¹	high / tall	m j a̰ ŋ ⁵¹	394884	2597	8982
+4249	69	other	m j ɔ̃ ∼ ³¹	high / tall	Maru	high / tall	0968.31	Langsu (Luxi) TBL	mjɔ̃³¹  | 0968.31	high		749	TBL		1265	mjɔ̃³¹	mjɔ̃³¹	high / tall	m j ɔ̃ ∼ ³¹	394885	2597	8915
+4248	69	other	m j a̰ː ŋ ³³	high / tall	Lashi	high / tall	0968.33	Leqi (Luxi) TBL	mja̱ːŋ³³  | 0968.33	high		749	TBL		1265	mja̱ːŋ³³	mja̱ːŋ³³	high / tall	m j a̰ː ŋ ³³	394887	2597	8963
+5498	69	other	m j ĩ - ⁵³	high / tall	Rangoon		0968.27			high		749	TBL		1265	mjĩ⁵³	mjĩ⁵³	high / tall	m j ĩ ∼ ⁵³	394881	2597	4311
 #
-343	594	verb	to bite	Bola	bite v.	1753.32	Bola (Luxi) TBL	pɛ̃³¹  | 1753.32	bite	bad concept	89	TBL		1403	pɛ̃³¹	pɛ̃³¹	bite	p ɛ̃ ∼ ³¹	431353	p ɛ̃ ∼ ³¹	1774	2198
-350	595	verb	to bite	Lashi	bite v.	1753.33	Leqi (Luxi) TBL	ŋaːt³¹  | 1753.33		bad concept	1024	TBL		1403	ŋaːt³¹	ŋaːt³¹	bite	ŋ aː t ³¹	431354	ŋ aː t ³¹	1761	7002
+6145	97		l̥ ɔ ³¹	late	Achang_Longchuan	late	1019.28	Achang (Longchuan)	l̥ɔ³¹	late		1259	TBL		477		l̥ɔ³¹		l̥ ɔ ³¹	36918	6231	5704
 #
-5500	1134	verb	to blow (of wind)	Rangoon		1738.27					13 40002	TBL		175	n̥ɑʔ⁴ȵiʔ⁴	n̥ɑʔ⁴ȵiʔ⁴	blow (one's nose)	n̥ ɑ ʔ ⁴ + nʲ i ʔ ⁴	430648	n̥ ɑ ʔ ⁴ ◦ nʲ i ʔ ⁴	805 10002	8763
-5938	1134	verb	to blow (of wind)	Written_Burmese		1738.26					13 40006	TBL		175	hnɑp⁴ hȵɑs⁴	hnɑp⁴◦hȵɑs⁴	blow (one's nose)	n̥ a p ⁴ + ŋ̊ʲ a ts ⁴	430647	n̥ a p ⁴ ◦ ŋ̊ʲ a ts ⁴	805 10006	11519
+2299	839	other	l ɔ ʔ ³¹ + n a m ³¹ + p a - ³¹	left	Achang_Longchuan	left n/adv	0710.28	Achang (Longchuan) TBL	lɔʔ³¹ nam³¹ pa³¹  | 0710.28	hand left dir		345 40021 40022	TBL		244	lɔʔ³¹nam³¹pa³¹	lɔʔ³¹nam³¹pa³¹	left	l ɔ ʔ ³¹ + n a m ³¹ + p a ³¹	381551	695 10021 10022	5667
+2301	839	other	l o ʔ ²¹ + p a̰ i ²¹	left	Atsi	left n/adv	0710.30	Atsi [Zaiwa] TBL	loʔ³¹ pa̱i²¹  | 0710.30	hand left		345 422	TBL		244	loʔ³¹pa̱i²¹	loʔ³¹pa̱i²¹	left	l o ʔ ²¹ + p a̰ i ²¹	381553	695 2154	8980
+2303	839	other	l a ʔ ³¹ + k a̰ u ŋ ³⁵	left	Bola	left n/adv	0710.32	Bola (Luxi) TBL	laʔ³¹ ka̱uŋ³⁵  | 0710.32	hand left		345 40045	TBL		244	laʔ³¹ka̱uŋ³⁵	laʔ³¹ka̱uŋ³⁵	left	l a ʔ ³¹ + k a̰ u ŋ ³⁵	381555	695 10045	1130
+2307	839	other	l ɔ ʔ ³¹ + p ḛ i ⁵⁵	left	Lashi	left n/adv	0710.33	Leqi (Luxi) TBL	lɔʔ³¹ pe̱i⁵⁵  | 0710.33	hand left		345 422	TBL		244	lɔʔ³¹pe̱i⁵⁵	lɔʔ³¹pe̱i⁵⁵	left	l ɔ ʔ ³¹ + p ḛ i ⁵⁵	381556	695 2154	4670
+2310	839	other	l ɔ ʔ ⁵⁵ + x a ⁵⁵	left	Xiandao	left n/adv	0710.29	Achang (Xiandao) TBL	lɔʔ⁵⁵ xa⁵⁵  | 0710.29	hand left		345 40085	TBL		244	lɔʔ⁵⁵xa⁵⁵	lɔʔ⁵⁵xa⁵⁵	left	l ɔ ʔ ⁵⁵ + x a ⁵⁵	381552	695 10085	8826
+5605	858	other	w ɛ - ⁵⁵	left	Rangoon		0710.27					420	TBL		244	wɛ⁵⁵	wɛ⁵⁵	left	w ɛ ⁵⁵	381550	2154	5903
+5606	9	other	b ɛ - ²²	left	Rangoon		0710.27					419	TBL		244	bɛ²²	bɛ²²	left	b ɛ ²²	381579	2154	5903
 #
-6396	140		to chew	Maru	chew	1424.31	Langsu (Luxi)	vɔ³⁵	chew		73	TBL		321		vɔ³⁵		v ɔ ³⁵	44547	v ɔ ³⁵	688	4416
-6465	140		to chew	Rangoon	chew	1424.27	Burmese (Rangoon)	wɑ⁵⁵			73	TBL		321		wɑ⁵⁵		w ɑ ⁵⁵	35484	w ɑ ⁵⁵	688	5910
-6504	140		to chew	Bola	chew	1424.32	Bola (Luxi)	va³¹	chew		73	TBL		321		va³¹		v a ³¹	46376	v a ³¹	688	8623
-6545	140		to chew	Written_Burmese	chew	1424.26	Burmese (Written)	wɑ³	chew		73	TBL		321		wɑ³		w a ³	33587	w a ³	688	3234
+2398	903	other	j a ŋ ⁵⁵	light (of weight)	Xiandao	light (weight)	1015.29	Achang (Xiandao) TBL	jaŋ⁵⁵  | 1015.29	lightweight		20	TBL		1052	jaŋ⁵⁵	jaŋ⁵⁵	light (weight)	j a ŋ ⁵⁵	397304	2789	11452
+2393	903	other	ʑ a ŋ ⁵⁵	light (of weight)	Achang_Longchuan	light (weight)	1015.28	Achang (Longchuan) TBL	ʑaŋ⁵⁵  | 1015.28	light		20	TBL		1052	ʑaŋ⁵⁵	ʑaŋ⁵⁵	light (weight)	ʑ a ŋ ⁵⁵	397303	2789	11380
 #
-697	621	verb	to come	Xiandao	come v.	1491.29	Achang (Xiandao) TBL	lɔ⁵⁵  | 1491.29	come		157	TBL		1446	lɔ⁵⁵	lɔ⁵⁵	come	l ɔ ⁵⁵	419017	l ɔ ⁵⁵	3569	12119
-5625	621	verb	to come	Rangoon		1491.27					157	TBL		1446	lɑ²²	lɑ²²	come	l ɑ ²²	419015	l ɑ ²²	3569	4245
-6061	621	verb	to come	Written_Burmese		1491.26					157	TBL		1446	lɑɑ²	lɑɑ²	come	l a ²	419014	l a ²	3569	11813
+6603	74		ɑ ⁵³ + l ɛ ²²	middle	Rangoon	middle	0708.27	Burmese (Rangoon)	ɑ⁵³lɛ²²	a-prefix ?		40117 102	TBL		1093		ɑ⁵³lɛ²²		ɑ ⁵³ + l ɛ ²²	34718	10117 517	6035
 #
-5522	1145	verb	to count	Rangoon		1640.27			count		166	TBL		1420	je²²	je²²	count (numbers)	j e ²²	426044	j e ²²	2738	3934
-5960	1145	verb	to count	Written_Burmese		1640.26			count		166	TBL		1420	re²	re²	count (numbers)	r e ²	426043	r e ²	2738	11949
+6164	124		n a p ²¹ + k j o̰ ⁵⁵	morning	Atsi	morning	0749.30	Atsi [Zaiwa]	nap²¹kjo̱⁵⁵	morning ?		53 40169	TBL		1339		nap²¹kjo̱⁵⁵		n a p ²¹ + k j o̰ ⁵⁵	42067	6227 10169	10054
+6317	124		n ɛ ʔ ³¹ + s u m ³¹	morning	Maru	morning	0749.31	Langsu (Luxi)	nɛʔ³¹sum³¹	morning-1 morning-2		53 40057	TBL		1339		nɛʔ³¹sum³¹		n ɛ ʔ ³¹ + s u m ³¹	43925	6227 10057	10429
+6459	124		n ɛ ʔ ³¹ + k ɔ̃ ∼ ⁵⁵	morning	Bola	morning	0749.32	Bola (Luxi)	nɛʔ³¹kɔ̃⁵⁵	day-2 life-span?		53 40041	TBL		1339		nɛʔ³¹kɔ̃⁵⁵		n ɛ ʔ ³¹ + k ɔ̃ ∼ ⁵⁵	45707	6227 10041	1304
+6553	124		n a p ³¹ + s ɔ n ⁵⁵	morning	Lashi	morning	0749.33	Leqi (Luxi)	nap³¹sɔn⁵⁵	not-today ?		53 40101	TBL		1339		nap³¹sɔn⁵⁵		n a p ³¹ + s ɔ n ⁵⁵	47526	6227 10101	9617
+6628	123		n ɑ̃ ∼ ²² + n ɛ ʔ ⁴	morning	Rangoon	morning	0749.27	Burmese (Rangoon)	nɑ̃²²nɛʔ⁴			40138 53	TBL		1339		nɑ̃²²nɛʔ⁴		n ɑ̃ ∼ ²² + n ɛ ʔ ⁴	34767	10138 6227	9045
 #
-6140	80		to cry (weep)	Lashi	cry	1485.33	Leqi (Luxi)	ŋaːu³¹	cry		32	TBL		1420		ŋaːu³¹		ŋ aː u ³¹	48174	ŋ aː u - ³¹	1104	7005
-6197	80		to cry (weep)	Xiandao	cry	1485.29	Achang (Xiandao)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	39059	ŋ a u - ⁵⁵	1104	986
-6300	80		to cry (weep)	Bola	cry	1485.32	Bola (Luxi)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	46434	ŋ a u - ⁵⁵	1104	8646
-6377	80		to cry (weep)	Achang_Longchuan	cry	1485.28	Achang (Longchuan)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	37346	ŋ a u - ⁵⁵	1104	2676
-6418	80		to cry (weep)	Maru	cry	1485.31	Langsu (Luxi)	ŋuk³¹			32	TBL		1420		ŋuk³¹		ŋ u k ³¹	44602	ŋ u - k ³¹	1104	4458
-6496	80		to cry (weep)	Rangoon	cry	1485.27	Burmese (Rangoon)	ŋo²²			32	TBL		1420		ŋo²²		ŋ o ²²	35547	ŋ o - - ²²	1104	5921
-6556	80		to cry (weep)	Atsi	cry	1485.3	Atsi [Zaiwa]	ŋau⁵¹	cry		32	TBL		1420		ŋau⁵¹		ŋ a u ⁵¹	42831	ŋ a u - ⁵¹	1104	4945
-6574	80		to cry (weep)	Written_Burmese	cry	1485.26	Burmese (Written)	ŋo²			32	TBL		1420		ŋo²		ŋ ə ²	33650	ŋ ə - - ²	1104	3246
+2742	235	other	tʃ a̰ p ⁵⁵	narrow	Atsi	narrow adj	0977.30	Atsi [Zaiwa] TBL	tʃa̱p⁵⁵  | 0977.30	narrow	bad concept	492	TBL		1267	tʃa̱p⁵⁵	tʃa̱p⁵⁵	narrow	tʃ a̰ p ⁵⁵	395362	6186	3106
+2743	235	other	tʃ ɛ̰ ʔ ⁵⁵	narrow	Bola	narrow adj	0977.32	Bola (Luxi) TBL	tʃɛ̱ʔ⁵⁵  | 0977.32	narrow	bad concept	492	TBL		1267	tʃɛ̱ʔ⁵⁵	tʃɛ̱ʔ⁵⁵	narrow	tʃ ɛ̰ ʔ ⁵⁵	395364	6186	8849
+2744	235	other	tʃ a̰ː p ⁵⁵	narrow	Lashi	narrow adj	0977.33	Leqi (Luxi) TBL	tʃa̱ːp⁵⁵  | 0977.33	narrow	bad concept	492	TBL		1267	tʃa̱ːp⁵⁵	tʃa̱ːp⁵⁵	narrow	tʃ a̰ː p ⁵⁵	395365	6186	6857
+2745	235	other	tʃ ɛ̰ ʔ ⁵⁵	narrow	Maru	narrow adj	0977.31	Langsu (Luxi) TBL	tʃɛ̱ʔ⁵⁵  | 0977.31	narrow	bad concept	492	TBL		1267	tʃɛ̱ʔ⁵⁵	tʃɛ̱ʔ⁵⁵	narrow	tʃ ɛ̰ ʔ ⁵⁵	395363	686	8942
+5379	235	other	tɕ - ĩ - ⁵⁵	narrow	Rangoon	narrow adj	0977.27				bad concept	493	TBL		1267	tɕĩ⁵⁵	ʨĩ⁵⁵	narrow	tɕ ĩ ∼ ⁵⁵	395359	7169	3683
 #
-888	670	verb	to die	Bola	die	1651.32	Bola (Luxi) TBL	ʃɿ⁵⁵  | 1651.32	die		199	TBL		1494	ʃɿ⁵⁵	ʃɿ⁵⁵	die	ʃ ɿ ⁵⁵	426591	ʃ ɿ - - ⁵⁵	27	8706
-893	670	verb	to die	Lashi	die	1651.33	Leqi (Luxi) TBL	ʃeːi³³  | 1651.33	die		199	TBL		1494	ʃeːi³³	ʃeːi³³	die	ʃ eː i ³³	426592	ʃ eː i - ³³	27	7101
-896	670	verb	to die	Maru	die	1651.31	Langsu (Luxi) TBL	ʃik³¹  | 1651.31	die		199	TBL		1494	ʃik³¹	ʃik³¹	die	ʃ i k ³¹	426590	ʃ i - k ³¹	27	4491
-898	670	verb	to die	Xiandao	die	1651.29	Achang (Xiandao) TBL	ʂɿ⁵⁵  | 1651.29	die		199	TBL		1494	ʂɿ⁵⁵	ʂɿ⁵⁵	die	ʂ ɿ ⁵⁵	426588	ʂ ɿ - - ⁵⁵	27	1841
-5451	1146	verb	to die	Rangoon		1651.27					199	TBL		1494	tθe²²	tθe²²	die	tθ e ²²	426586	tθ e - - ²²	27	3765
-5890	1146	verb	to die	Written_Burmese		1651.26					199	TBL		1494	tθe²	tθe²	die	s e ²	426585	s e - - ²	27	1751
+2773	1108	other	n ɛ ³¹	near	Xiandao	near 1	0975.29	Achang (Xiandao) TBL	nɛ³¹  | 0975.29	near	bad concept	501	TBL		1942	nɛ³¹	nɛ³¹	near	n ɛ ³¹	395256	2496	8832
+2774	1108	other	n e ³¹	near	Achang_Longchuan	near 3	0975.28	Achang (Longchuan) TBL	ne³¹  | 0975.28	near	bad concept	501	TBL		1942	ne³¹	ne³¹	near	n e ³¹	395255	2496	8786
+5623	1108	other	n i ⁵⁵	near	Rangoon		0975.27				bad concept	501	TBL		1942	ni⁵⁵	ni⁵⁵	near	n i ⁵⁵	395254	2496	8860
 #
-917	675	verb	to dig	Lashi	dig / scoop out v.	1698.33	Leqi (Luxi) TBL	tuː³³  | 1698.33		bad concept	204	TBL		1418	khaːi⁵³	tuː³³	dig / scoop out	t uː ³³	428804	t uː - ³³	3573	6801
-920	675	verb	to dig	Xiandao	dig / scoop out v.	1698.29	Achang (Xiandao) TBL	tu³¹  | 1698.29		bad concept	204	TBL		1418	tu³¹	tu³¹	dig / scoop out	t u ³¹	428800	t u - ³¹	3573	789
-921	675	verb	to dig	Achang_Longchuan	dig / scoop out v.	1698.28	Achang (Longchuan) TBL	tu³¹  | 1698.28		bad concept	204	TBL		1418	tu³¹	tu³¹	dig / scoop out	t u ³¹	428799	t u - ³¹	3573	2326
-5516	675	verb	to dig	Rangoon		1698.27				bad concept	204	TBL		1418	tu⁵⁵	tu⁵⁵	dig / scoop out	t u ⁵⁵	428798	t u - ⁵⁵	3573	3530
-5954	675	verb	to dig	Written_Burmese		1698.26			dig	bad concept	204	TBL		1418	tu³	tu³	dig / scoop out	t u ³	428797	t u - ³	3573	1712
+2817	1112	other	s ə̰ː k ⁵⁵	new	Lashi	new	1050.33	Leqi (Luxi) TBL	sə̱ːk⁵⁵  | 1050.33	new		510	TBL		1231	sə̱ːk⁵⁵	sə̱ːk⁵⁵	new	s ə̰ː k ⁵⁵	399040	6178	12314
+2810	1112	other	ʂ ə k ⁵⁵	new	Achang_Longchuan	new	1050.28	Achang (Longchuan) TBL	ʂək⁵⁵  | 1050.28	new		510	TBL		1231	ʂək⁵⁵	ʂək⁵⁵	new	ʂ ə k ⁵⁵	399035	6178	11342
+2814	1112	other	s a k ⁵⁵	new	Bola	new	1050.32	Bola (Luxi) TBL	sak⁵⁵  | 1050.32	new		510	TBL		1231	sak⁵⁵	sak⁵⁵	new	s a k ⁵⁵	399039	6178	12605
+2818	1112	other	s a̰ k ⁵⁵	new	Maru	new	1050.31	Langsu (Luxi) TBL	sa̱k⁵⁵  | 1050.31	new		510	TBL		1231	sa̱k⁵⁵	sa̱k⁵⁵	new	s a̰ k ⁵⁵	399038	6178	13668
+2820	1112	other	ʂ ɯ k ⁵⁵	new	Xiandao	new	1050.29	Achang (Xiandao) TBL	ʂɯk⁵⁵  | 1050.29	new		510	TBL		1231	ʂɯk⁵⁵	ʂɯk⁵⁵	new	ʂ ɯ k ⁵⁵	399036	6178	6630
 #
-1012	174	verb	to drink	Bola	drink v.	1370.32	Bola (Luxi) TBL	ʃauʔ⁵⁵  | 1370.32	drink		228	TBL		1401	ʃauʔ⁵⁵	ʃauʔ⁵⁵	drink	ʃ a u ʔ ⁵⁵	413617	ʃ a u ʔ ⁵⁵	3462	8698
-1015	174	verb	to drink	Lashi	drink v.	1370.33	Leqi (Luxi) TBL	ʃuːk⁵⁵  | 1370.33	drink		228	TBL		1401	ʃuːk⁵⁵	ʃuːk⁵⁵	drink	ʃ uː k ⁵⁵	413618	ʃ uː - k ⁵⁵	3462	7114
-1017	174	verb	to drink	Maru	drink v.	1370.31	Langsu (Luxi) TBL	ʃauk⁵⁵  | 1370.31			228	TBL		1401	ʃauk⁵⁵	ʃauk⁵⁵	drink	ʃ a u k ⁵⁵	413616	ʃ a u k ⁵⁵	3462	4489
-5542	174	verb	to drink	Rangoon		1370.27					228	TBL		1401	tθɑuʔ⁴	tθɑuʔ⁴	drink	tθ ɑ u ʔ ⁴	413612	tθ ɑ u ʔ ⁴	3462	5820
-5979	174	verb	to drink	Written_Burmese		1370.26					228	TBL		1401	tθɔk⁴	tθɔk⁴	drink	s o k ⁴	413611	s o - k ⁴	3462	1768
+2842	1113	other	k a u - ³¹	nine	Achang_Longchuan	nine	0805.28	Achang (Longchuan) TBL	kau³¹  | 0805.28	nine		515	TBL		1483	kau³¹	kau³¹	nine	k a u ³¹	386463	2364	5446
+2844	1113	other	k a u - ²¹	nine	Atsi	nine	0805.30	Atsi [Zaiwa] TBL	kau²¹  | 0805.30	new		515	TBL		1483	kau²¹	kau²¹	nine	k a u ²¹	386465	2364	7312
+2845	1113	other	k a u - ³¹	nine	Bola	nine	0805.32	Bola (Luxi) TBL	kau³¹  | 0805.32	nine		515	TBL		1483	kau³¹	kau³¹	nine	k a u ³¹	386467	2364	1026
+2848	1113	other	k o u - ³³	nine	Lashi	nine	0805.33	Leqi (Luxi) TBL	kou³³  | 0805.33	nine		515	TBL		1483	kou³³	kou³³	nine	k o u ³³	386468	2364	9460
+2850	1113	other	k a u - ³¹	nine	Xiandao	nine	0805.29	Achang (Xiandao) TBL	kau³¹  | 0805.29	nine		515	TBL		1483	kau³¹	kau³¹	nine	k a u ³¹	386464	2364	9860
+5645	1113	other	k o - - ⁵⁵	nine	Rangoon		0805.27					515	TBL		1483	ko⁵⁵	ko⁵⁵	nine	k o ⁵⁵	386462	2364	4088
 #
-1129	700	verb	to eat	Lashi	eat	1198.33	Leqi (Luxi) TBL	tsɔː³³  | 1198.33	eat		245	TBL		1336	tsɔː³³	tsɔː³³	eat	ts ɔː ³³	405917	ts ɔː ³³	36	6768
-1132	700	verb	to eat	Maru	eat	1198.31	Langsu (Luxi) TBL	tsɔ³⁵  | 1198.31	eat		245	TBL		1336	tsɔ³⁵	tsɔ³⁵	eat	ts ɔ ³⁵	405915	ts ɔ ³⁵	36	13402
+2880	1119	other	m u a ŋ ³¹	old (of person)	Achang_Longchuan	old / elderly	1058.28	Achang (Longchuan) TBL	muaŋ³¹  | 1058.28	old		520	TBL		2112	muaŋ³¹	muaŋ³¹	old / elderly	m u a ŋ ³¹	399458	2440	5762
+2883	1119	other	m a - ŋ ²¹	old (of person)	Atsi	old / elderly	1058.30	Atsi [Zaiwa] TBL	maŋ²¹  | 1058.30	old		520	TBL		2112	maŋ²¹	maŋ²¹	old / elderly	m a ŋ ²¹	399460	2440	13242
+2885	1119	other	m ɔ̃ - ∼ ³¹	old (of person)	Bola	old / elderly	1058.32	Bola (Luxi) TBL	mɔ̃³¹  | 1058.32	old-person		520	TBL		2112	mɔ̃³¹	mɔ̃³¹	old / elderly	m ɔ̃ ∼ ³¹	399462	2440	5254
+2888	1119	other	m a - ŋ ³³ + ts o ⁵⁵	old (of person)	Lashi	old / elderly	1058.33	Leqi (Luxi) TBL	maŋ³³ tso⁵⁵  | 1058.33	old child?		520 1118	TBL		2112	maŋ³³tso⁵⁵	maŋ³³tso⁵⁵	old / elderly	m a ŋ ³³ + ts o ⁵⁵	399463	2440 3327	12241
+2889	1119	other	m ɔ̃ - ∼ ³⁵	old (of person)	Maru	old / elderly	1058.31	Langsu (Luxi) TBL	mɔ̃³⁵  | 1058.31	old		520	TBL		2112	mɔ̃³⁵	mɔ̃³⁵	old / elderly	m ɔ̃ ∼ ³⁵	399461	2440	13520
+2891	1119	other	m ɔ - ŋ ³¹	old (of person)	Xiandao	old / elderly	1058.29	Achang (Xiandao) TBL	mɔŋ³¹  | 1058.29	old		520	TBL		2112	mɔŋ³¹	mɔŋ³¹	old / elderly	m ɔ ŋ ³¹	399459	2440	12778
 #
-1447	726	verb	to flow	Atsi	flow 2	1502.3	Atsi [Zaiwa] TBL	jui⁵¹  | 1502.30	flow		294	TBL		2003	jui⁵¹	jui⁵¹	flow (of water)	j u i ⁵¹	419568	j u i - ⁵¹	2428	7274
+5620	2	other	t i ʔ ⁴	one	Rangoon		0797.27					1119	TBL		1493	tiʔ⁴	tiʔ⁴	one	t i ʔ ⁴	386052	2726	3493
 #
-5462	732	verb	to fly (move through air)	Rangoon		1318.27					299	TBL		1441	pjɑ̃²²	pjɑ̃²²	fly	p j ɑ̃ ∼ ²²	411258	p j ɑ̃ ∼ ²²	2588	10797
-5901	732	verb	to fly (move through air)	Written_Burmese		1318.26					299	TBL		1441	pjɑṁ²	pjɑṁ²	fly	p j a m ²	411257	p j a m ²	2588	11904
+3281	11	other	n a ⁵⁵	red	Achang_Longchuan	red	1007.28	Achang (Longchuan) TBL	na⁵⁵  | 1007.28	red		598	TBL		156	na⁵⁵	na⁵⁵	red	n a ⁵⁵	396908	2499	10894
+3283	11	other	n e ⁵¹	red	Atsi	red	1007.30	Atsi [Zaiwa] TBL	ne⁵¹  | 1007.30	red		598	TBL		156	ne⁵¹	ne⁵¹	red	n e ⁵¹	396910	2499	13266
+3285	11	other	n ɛ ⁵⁵	red	Bola	red	1007.32	Bola (Luxi) TBL	nɛ⁵⁵  | 1007.32	red		598	TBL		156	nɛ⁵⁵	nɛ⁵⁵	red	n ɛ ⁵⁵	396912	2499	5274
+3289	11	other	n ɛː ³¹	red	Lashi	red	1007.33	Leqi (Luxi) TBL	nɛː³¹  | 1007.33	red		598	TBL		156	nɛː³¹	nɛː³¹	red	n ɛː ³¹	396913	2499	12272
+3291	11	other	n ɛ ³¹	red	Maru	red	1007.31	Langsu (Luxi) TBL	nɛ³¹  | 1007.31	red		598	TBL		156	nɛ³¹	nɛ³¹	red	n ɛ ³¹	396911	2499	13570
+3292	11	other	n a ⁵⁵	red	Xiandao	red	1007.29	Achang (Xiandao) TBL	na⁵⁵  | 1007.29	red		598	TBL		156	na⁵⁵	na⁵⁵	red	n a ⁵⁵	396909	2499	12827
+5424	11	other	n i ²²	red	Rangoon		1007.27					598	TBL		156	ni²²	ni²²	red	n i ²²	396907	2499	10685
 #
-1605	1167	verb	to give	Atsi	give v.	1345.3	Atsi [Zaiwa] TBL	pji²¹  | 1345.30	give		321	TBL		1447	pji²¹	pji²¹	give	p j i ²¹	412460	p j i - - ²¹	2158	4863
-1606	1167	verb	to give	Bola	give v.	1345.32	Bola (Luxi) TBL	pi³¹  | 1345.32	give		321	TBL		1447	pi³¹	pi³¹	give	p i ³¹	412462	p - i - - ³¹	2158	2170
-1608	1167	verb	to give	Lashi	give v.	1345.33	Leqi (Luxi) TBL	pjeːi³³  | 1345.33	give		321	TBL		1447	pjeːi³³	pjeːi³³	give	p j eː i ³³	412463	p j eː i - ³³	2158	4793
-1609	1167	verb	to give	Maru	give v.	1345.31	Langsu (Luxi) TBL	pjik⁵⁵  | 1345.31	give		321	TBL		1447	pjik⁵⁵	pjik⁵⁵	give	p j i k ⁵⁵	412461	p j i - k ⁵⁵	2158	13626
-5250	1167	verb	to give	Rangoon		1345.27					321	TBL		1447	pe⁵⁵	pe⁵⁵	give	p e ⁵⁵	412457	p - e - - ⁵⁵	2158	8773
-5692	1167	verb	to give	Written_Burmese		1345.26			give		321	TBL		1447	pe³	pe³	give	p e ³	412456	p - e - - ³	2158	11856
+6318	19		l ɔ ʔ ³¹ + j o ³¹	right	Lashi	right	0711.33	Leqi (Luxi)	lɔʔ³¹jo³¹	hand right		345 603	TBL		1019		lɔʔ³¹jo³¹		l ɔ ʔ ³¹ + j o ³¹	47488	695 2786	4669
+6387	19		l ɔ ʔ ⁵⁵ + j ɔ ⁵⁵	right	Xiandao	right	0711.29	Achang (Xiandao)	lɔʔ⁵⁵jɔ⁵⁵	hand right		345 603	TBL		1019		lɔʔ⁵⁵jɔ⁵⁵		l ɔ ʔ ⁵⁵ + j ɔ ⁵⁵	38386	695 2786	8825
+6438	19		l a ʔ ³¹ + j a ⁵⁵	right	Bola	right	0711.32	Bola (Luxi)	laʔ³¹ja⁵⁵	hand right		345 603	TBL		1019		laʔ³¹ja⁵⁵		l a ʔ ³¹ + j a ⁵⁵	45669	695 2786	1128
+6512	19		l ɔ ʔ ³¹ + ʑ ɔ ⁵⁵ + p a ³¹	right	Achang_Longchuan	right	0711.28	Achang (Longchuan)	lɔʔ³¹ʑɔ⁵⁵pa³¹	hand right dir		345 603 40004	TBL		1019		lɔʔ³¹ʑɔ⁵⁵pa³¹		l ɔ ʔ ³¹ + ʑ ɔ ⁵⁵ + p a ³¹	36609	695 2786 10004	5668
+6572	19		l ɔ ʔ ³¹ + j ɔ ³¹	right	Maru	right	0711.31	Langsu (Luxi)	lɔʔ³¹jɔ³¹	hand right		345 603	TBL		1019		lɔʔ³¹jɔ³¹		l ɔ ʔ ³¹ + j ɔ ³¹	43887	695 2786	8908
+6137	19		l o ʔ ²¹ + j o ⁵¹	right	Atsi	right	0711.30	Atsi [Zaiwa]	loʔ²¹jo⁵¹	hand right		345 603	TBL		1019		loʔ²¹jo⁵¹		l o ʔ ²¹ + j o ⁵¹	42027	695 2786	7636
 #
-1806	1177	verb	to hear	Atsi	hear v.	1682.3	Atsi [Zaiwa] TBL	vo⁵⁵ kjo²¹  | 1682.30	have hear		40004 351	TBL		1408	vo⁵⁵kjo²¹	vo⁵⁵kjo²¹	hear	v o ⁵⁵ + k j o ²¹	428067	v o ⁵⁵ ◦ k j o - ²¹	10004 1411	4898
-1807	1177	verb	to hear	Bola	hear v.	1682.32	Bola (Luxi) TBL	ɣə̆³¹ kja³¹  | 1682.32	hear listen		40012 351	TBL		1408	ɣə̆³¹kja³¹	ɣə̆³¹kja³¹	hear	ɣ ə̆ ³¹ + k j a ³¹	428069	ɣ ə̆ ³¹ ◦ k j a - ³¹	10012 1411	8687
-1810	1177	verb	to hear	Lashi	hear v.	1682.33	Leqi (Luxi) TBL	jɔː⁵⁵ kjɔː³³  | 1682.33	hear listen		40009 351	TBL		1408	jɔː⁵⁵kjɔː³³	jɔː⁵⁵kjɔː³³	hear	j ɔː ⁵⁵ + k j ɔː ³³	428070	j ɔː ⁵⁵ ◦ k j ɔː - ³³	10009 1411	4552
-1812	1177	verb	to hear	Maru	hear v.	1682.31	Langsu (Luxi) TBL	ɣɔ⁵⁵ kjɔ³⁵  | 1682.31	hear listen		40007 351	TBL		1408	ɣɔ⁵⁵kjɔ³⁵	ɣɔ⁵⁵kjɔ³⁵	hear	ɣ ɔ ⁵⁵ + k j ɔ ³⁵	428068	ɣ ɔ ⁵⁵ ◦ k j ɔ - ³⁵	10007 1411	4478
-1815	1177	verb	to hear	Xiandao	hear v.	1682.29	Achang (Xiandao) TBL	kʐɔ³¹  | 1682.29	hear		351	TBL		1408	kʐɔ³¹	kʐɔ³¹	hear	k ʐ ɔ ³¹	428066	k ʐ ɔ - ³¹	1411	12099
-5353	1177	verb	to hear	Rangoon		1682.27					351	TBL		1408	tɕɑ⁵⁵	ʨɑ⁵⁵	hear	tɕ ɑ ⁵⁵	428064	tɕ - ɑ - ⁵⁵	1411	3763
-5794	1177	verb	to hear	Written_Burmese		1682.26					351	TBL		1408	krɑ³	krɑ³	hear	k r a ³	428063	k r a - ³	1411	11745
+6222	48		w ɑ̃ i ∼ ⁵⁵	round	Rangoon	circle / circular	0990.27	Burmese (Rangoon)	wɑ̃i⁵⁵			28	TBL		1395		wɑ̃i⁵⁵		w ɑ̃ i ∼ ⁵⁵	35020	2270	5906
+6521	55		l u m ³¹	round	Xiandao	circle / circular	0990.29	Achang (Xiandao)	lum³¹	round		949	TBL		1395		lum³¹		l u m ³¹	38672	1381	12739
+6128	55		l u m ³¹	round	Achang_Longchuan	circle / circular	0990.28	Achang (Longchuan)	lum³¹	round		949	TBL		1395		lum³¹		l u m ³¹	36889	1381	5654
 #
-5593	1180	verb	to hide (conceal)	Rangoon		1169.27				bad concept	1367	TBL		602	phwɛʔ⁴	pʰwɛʔ⁴	hide (sthg.)	pʰ w ɛ ʔ ⁴	404629	pʰ w ɛ ʔ ⁴	2550	10737
-6029	749	verb	to hide (conceal)	Written_Burmese		1169.26				bad concept	1351	TBL		602	hwɑk⁴	hwɑk⁴	hide (sthg.)	w̥ a k ⁴	404628	w̥ a k ⁴	2550	13152
+3605	30	other	nʲ - i t ⁵⁵	seven	Achang_Longchuan	seven num	0803.28	Achang (Longchuan) TBL	ȵit⁵⁵  | 0803.28	seven		644	TBL		1704	ȵit⁵⁵	ȵit⁵⁵	seven	nʲ i t ⁵⁵	386360	2505	9646
+3614	30	other	n - a̰ t ⁵⁵	seven	Maru	seven num	0803.31	Langsu (Luxi) TBL	na̱t⁵⁵  | 0803.31	seven		644	TBL		1704	na̱t⁵⁵	na̱t⁵⁵	seven	n a̰ t ⁵⁵	386363	2505	10389
+5437	30	other	kʰ u ⁵³ + n̥ - i ʔ ⁴	seven	Rangoon		0803.27			seven-1 seven-2		40121 644	TBL		1704	khu⁵³n̥iʔ⁴	kʰu⁵³n̥iʔ⁴	seven	kʰ u ⁵³ + n̥ i ʔ ⁴	386359	10121 2505	4035
+3608	30	other	ŋ j i t ⁵⁵	seven	Atsi	seven num	0803.30	Atsi [Zaiwa] TBL	ŋjit⁵⁵  | 0803.30	seven		644	TBL		1704	ŋjit⁵⁵	ŋjit⁵⁵	seven	ŋ j i t ⁵⁵	386362	2505	5127
+3613	30	other	ŋ j ɛ̰ t ⁵⁵	seven	Lashi	seven num	0803.33	Leqi (Luxi) TBL	ŋjɛ̱t⁵⁵  | 0803.33	seven		644	TBL		1704	ŋjɛ̱t⁵⁵	ŋjɛ̱t⁵⁵	seven	ŋ j ɛ̰ t ⁵⁵	386365	2505	7046
+3616	30	other	n - i t ⁵⁵	seven	Xiandao	seven num	0803.29	Achang (Xiandao) TBL	nit⁵⁵  | 0803.29	seven		644	TBL		1704	nit⁵⁵	nit⁵⁵	seven	n i t ⁵⁵	386361	2505	12828
 #
-2184	798	verb	to kill	Achang_Longchuan	kill v.	1602.28	Achang (Longchuan) TBL	sat⁵⁵  | 1602.28	kill	bad concept	403	TBL		1417	sat⁵⁵	sat⁵⁵	kill / slaughter (an animal)	s a t ⁵⁵	424240	s a t ⁵⁵	1018	11032
-2187	798	verb	to kill	Atsi	kill v.	1602.3	Atsi [Zaiwa] TBL	sat²¹  | 1602.30	kill	bad concept	403	TBL		1417	sat²¹	sat²¹	kill / slaughter (an animal)	s a t ²¹	424242	s a t ²¹	1018	2759
-2189	798	verb	to kill	Bola	kill v.	1602.32	Bola (Luxi) TBL	sɛ̱ʔ⁵⁵  | 1602.32	kill	bad concept	403	TBL		1417	sɛ̱ʔ⁵⁵	sɛ̱ʔ⁵⁵	kill / slaughter (an animal)	s ɛ̰ ʔ ⁵⁵	424244	s ɛ̰ ʔ ⁵⁵	1018	8468
-2191	798	verb	to kill	Lashi	kill v.	1602.33	Leqi (Luxi) TBL	sa̱ːt⁵⁵  | 1602.33	kill	bad concept	403	TBL		1417	sa̱ːt⁵⁵	sa̱ːt⁵⁵	kill / slaughter (an animal)	s a̰ː t ⁵⁵	424245	s a̰ː t ⁵⁵	1018	11150
-2192	798	verb	to kill	Maru	kill v.	1602.31	Langsu (Luxi) TBL	sɛ̱ʔ⁵⁵  | 1602.31		bad concept	403	TBL		1417	sɛ̱ʔ⁵⁵	sɛ̱ʔ⁵⁵	kill / slaughter (an animal)	s ɛ̰ ʔ ⁵⁵	424243	s ɛ̰ ʔ ⁵⁵	1018	13679
-2194	798	verb	to kill	Xiandao	kill v.	1602.29	Achang (Xiandao) TBL	sat⁵⁵ phut⁵⁵  | 1602.29	kill	bad concept	403 40010	TBL		1417	sat⁵⁵ phut⁵⁵	sat⁵⁵phut⁵⁵	kill / slaughter (an animal)	s a t ⁵⁵ + pʰ u t ⁵⁵	424241	s a t ⁵⁵ ◦ pʰ u t ⁵⁵	1018 10010	560
+5398	34	other	tʰ ɛ ʔ ⁴	sharp	Rangoon		1020.27				bad concept	651	TBL		1396	thɛʔ⁴	tʰɛʔ⁴	sharp	tʰ ɛ ʔ ⁴	397566	5515	3461
+3649	34	other	tʰ ɔ ʔ ⁵⁵	sharp	Achang_Longchuan	sharp	1020.28	Achang (Longchuan) TBL	thɔʔ⁵⁵  | 1020.28	sharp	bad concept	651	TBL		1396	thɔʔ⁵⁵	thɔʔ⁵⁵	sharp	tʰ ɔ ʔ ⁵⁵	397567	5515	11141
+3655	34	other	tʰ ɔː ʔ ⁵⁵	sharp	Lashi	sharp	1020.33	Leqi (Luxi) TBL	thɔːʔ⁵⁵  | 1020.33	sharp	bad concept	651	TBL		1396	thɔːʔ⁵⁵	thɔːʔ⁵⁵	sharp	tʰ ɔː ʔ ⁵⁵	397572	5515	6682
+3658	34	other	tʰ o ʔ ⁵⁵	sharp	Atsi	sharp	1020.30	Atsi [Zaiwa] TBL	thoʔ⁵⁵  | 1020.30	sharp	bad concept	651	TBL		1396	thoʔ⁵⁵	thoʔ⁵⁵	sharp	tʰ o ʔ ⁵⁵	397569	5515	2897
+3659	34	other	tʰ a ʔ ⁵⁵	sharp	Bola	sharp	1020.32	Bola (Luxi) TBL	thaʔ⁵⁵  | 1020.32	sharp	bad concept	651	TBL		1396	thaʔ⁵⁵	thaʔ⁵⁵	sharp	tʰ a ʔ ⁵⁵	397571	5515	12639
+3660	34	other	tʰ ɔ ʔ ⁵⁵	sharp	Maru	sharp	1020.31	Langsu (Luxi) TBL	thɔʔ⁵⁵  | 1020.31	sharp	bad concept	651	TBL		1396	thɔʔ⁵⁵	thɔʔ⁵⁵	sharp	tʰ ɔ ʔ ⁵⁵	397570	5515	13364
 #
-2254	806	verb	to laugh	Bola	laugh	1735.32	Bola (Luxi) TBL	ɣəi⁵⁵  | 1735.32	laugh-smile		414	TBL		1355	ɣəi⁵⁵	ɣəi⁵⁵	laugh / smile	ɣ ə i ⁵⁵	430505	ɣ ə i - ⁵⁵	1108	8683
-2258	806	verb	to laugh	Lashi	laugh	1735.33	Leqi (Luxi) TBL	jiː³¹  | 1735.33	laugh-smile		414	TBL		1355	jiː³¹	jiː³¹	laugh / smile	j iː ³¹	430506	j iː - - ³¹	1108	4529
-2261	806	verb	to laugh	Maru	laugh	1735.31	Langsu (Luxi) TBL	ɣə³¹  | 1735.31	laugh-smile		414	TBL		1355	ɣə³¹	ɣə³¹	laugh / smile	ɣ ə ³¹	430504	ɣ ə - - ³¹	1108	4481
-5483	806	verb	to laugh	Rangoon		1735.27					414	TBL		1355	ji²²	ji²²	laugh / smile	j i ²²	430500	j i - - ²²	1108	3953
-5921	806	verb	to laugh	Written_Burmese		1735.26			laugh-smile		414	TBL		1355	rɑj²	rɑj²	laugh / smile	r a j ²	430499	r a - j ²	1108	1518
+5567	39	other	t o ²²	short	Rangoon		0973.27				bad concept	661	TBL		1645	to²²	to²²	short	t o ²²	395151	5414	3503
+3699	37	other	ʑ ɔ ŋ ³¹	short	Achang_Longchuan	short adj	0973.28	Achang (Longchuan) TBL	ʑɔŋ³¹  | 0973.28	short	bad concept	1349	TBL		1645	ʑɔŋ³¹	ʑɔŋ³¹	short	ʑ ɔ ŋ ³¹	395152	7173	8805
 #
-2345	808	verb	to lick	Bola	lick	1674.32	Bola (Luxi) TBL	jaʔ³¹  | 1674.32	lick		424	TBL		319	jaʔ³¹	jaʔ³¹	lick / lap	j a ʔ ³¹	427688	j a ʔ ³¹	629	1889
-2349	808	verb	to lick	Lashi	lick	1674.33	Leqi (Luxi) TBL	jɔːʔ³¹  | 1674.33	lick		424	TBL		319	jɔːʔ³¹	jɔːʔ³¹	lick / lap	j ɔː ʔ ³¹	427689	j ɔː ʔ ³¹	629	4549
-2352	808	verb	to lick	Maru	lick	1674.31	Langsu (Luxi) TBL	jɔʔ³¹  | 1674.31			424	TBL		319	jɔʔ³¹	jɔʔ³¹	lick / lap	j ɔ ʔ ³¹	427687	j ɔ ʔ ³¹	629	12374
-5642	808	verb	to lick	Rangoon		1674.27					424	TBL		319	jɛʔ⁴	jɛʔ⁴	lick / lap	j ɛ ʔ ⁴	427683	j ɛ ʔ ⁴	629	3988
-6078	808	verb	to lick	Written_Burmese		1674.26			lick		424	TBL		319	jɑk⁴	jɑk⁴	lick / lap	j a k ⁴	427682	j a k ⁴	629	11558
+5618	40	other	tɕʰ - ɑ u ʔ ⁴	six	Rangoon		0802.27					669	TBL		1703	tɕhɑuʔ⁴	ʨʰɑuʔ⁴	six	tɕʰ ɑ u ʔ ⁴	386308	2621	3653
+3752	40	other	x ʐ o - ʔ ⁵⁵	six	Achang_Longchuan	six num	0802.28	Achang (Longchuan) TBL	xʐoʔ⁵⁵  | 0802.28	six		669	TBL		1703	xʐoʔ⁵⁵	xʐoʔ⁵⁵	six	x ʐ o ʔ ⁵⁵	386309	2621	2670
+3755	40	other	kʰ j u - ʔ ⁵⁵	six	Atsi	six num	0802.30	Atsi [Zaiwa] TBL	khjuʔ⁵⁵  | 0802.30	six		669	TBL		1703	khjuʔ⁵⁵	khjuʔ⁵⁵	six	kʰ j u ʔ ⁵⁵	386311	2621	7422
+3757	40	other	kʰ j a u ʔ ⁵⁵	six	Bola	six num	0802.32	Bola (Luxi) TBL	khjauʔ⁵⁵  | 0802.32	six		669	TBL		1703	khjauʔ⁵⁵	khjauʔ⁵⁵	six	kʰ j a u ʔ ⁵⁵	386313	2621	1060
+3760	40	other	kʰ j u - k ⁵⁵	six	Lashi	six num	0802.33	Leqi (Luxi) TBL	khjuk⁵⁵  | 0802.33	six		669	TBL		1703	khjuk⁵⁵	khjuk⁵⁵	six	kʰ j u k ⁵⁵	386314	2621	9411
+3761	40	other	kʰ j a u k ⁵⁵	six	Maru	six num	0802.31	Langsu (Luxi) TBL	khjauk⁵⁵  | 0802.31			669	TBL		1703	khjauk⁵⁵	khjauk⁵⁵	six	kʰ j a u k ⁵⁵	386312	2621	10200
+3764	40	other	cʰ - u - ʔ ⁵⁵	six	Xiandao	six num	0802.29	Achang (Xiandao) TBL	chuʔ⁵⁵  | 0802.29	six		669	TBL		1703	chuʔ⁵⁵	chuʔ⁵⁵	six	cʰ u ʔ ⁵⁵	386310	2621	9802
 #
-3058	833	verb	to play	Achang_Longchuan	play v. 1	1703.28	Achang (Longchuan) TBL	tseʔ⁵⁵  | 1703.28	play		557	TBL		1413	tseʔ⁵⁵	tseʔ⁵⁵	play / amuse oneself	ts e ʔ ⁵⁵	429043	ts e ʔ ⁵⁵	2746	2267
-3067	833	verb	to play	Xiandao	play v. 1	1703.29	Achang (Xiandao) TBL	tsɛʔ⁵⁵  | 1703.29	play		557	TBL		1413	tsɛʔ⁵⁵	tsɛʔ⁵⁵	play / amuse oneself	ts ɛ ʔ ⁵⁵	429044	ts ɛ ʔ ⁵⁵	2746	775
+3824	44	other	ŋ a i ⁵⁵	small	Bola	small adj	0965.32	Bola (Luxi) TBL	ŋai⁵⁵  | 0965.32	thin-2		677	TBL		1246	ŋai⁵⁵	ŋai⁵⁵	small	ŋ a i ⁵⁵	394722	90	8853
+5365	44	other	ŋ ɛ - ²²	small	Rangoon		0965.27					677	TBL		1246	ŋɛ²²	ŋɛ²²	small	ŋ ɛ ²²	394717	90	5927
+3827	44	other	ŋ ɛː - ³¹	small	Lashi	small adj	0965.33	Leqi (Luxi) TBL	ŋɛː³¹  | 0965.33	small		677	TBL		1246	ŋɛː³¹	ŋɛː³¹	small	ŋ ɛː ³¹	394723	90	7077
+3828	44	other	ŋ a i ³¹	small	Maru	small adj	0965.31	Langsu (Luxi) TBL	ŋai³¹  | 0965.31	small		677	TBL		1246	ŋai³¹	ŋai³¹	small	ŋ a i ³¹	394721	90	8947
 #
-3101	835	verb	to pull	Atsi	pull / lead (a cow) along v.	1568.3	Atsi [Zaiwa] TBL	ʃe⁵¹  | 1568.30	pull		566	TBL		1455	ʃe⁵¹	ʃe⁵¹	pull / lead (a cow) along	ʃ e ⁵¹	422644	ʃ e ⁵¹	5618	4983
-3102	835	verb	to pull	Bola	pull / lead (a cow) along v.	1568.32	Bola (Luxi) TBL	ʃɛ⁵⁵  | 1568.32	pull		566	TBL		1455	ʃɛ⁵⁵	ʃɛ⁵⁵	pull / lead (a cow) along	ʃ ɛ ⁵⁵	422646	ʃ ɛ ⁵⁵	5618	8703
-3103	835	verb	to pull	Lashi	pull / lead (a cow) along v.	1568.33	Leqi (Luxi) TBL	ʃɛ̱³³  | 1568.33			566	TBL		1455	ʃɛ̱³³	ʃɛ̱³³	pull / lead (a cow) along	ʃ ɛ̰ ³³	422647	ʃ ɛ̰ ³³	5618	6330
-3104	835	verb	to pull	Maru	pull / lead (a cow) along v.	1568.31	Langsu (Luxi) TBL	ʃɛ³¹  | 1568.31			566	TBL		1455	ʃɛ³¹	ʃɛ³¹	pull / lead (a cow) along	ʃ ɛ ³¹	422645	ʃ ɛ ³¹	5618	4496
+4112	61	other	t a n ³¹	straight	Achang_Longchuan	straight	1003.28	Achang (Longchuan) TBL	tan³¹  | 1003.28	straight	bad concept	730	TBL		1404	tan³¹	tan³¹	straight	t a n ³¹	396699	5734	11083
+4115	61	other	t ɛ̃ ∼ ³⁵	straight	Bola	straight	1003.32	Bola (Luxi) TBL	tɛ̃³⁵  | 1003.32	straight	bad concept	730	TBL		1404	tɛ̃³⁵	tɛ̃³⁵	straight	t ɛ̃ ∼ ³⁵	396703	5734	12678
+4118	61	other	t aː n ³³	straight	Lashi	straight	1003.33	Leqi (Luxi) TBL	taːn³³  | 1003.33		bad concept	730	TBL		1404	taːn³³	taːn³³	straight	t aː n ³³	396704	5734	12318
+5537	64	other	pʰ j ɑ̃ u ∼ ⁵³	straight	Rangoon		1003.27				bad concept	729	TBL		1404	phjɑ̃u⁵³	pʰjɑ̃u⁵³	straight (horizontal)	pʰ j ɑ̃ u ∼ ⁵³	396698	2160	10727
+5363	0	other	m ɑ ʔ ⁴	straight	Rangoon		1003.27				bad concept	22	TBL		1404	mɑʔ⁴	mɑʔ⁴	straight (vertical)	m ɑ ʔ ⁴	396724	2160	10727
 #
-3556	922	verb	to see	Achang_Longchuan	see v.	1471.28	Achang (Longchuan) TBL	en³¹ mʐaŋ⁵⁵  | 1471.28	see		1153 639	TBL		1409	en³¹mʐaŋ⁵⁵	en³¹mʐaŋ⁵⁵	see	e n ³¹ + m ʐ a ŋ ⁵⁵	418073	e n ³¹ ◦ m ʐ a ŋ ⁵⁵	1410 1227	5400
-3559	922	verb	to see	Atsi	see v.	1471.3	Atsi [Zaiwa] TBL	mjaŋ⁵¹  | 1471.30	see		639	TBL		1409	mjaŋ⁵¹	mjaŋ⁵¹	see	m j a ŋ ⁵¹	418075	m j a ŋ ⁵¹	1227	11225
-3561	922	verb	to see	Bola	see v.	1471.32	Bola (Luxi) TBL	mjɔ̃⁵⁵  | 1471.32	see		639	TBL		1409	mjɔ̃⁵⁵	mjɔ̃⁵⁵	see	m j ɔ̃ ∼ ⁵⁵	418077	m j ɔ̃ ∼ ⁵⁵	1227	2102
-3565	922	verb	to see	Lashi	see v.	1471.33	Leqi (Luxi) TBL	mjaːŋ³¹  | 1471.33	see		639	TBL		1409	mjaːŋ³¹	mjaːŋ³¹	see	m j aː ŋ ³¹	418078	m j aː ŋ ³¹	1227	4700
-3567	922	verb	to see	Maru	see v.	1471.31	Langsu (Luxi) TBL	mjɔ̃³¹  | 1471.31	see		639	TBL		1409	mjɔ̃³¹	mjɔ̃³¹	see	m j ɔ̃ ∼ ³¹	418076	m j ɔ̃ ∼ ³¹	1227	13504
-3569	922	verb	to see	Xiandao	see v.	1471.29	Achang (Xiandao) TBL	mʐaŋ⁵⁵  | 1471.29	see		639	TBL		1409	mʐaŋ⁵⁵	mʐaŋ⁵⁵	see	m ʐ a ŋ ⁵⁵	418074	m ʐ a ŋ ⁵⁵	1227	12162
-5322	922	verb	to see	Rangoon		1471.27					639	TBL		1409	mjĩ²²	mjĩ²²	see	m j ĩ ∼ ²²	418072	m j ĩ ∼ ²²	1227	4309
-5763	922	verb	to see	Written_Burmese		1471.26					639	TBL		1409	mrɑŋ²	mrɑŋ²	see	m r a ŋ ²	418071	m r a ŋ ²	1227	11824
+4255	70	other	tɕʰ e - ⁵⁵	ten	Achang_Longchuan	ten num	0806.28	Achang (Longchuan) TBL	tɕhe⁵⁵  | 0806.28	ten		1181	TBL		1515	tɕhe⁵⁵	tɕhe⁵⁵	ten	tɕʰ e ⁵⁵	386514	2748	2392
+4258	70	other	tsʰ e - ⁵¹	ten	Atsi	ten num	0806.30	Atsi [Zaiwa] TBL	tshe⁵¹  | 0806.30	ten		1181	TBL		1515	tshe⁵¹	tshe⁵¹	ten	tsʰ e ⁵¹	386516	2748	2992
+4263	70	other	t ă - ³¹ + tsʰ e - ³³	ten	Lashi	ten num	0806.33	Leqi (Luxi) TBL	tă³¹ tshe³³  | 0806.33	one ten		40099 1182	TBL		1515	tă³¹tshe³³	tă³¹tshe³³	ten	t ă ³¹ + tsʰ e ³³	386519	10099 2748	12068
+4264	70	other	tsʰ ɛ - ³¹	ten	Maru	ten num	0806.31	Langsu (Luxi) TBL	tshɛ³¹  | 0806.31	ten		750	TBL		1515	tshɛ³¹	tshɛ³¹	ten	tsʰ ɛ ³¹	386517	2748	10599
+4266	70	other	t a - ³¹ + tsʰ i - ⁵⁵	ten	Xiandao	ten num	0806.29	Achang (Xiandao) TBL	ta³¹ tshi⁵⁵  | 0806.29	one ten		40080 1182	TBL		1515	ta³¹tshi⁵⁵	ta³¹tshi⁵⁵	ten	t a ³¹ + tsʰ i ⁵⁵	386515	10080 2748	635
+5290	70	other	sʰ ɛ - ²²	ten	Rangoon		0806.27			ten		1181	TBL		1515	shɛ²²	shɛ²²	ten	sʰ ɛ ²²	386513	2748	9151
 #
-3671	929	verb	to shoot (an arrow)	Achang_Longchuan	shoot (an arrow) v.	1611.28	Achang (Longchuan) TBL	pək⁵⁵  | 1611.28	shoot		388	TBL		1172	pək⁵⁵	pək⁵⁵	shoot (an arrow)	p ə k ⁵⁵	424673	p ə k ⁵⁵	5411	11008
-3674	929	verb	to shoot (an arrow)	Atsi	shoot (an arrow) v.	1611.3	Atsi [Zaiwa] TBL	pik²¹  | 1611.30	shoot		388	TBL		1172	pik²¹	pik²¹	shoot (an arrow)	p i k ²¹	424675	p i k ²¹	5411	4858
-3676	929	verb	to shoot (an arrow)	Bola	shoot (an arrow) v.	1611.32	Bola (Luxi) TBL	pak³¹  | 1611.32	shoot		388	TBL		1172	pak³¹	pak³¹	shoot (an arrow)	p a k ³¹	424677	p a k ³¹	5411	2138
-3679	929	verb	to shoot (an arrow)	Lashi	shoot (an arrow) v.	1611.33	Leqi (Luxi) TBL	pəːk³¹  | 1611.33	shoot		388	TBL		1172	pəːk³¹	pəːk³¹	shoot (an arrow)	p əː k ³¹	424678	p əː k ³¹	5411	4820
-3680	929	verb	to shoot (an arrow)	Maru	shoot (an arrow) v.	1611.31	Langsu (Luxi) TBL	pak³¹  | 1611.31	shoot		388	TBL		1172	pak³¹	pak³¹	shoot (an arrow)	p a k ³¹	424676	p a k ³¹	5411	13578
-3682	929	verb	to shoot (an arrow)	Xiandao	shoot (an arrow) v.	1611.29	Achang (Xiandao) TBL	pɤk⁵⁵  | 1611.29	shoot		388	TBL		1172	pɤk⁵⁵	pɤk⁵⁵	shoot (an arrow)	p ɤ k ⁵⁵	424674	p ɤ k ⁵⁵	5411	536
+4290	76	other	tʰ e ⁵⁵	that	Achang_Longchuan	that dem	0947.28	Achang (Longchuan) TBL	the⁵⁵  | 0947.28	that	bad concept	757	TBL		78	the⁵⁵	the⁵⁵	that	tʰ e ⁵⁵	393754	2195	6342
+4293	76	other	tʰ ø ³¹	that	Maru	that dem	0947.31	Langsu (Luxi) TBL	thø³¹  | 0947.31		bad concept	757	TBL		78	thø³¹	thø³¹	that	tʰ ø ³¹	393757	2195	6367
+4294	76	other	tʰ ɛ ⁵⁵	that	Xiandao	that dem	0947.29	Achang (Xiandao) TBL	thɛ⁵⁵  | 0947.29	that	bad concept	757	TBL		78	thɛ⁵⁵	thɛ⁵⁵	that	tʰ ɛ ⁵⁵	393755	2195	686
+4292	76	other	tʰ ə ³³	that	Lashi	that dem	0947.33	Leqi (Luxi) TBL	thə³³  | 0947.33	that	bad concept	757	TBL		78	thə³³	thə³³	that	tʰ ə ³³	393759	2195	6378
 #
-3802	951	verb	to sleep	Achang_Longchuan	sleep v.	1646.28	Achang (Longchuan) TBL	e³¹  | 1646.28	sleep		1160	TBL		1585	e³¹	e³¹	sleep	e ³¹	426328	- e - ³¹	127	5403
-3805	951	verb	to sleep	Atsi	sleep v.	1646.3	Atsi [Zaiwa] TBL	ju̱p⁵⁵  | 1646.30	sleep		1160	TBL		1585	ju̱p⁵⁵	ju̱p⁵⁵	sleep	j ṵ p ⁵⁵	426330	j ṵ p ⁵⁵	127	7292
-3807	951	verb	to sleep	Bola	sleep v.	1646.32	Bola (Luxi) TBL	ja̱p⁵⁵  | 1646.32	sleep		1160	TBL		1585	ja̱p⁵⁵	ja̱p⁵⁵	sleep	j a̰ p ⁵⁵	426332	j a̰ p ⁵⁵	127	1891
-3811	951	verb	to sleep	Lashi	sleep v.	1646.33	Leqi (Luxi) TBL	ju̱ːp⁵⁵  | 1646.33	sleep		1160	TBL		1585	ju̱ːp⁵⁵	ju̱ːp⁵⁵	sleep	j ṵː p ⁵⁵	426333	j ṵː p ⁵⁵	127	4544
-3813	951	verb	to sleep	Maru	sleep v.	1646.31	Langsu (Luxi) TBL	jap³¹  | 1646.31			1160	TBL		1585	jap³¹	jap³¹	sleep	j a p ³¹	426331	j a p ³¹	127	12345
-3816	951	verb	to sleep	Xiandao	sleep v.	1646.29	Achang (Xiandao) TBL	it⁵⁵  | 1646.29	sleep		1160	TBL		1585	it⁵⁵	it⁵⁵	sleep	i t ⁵⁵	426329	- i t ⁵⁵	127	11439
-5544	951	verb	to sleep	Rangoon		1646.27			sleep		1160	TBL		1585	eʔ⁴	eʔ⁴	sleep	e ʔ ⁴	426327	- e ʔ ⁴	127	3881
-5981	951	verb	to sleep	Written_Burmese		1646.26			sleep		1160	TBL		1585	ip⁴	ip⁴	sleep	i p ⁴	426326	- i p ⁴	127	11550
+24	87	noun	p a u ⁵¹ - + v - o ʔ ⁵⁵	the ant	Atsi	ant 1	0365.30	Atsi [Zaiwa] TBL	pau⁵¹ voʔ⁵⁵  | 0365.30	insect ant		16 40155	TBL		587	pau⁵¹voʔ⁵⁵	pau⁵¹voʔ⁵⁵	ant	p a u ⁵¹ + v o ʔ ⁵⁵	363697	2178 10155	10117
 #
-3840	955	verb	to smell (perceive odor) [transitive]	Bola	smell v	1707.32	Bola (Luxi) TBL	nɛ̱̃⁵⁵  | 1707.32	smell-tr		678	TBL		1586	nɛ̱̃⁵⁵	nɛ̱̃⁵⁵	smell	n ɛ̰̃ ∼ ⁵⁵	429234	n ɛ̰̃ ∼ ⁵⁵	1415	2136
-3845	955	verb	to smell (perceive odor) [transitive]	Lashi	smell v	1707.33	Leqi (Luxi) TBL	naːm³¹  | 1707.33	smell		678	TBL		1586	naːm³¹	naːm³¹	smell	n aː m ³¹	429235	n aː m ³¹	1415	4743
-3848	955	verb	to smell (perceive odor) [transitive]	Maru	smell v	1707.31	Langsu (Luxi) TBL	nɛ̃³¹  | 1707.31			678	TBL		1586	nɛ̃³¹	nɛ̃³¹	smell	n ɛ̃ ∼ ³¹	429233	n ɛ̃ ∼ ³¹	1415	13574
-5417	955	verb	to smell (perceive odor) [transitive]	Rangoon		1707.27					678	TBL		1586	nɑ̃⁵⁵	nɑ̃⁵⁵	smell	n ɑ̃ ∼ ⁵⁵	429229	n ɑ̃ ∼ ⁵⁵	1415	8754
-5857	955	verb	to smell (perceive odor) [transitive]	Written_Burmese		1707.26					678	TBL		1586	nɑm³	nɑm³	smell	n a m ³	429228	n a m ³	1415	11848
+143	101	noun	v a ²¹	the bamboo	Atsi	bamboo	0389.30	Atsi [Zaiwa] TBL	va²¹  | 0389.30	bamboo		31	TBL		1927	va²¹	va²¹	bamboo	v a ²¹	364939	2549	5020
+144	101	noun	v a ³¹	the bamboo	Bola	bamboo	0389.32	Bola (Luxi) TBL	va³¹  | 0389.32	bamboo		31	TBL		1927	va³¹	va³¹	bamboo	v a ³¹	364941	2549	8091
+147	101	noun	w o ³³	the bamboo	Lashi	bamboo	0389.33	Leqi (Luxi) TBL	wo³³  | 0389.33	bamboo		31	TBL		1927	wo³³	wo³³	bamboo	w o ³³	364942	2549	6952
+148	101	noun	v ɔ ³⁵	the bamboo	Maru	bamboo	0389.31	Langsu (Luxi) TBL	vɔ³⁵  | 0389.31	bamboo		31	TBL		1927	vɔ³⁵	vɔ³⁵	bamboo	v ɔ ³⁵	364940	2549	9196
+141	101	noun	- o ³¹	the bamboo	Achang_Longchuan	bamboo	0389.28	Achang (Longchuan) TBL	o³¹  | 0389.28	bamboo		31	TBL		1927	o³¹	o³¹	bamboo	o ³¹	364937	2549	8308
+149	101	noun	- o ³¹	the bamboo	Xiandao	bamboo	0389.29	Achang (Xiandao) TBL	o³¹  | 0389.29	bamboo		31	TBL		1927	o³¹	o³¹	bamboo	o ³¹	364938	2549	12897
+5518	101	noun	w ɑ ⁵⁵	the bamboo	Rangoon		0389.27					31	TBL		1927	wɑ⁵⁵	wɑ⁵⁵	bamboo	w ɑ ⁵⁵	364936	2549	5909
 #
-5541	963	verb	to spit	Rangoon		1688.27					702	TBL		1440	thwe⁵⁵	tʰwe⁵⁵	spit	tʰ w e ⁵⁵	428334	tʰ w e ⁵⁵	298	3447
-5978	963	verb	to spit	Written_Burmese		1688.26			spit		702	TBL		1440	thwe³	tʰwe³	spit	tʰ w e ³	428333	tʰ w e ³	298	1649
+325	133	noun	m̥ ɔ ʔ ⁵⁵	the bird	Achang_Longchuan	bird	0326.28	Achang (Longchuan) TBL	m̥ɔʔ⁵⁵  | 0326.28	bird		87	TBL		937	m̥ɔʔ⁵⁵	m̥ɔʔ⁵⁵	bird	m̥ ɔ ʔ ⁵⁵	361992	3442	5807
+327	133	noun	ŋ o̰ ʔ ⁵⁵	the bird	Atsi	bird	0326.30	Atsi [Zaiwa] TBL	ŋo̱ʔ⁵⁵  | 0326.30	bird		87	TBL		937	ŋo̱ʔ⁵⁵	ŋo̱ʔ⁵⁵	bird	ŋ o̰ ʔ ⁵⁵	361994	3442	5152
+331	133	noun	ŋ ɔ̰ ʔ ⁵⁵	the bird	Lashi	bird	0326.33	Leqi (Luxi) TBL	ŋɔ̱ʔ⁵⁵  | 0326.33	bird		87	TBL		937	ŋɔ̱ʔ⁵⁵	ŋɔ̱ʔ⁵⁵	bird	ŋ ɔ̰ ʔ ⁵⁵	361997	3442	7065
+332	133	noun	ŋ ɔ̰ ʔ ⁵⁵	the bird	Maru	bird	0326.31	Langsu (Luxi) TBL	ŋɔ̱ʔ⁵⁵  | 0326.31	bird		87	TBL		937	ŋɔ̱ʔ⁵⁵	ŋɔ̱ʔ⁵⁵	bird	ŋ ɔ̰ ʔ ⁵⁵	361995	3442	9242
+5545	133	noun	ŋ̊ ɛ ʔ ⁴	the bird	Rangoon		0326.27					87	TBL		937	ŋ̊ɛʔ⁴	ŋ̊ɛʔ⁴	bird	ŋ̊ ɛ ʔ ⁴	361991	3442	5942
+328	133	noun	ŋ a̰ ʔ ⁵⁵	the bird	Bola	bird	0326.32	Bola (Luxi) TBL	ŋa̱ʔ⁵⁵  | 0326.32	bird		87	TBL		937	ŋa̱ʔ⁵⁵	ŋa̱ʔ⁵⁵	bird	ŋ a̰ ʔ ⁵⁵	361996	3442	8134
+334	133	noun	ŋ̊ ɔ ʔ ⁵⁵	the bird	Xiandao	bird	0326.29	Achang (Xiandao) TBL	ŋ̊ɔʔ⁵⁵  | 0326.29	bird		87	TBL		937	ŋ̊ɔʔ⁵⁵	ŋ̊ɔʔ⁵⁵	bird	ŋ̊ ɔ ʔ ⁵⁵	361993	3442	6573
 #
-4043	976	verb	to stand	Achang_Longchuan	stand v.	1784.28	Achang (Longchuan) TBL	ʑap⁵⁵  | 1784.28	stand	bad concept	721	TBL		1442	ʑap⁵⁵	ʑap⁵⁵	stand	ʑ a p ⁵⁵	432794	ʑ a p ⁵⁵	145	11377
-4044	976	verb	to stand	Atsi	stand v.	1784.3	Atsi [Zaiwa] TBL	jap²¹  | 1784.30	stand	bad concept	721	TBL		1442	jap²¹	jap²¹	stand	j a p ²¹	432796	j a p ²¹	145	7245
-4045	976	verb	to stand	Bola	stand v.	1784.32	Bola (Luxi) TBL	jɛʔ⁵⁵  | 1784.32	stand	bad concept	721	TBL		1442	jɛʔ⁵⁵	jɛʔ⁵⁵	stand	j ɛ ʔ ⁵⁵	432798	j ɛ ʔ ⁵⁵	145	1912
-4046	976	verb	to stand	Lashi	stand v.	1784.33	Leqi (Luxi) TBL	jaːp³¹  | 1784.33	stand	bad concept	721	TBL		1442	jaːp³¹	jaːp³¹	stand	j aː p ³¹	432799	j aː p ³¹	145	4518
-4047	976	verb	to stand	Maru	stand v.	1784.31	Langsu (Luxi) TBL	jɛʔ³¹  | 1784.31		bad concept	721	TBL		1442	jɛʔ³¹	jɛʔ³¹	stand	j ɛ ʔ ³¹	432797	j ɛ ʔ ³¹	145	12380
-4048	976	verb	to stand	Xiandao	stand v.	1784.29	Achang (Xiandao) TBL	jap⁵⁵  | 1784.29	stand	bad concept	721	TBL		1442	jap⁵⁵	jap⁵⁵	stand	j a p ⁵⁵	432795	j a p ⁵⁵	145	11449
-5332	976	verb	to stand	Rangoon		1784.27				bad concept	721	TBL		1442	jɑʔ⁴	jɑʔ⁴	stand	j ɑ ʔ ⁴	432793	j ɑ ʔ ⁴	145	4004
-5773	976	verb	to stand	Written_Burmese		1784.26				bad concept	721	TBL		1442	rɑp⁴	rɑp⁴	stand	r a p ⁴	432792	r a p ⁴	145	1525
+389	1148	noun	s - a - ³⁵	the blood	Maru	blood	0129.31	Langsu (Luxi) TBL	sa³⁵  | 0129.31			93	TBL		946	sa³⁵	sa³⁵	blood	s a ³⁵	351652	230	10532
+383	1148	noun	s - u i ³⁵	the blood	Bola	blood	0129.32	Bola (Luxi) TBL	sui³⁵  | 0129.32	blood		93	TBL		946	sui³⁵	sui³⁵	blood	s u i ³⁵	351653	230	1428
+5597	1148	noun	tθ w e - ⁵⁵	the blood	Rangoon		0129.27					93	TBL		946	tθwe⁵⁵	tθwe⁵⁵	blood	tθ w e ⁵⁵	351648	230	3808
 #
-4077	978	verb	to steal	Maru	steal v.	1686.31	Langsu (Luxi) TBL	khuk⁵⁵  | 1686.31	steal		723	TBL		713	khuk⁵⁵	khuk⁵⁵	steal	kʰ u k ⁵⁵	428240	kʰ u - k ⁵⁵	2365	12425
-5573	978	verb	to steal	Rangoon		1686.27					723	TBL		713	kho⁵⁵	kʰo⁵⁵	steal	kʰ o ⁵⁵	428236	kʰ o - - ⁵⁵	2365	4031
-6010	978	verb	to steal	Written_Burmese		1686.26			steal		723	TBL		713	kho³	kʰo³	steal	kʰ o ³	428235	kʰ o - - ³	2365	11669
+5639	145	noun	ɑ ⁵³ - - - - + m w e - - ⁵⁵	the body hair (hair or fur)	Rangoon		0266.27					40137 1065	TBL		189	ɑ⁵³mwe⁵⁵	ɑ⁵³mwe⁵⁵	hair / down	ɑ ⁵³ + m w e ⁵⁵	358894	10137 363	6041
+1726	145	noun	a ³¹ - - - - + m - u i - ³¹	the body hair (hair or fur)	Achang_Longchuan	hair / down n	0266.28	Achang (Longchuan) TBL	a³¹ mui³¹  | 0266.28	a-prefix hair		40017 1065	TBL		189	a³¹mui³¹	a³¹mui³¹	hair / down	a ³¹ + m u i ³¹	358895	10017 363	5330
+1728	145	noun	ʃ ŏ ²¹ + m - a u - ⁵⁵	the body hair (hair or fur)	Atsi	hair / down n	0266.30	Atsi [Zaiwa] TBL	ʃŏ²¹ mau⁵⁵  | 0266.30	meat hair		40168 1065	TBL		189	ʃŏ²¹mau⁵⁵	ʃŏ²¹mau⁵⁵	hair / down	ʃ ŏ ²¹ + m a u ⁵⁵	358897	10168 363	5195
+1730	145	noun	ʃ ă ³⁵ + m - a u - ³⁵	the body hair (hair or fur)	Bola	hair / down n	0266.32	Bola (Luxi) TBL	ʃă³⁵ mau³⁵  | 0266.32	meat hair		1066 40040	TBL		189	ʃă³⁵mau³⁵	ʃă³⁵mau³⁵	hair / down	ʃ ă ³⁵ + m a u ³⁵	358899	34 10040	8193
+1734	145	noun	ʃ ŏ ⁵⁵ + m - o u - ⁵⁵	the body hair (hair or fur)	Lashi	hair / down n	0266.33	Leqi (Luxi) TBL	ʃŏ⁵⁵ mou⁵⁵  | 0266.33	meat hair		40100 1065	TBL		189	ʃŏ⁵⁵mou⁵⁵	ʃŏ⁵⁵mou⁵⁵	hair / down	ʃ ŏ ⁵⁵ + m o u ⁵⁵	358900	10100 363	7109
+1735	145	noun	ʃ ɔ̆ ³⁵ + m - u - k ⁵⁵	the body hair (hair or fur)	Maru	hair / down n	0266.31	Langsu (Luxi) TBL	ʃɔ̆³⁵ muk⁵⁵  | 0266.31	meat hair		40056 1065	TBL		189	ʃɔ̆³⁵muk⁵⁵	ʃɔ̆³⁵muk⁵⁵	hair / down	ʃ ɔ̆ ³⁵ + m u k ⁵⁵	358898	10056 363	9297
+1737	145	noun	m - u i - ³¹	the body hair (hair or fur)	Xiandao	hair / down n	0266.29	Achang (Xiandao) TBL	mui³¹  | 0266.29	hair		1065	TBL		189	mui³¹	mui³¹	hair / down	m u i ³¹	358896	363	12770
 #
-4456	992	verb	to think (reflect)	Atsi	think v.	1726.3	Atsi [Zaiwa] TBL	mjit²¹  | 1726.30	think		789	TBL		1415	mjit²¹	mjit²¹	think	m j i t ²¹	430116	m j i t ²¹	1383	11228
-4460	992	verb	to think (reflect)	Lashi	think v.	1726.33	Leqi (Luxi) TBL	mjiːt³¹  | 1726.33	think		789	TBL		1415	mjiːt³¹	mjiːt³¹	think	m j iː t ³¹	430119	m j iː t ³¹	1383	4709
-4461	992	verb	to think (reflect)	Maru	think v.	1726.31	Langsu (Luxi) TBL	mjik³¹  | 1726.31	think		789	TBL		1415	mjik³¹	mjik³¹	think	m j i k ³¹	430117	m j i k ³¹	1383	13487
+5511	1137	noun	ɑ ⁵³ + k ɑ̃ i ∼ ⁵⁵ + ɑ ⁵³ + kʰ ɛ ʔ ⁴	the branch	Rangoon		0374.27					40122 40123 40124 114	TBL		1531	ɑ⁵³kɑ̃i⁵⁵ɑ⁵³khɛʔ⁴	ɑ⁵³kɑ̃i⁵⁵ɑ⁵³kʰɛʔ⁴	branch / twig	ɑ ⁵³ + k ɑ̃ i ∼ ⁵⁵ + ɑ ⁵³ + kʰ ɛ ʔ ⁴	364151	10122 10123 10124 1278	6029
+526	158	noun	ʂ ə k ⁵⁵ + k ʐ a ŋ ⁵⁵	the branch	Achang_Longchuan	branch	0374.28	Achang (Longchuan) TBL	ʂək⁵⁵ kʐaŋ⁵⁵  | 0374.28	tree branch		113 40011	TBL		1531	ʂək⁵⁵kʐaŋ⁵⁵	ʂək⁵⁵kʐaŋ⁵⁵	branch / twig	ʂ ə k ⁵⁵ + k ʐ a ŋ ⁵⁵	364152	2658 10011	9687
+528	158	noun	s i k ⁵⁵ + k j a̰ ŋ ⁵¹	the branch	Atsi	branch	0374.30	Atsi [Zaiwa] TBL	sik⁵⁵ kja̱ŋ⁵¹  | 0374.30	tree branch		113 40157	TBL		1531	sik⁵⁵kja̱ŋ⁵¹	sik⁵⁵kja̱ŋ⁵¹	branch / twig	s i k ⁵⁵ + k j a̰ ŋ ⁵¹	364154	2658 10157	2785
+529	158	noun	s a k ⁵⁵ + k a̰ ʔ ⁵⁵	the branch	Bola	branch	0374.32	Bola (Luxi) TBL	sak⁵⁵ ka̱ʔ⁵⁵  | 0374.32	tree branch		113 114	TBL		1531	sak⁵⁵ka̱ʔ⁵⁵	sak⁵⁵ka̱ʔ⁵⁵	branch / twig	s a k ⁵⁵ + k a̰ ʔ ⁵⁵	364156	2658 1278	1411
+532	158	noun	s ə̰ k ⁵⁵ + k ɔ̰ ʔ ⁵⁵	the branch	Lashi	branch	0374.33	Leqi (Luxi) TBL	sə̱k⁵⁵ kɔ̱ʔ⁵⁵  | 0374.33	tree branch		113 114	TBL		1531	sə̱k⁵⁵kɔ̱ʔ⁵⁵	sə̱k⁵⁵kɔ̱ʔ⁵⁵	branch / twig	s ə̰ k ⁵⁵ + k ɔ̰ ʔ ⁵⁵	364157	2658 1278	12060
+533	158	noun	s a̰ k ⁵⁵ + k ɔ̰ ʔ ⁵⁵	the branch	Maru	branch	0374.31	Langsu (Luxi) TBL	sa̱k⁵⁵ kɔ̱ʔ⁵⁵  | 0374.31	tree branch		113 114	TBL		1531	sa̱k⁵⁵kɔ̱ʔ⁵⁵	sa̱k⁵⁵kɔ̱ʔ⁵⁵	branch / twig	s a̰ k ⁵⁵ + k ɔ̰ ʔ ⁵⁵	364155	2658 1278	10539
+534	158	noun	ʂ ɯ k ⁵⁵ + x ɔ ʔ ⁵⁵	the branch	Xiandao	branch	0374.29	Achang (Xiandao) TBL	ʂɯk⁵⁵ xɔʔ⁵⁵  | 0374.29	tree branch		113 114	TBL		1531	ʂɯk⁵⁵xɔʔ⁵⁵	ʂɯk⁵⁵xɔʔ⁵⁵	branch / twig	ʂ ɯ k ⁵⁵ + x ɔ ʔ ⁵⁵	364153	2658 1278	6631
 #
-4780	1034	verb	to vomit	Achang_Longchuan	throw up / vomit v.	1535.28	Achang (Longchuan) TBL	phat⁵⁵  | 1535.28			856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421100	pʰ a t ⁵⁵	1145	10954
-4783	1034	verb	to vomit	Atsi	throw up / vomit v.	1535.3	Atsi [Zaiwa] TBL	phat⁵⁵  | 1535.30	vomit		856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421102	pʰ a t ⁵⁵	1145	4843
-4788	1034	verb	to vomit	Lashi	throw up / vomit v.	1535.33	Leqi (Luxi) TBL	phaːt⁵⁵  | 1535.33	vomit		856	TBL		1278	phaːt⁵⁵	phaːt⁵⁵	throw up / vomit	pʰ aː t ⁵⁵	421105	pʰ aː t ⁵⁵	1145	4777
-4793	1034	verb	to vomit	Xiandao	throw up / vomit v.	1535.29	Achang (Xiandao) TBL	phat⁵⁵  | 1535.29	vomit		856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421101	pʰ a t ⁵⁵	1145	12206
-5264	1035	verb	to vomit	Rangoon		1535.27					858	TBL		1278	ɑ̃²²	ɑ̃²²	throw up / vomit	ɑ̃ ∼ ²²	421099	ɑ̃ ∼ ²²	1796	5996
-5706	1035	verb	to vomit	Written_Burmese		1535.26					858	TBL		1278	ɑṁ²	ɑṁ²	throw up / vomit	a m ²	421098	a m ²	1796	3277
+663	1141	noun	m ṵ t ⁵⁵ + m a u ⁵⁵	the cloud	Atsi	cloud n	0007.30	Atsi [Zaiwa] TBL	mu̱t⁵⁵ mau⁵⁵  | 0007.30	cloud sky		40164 592	TBL		1489	mu̱t⁵⁵mau⁵⁵	mu̱t⁵⁵mau⁵⁵	cloud	m ṵ t ⁵⁵ + m a u ⁵⁵	345330	10164 2473	10039
+666	166	noun	ts ɔ̰ m ⁵⁵ + m o u ⁵⁵	the cloud	Lashi	cloud n	0007.33	Leqi (Luxi) TBL	tsɔ̱m⁵⁵ mou⁵⁵  | 0007.33	cloud? sky		40096 592	TBL		1489	tsɔ̱m⁵⁵mou⁵⁵	tsɔ̱m⁵⁵mou⁵⁵	cloud	ts ɔ̰ m ⁵⁵ + m o u ⁵⁵	345333	10096 2473	6769
+5276	166	noun	t ẽ ∼ ²²	the cloud	Rangoon		0007.27					149	TBL		1489	tẽ²²	tẽ²²	cloud	t ẽ ∼ ²²	345327	5656	3416
 #
-5108	1046	verb	to wipe	Achang_Longchuan	wipe (the table)	1163.28	Achang (Longchuan) TBL	sut⁵⁵  | 1163.28	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404347	s u t ⁵⁵	5594	11062
-5111	1046	verb	to wipe	Atsi	wipe (the table)	1163.3	Atsi [Zaiwa] TBL	sut⁵⁵  | 1163.30	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404349	s u t ⁵⁵	5594	2815
-5113	1046	verb	to wipe	Bola	wipe (the table)	1163.32	Bola (Luxi) TBL	sɔt⁵⁵  | 1163.32	wipe		908	TBL		1454	sɔt⁵⁵	sɔt⁵⁵	wipe (the table)	s ɔ t ⁵⁵	404351	s ɔ t ⁵⁵	5594	12609
-5116	1046	verb	to wipe	Lashi	wipe (the table)	1163.33	Leqi (Luxi) TBL	suːt⁵⁵  | 1163.33	wipe		908	TBL		1454	suːt⁵⁵	suːt⁵⁵	wipe (the table)	s uː t ⁵⁵	404352	s uː t ⁵⁵	5594	12313
-5117	1046	verb	to wipe	Maru	wipe (the table)	1163.31	Langsu (Luxi) TBL	sa̱t⁵⁵  | 1163.31			908	TBL		1454	sa̱t⁵⁵	sa̱t⁵⁵	wipe (the table)	s a̰ t ⁵⁵	404350	s a̰ t ⁵⁵	5594	13670
-5120	1046	verb	to wipe	Xiandao	wipe (the table)	1163.29	Achang (Xiandao) TBL	sut⁵⁵  | 1163.29	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404348	s u t ⁵⁵	5594	591
+6268	185		tsʰ e ³¹	the dew	Achang_Longchuan	dew	0015.28	Achang (Longchuan)	tshe³¹	dew		100	TBL		1977		ʦhe³¹		tsʰ e ³¹	35906	59	2281
+6544	185		tsʰ ɛ ³¹	the dew	Xiandao	dew	0015.29	Achang (Xiandao)	tshɛ³¹	dew		100	TBL		1977		ʦhɛ³¹		tsʰ ɛ ³¹	37682	59	741
 #
-4998	1086	other	white	Achang_Longchuan	white	1006.28	Achang (Longchuan) TBL	phʐo⁵⁵  | 1006.28	white		1211	TBL		1335	phʐo⁵⁵	phʐo⁵⁵	white	pʰ ʐ o ⁵⁵	396857	pʰ ʐ o ⁵⁵	1235	10979
-5000	1086	other	white	Atsi	white	1006.3	Atsi [Zaiwa] TBL	phju⁵¹  | 1006.30	white		1211	TBL		1335	phju⁵¹	phju⁵¹	white	pʰ j u ⁵¹	396859	pʰ j u ⁵¹	1235	13299
-5001	1086	other	white	Bola	white	1006.32	Bola (Luxi) TBL	phju⁵⁵  | 1006.32	white		1211	TBL		1335	phju⁵⁵	phju⁵⁵	white	pʰ j u ⁵⁵	396861	pʰ j u ⁵⁵	1235	5294
-5004	1086	other	white	Lashi	white	1006.33	Leqi (Luxi) TBL	phjuː³³  | 1006.33	white		1211	TBL		1335	phjuː³³	phjuː³³	white	pʰ j uː ³³	396862	pʰ j uː ³³	1235	12287
-5005	1086	other	white	Maru	white	1006.31	Langsu (Luxi) TBL	phju³¹  | 1006.31			1211	TBL		1335	phju³¹	phju³¹	white	pʰ j u ³¹	396860	pʰ j u ³¹	1235	13601
-5006	1086	other	white	Xiandao	white	1006.29	Achang (Xiandao) TBL	phʐu⁵⁵  | 1006.29	white		1211	TBL		1335	phʐu⁵⁵	phʐu⁵⁵	white	pʰ ʐ u ⁵⁵	396858	pʰ ʐ u ⁵⁵	1235	12962
-5534	1086	other	white	Rangoon		1006.27					1211	TBL		1335	phju²²	pʰju²²	white	pʰ j u ²²	396856	pʰ j u ²²	1235	10715
-5971	1086	other	white	Written_Burmese		1006.26			white		1211	TBL		1335	phru²	pʰru²	white	pʰ r u ²	396855	pʰ r u ²	1235	13085
+962	171	noun	l ə̆ ³¹ + kʰ a - - ³⁵	the dog	Maru	dog n	0289.31	Langsu (Luxi) TBL	lə̆³¹ kha³⁵  | 0289.31 | cf. 0765.31	dog1 dog2		40049 216	TBL		2009	lə̆³¹kha³⁵	lə̆³¹kha³⁵	dog	l ə̆ ³¹ + kʰ a ³⁵	360089	10049 1764	10298
+957	171	noun	kʰ u i - ²¹	the dog	Atsi	dog n	0289.30	Atsi [Zaiwa] TBL	khui²¹  | 0289.30 | cf. 0765.30	dog		216	TBL		2009	khui²¹	khui²¹	dog	kʰ u i ²¹	360088	1764	7434
+5406	171	noun	kʰ w e - ⁵⁵	the dog	Rangoon		0289.27					216	TBL		2009	khwe⁵⁵	kʰwe⁵⁵	dog	kʰ w e ⁵⁵	360085	1764	4038
+955	171	noun	x u i - ³¹	the dog	Achang_Longchuan	dog n	0289.28	Achang (Longchuan) TBL	xui³¹  | 0289.28	dog		216	TBL		2009	xui³¹	xui³¹	dog	x u i ³¹	360086	1764	2639
+958	171	noun	kʰ u i - ³⁵	the dog	Bola	dog n	0289.32	Bola (Luxi) TBL	khui³⁵  | 0289.32 | cf. 0765.32	dog		216	TBL		2009	khui³⁵	khui³⁵	dog	kʰ u i ³⁵	360090	1764	1078
+961	171	noun	kʰ u i - ⁵⁵	the dog	Lashi	dog n	0289.33	Leqi (Luxi) TBL	khui⁵⁵  | 0289.33 | cf. 0765.33	dog		216	TBL		2009	khui⁵⁵	khui⁵⁵	dog	kʰ u i ⁵⁵	360091	1764	9417
+964	1152	noun	f u i - - ³¹	the dog	Xiandao	dog n	0289.29	Achang (Xiandao) TBL	fui³¹  | 0289.29 | cf. 0765.29	dog		216	TBL		2009	fui³¹	fui³¹	dog	f u i ³¹	360087	1764	9828
 #
-5268	1101	other	yellow	Rangoon		1008.27					919	TBL		1424	wa²²	wa²²	yellow	w a ²²	396958	w a ²²	165	5873
-5710	1101	other	yellow	Written_Burmese		1008.26					919	TBL		1424	wɑɑ²	wɑɑ²	yellow	w a ²	396957	w a ²	165	3238
+981	1153	noun	j ṵ p ⁵⁵ + m o ʔ ²¹	the dream	Atsi	dream n	0699.30	Atsi [Zaiwa] TBL	ju̱p⁵⁵ moʔ²¹  | 0699.30	sleep dream		225 224	TBL		2374	ju̱p⁵⁵moʔ²¹	ju̱p⁵⁵moʔ²¹	dream	j ṵ p ⁵⁵ + m o ʔ ²¹	380978	127 126	7294
+982	1153	noun	j a̰ p ⁵⁵ + m a ʔ ⁵⁵	the dream	Bola	dream n	0699.32	Bola (Luxi) TBL	ja̱p⁵⁵ maʔ⁵⁵  | 0699.32	sleep dream		225 224	TBL		2374	ja̱p⁵⁵maʔ⁵⁵	ja̱p⁵⁵maʔ⁵⁵	dream	j a̰ p ⁵⁵ + m a ʔ ⁵⁵	380980	127 126	1004
+985	1153	noun	- i n ³¹ + m ɔ ʔ ⁵⁵	the dream	Xiandao	dream n	0699.29	Achang (Xiandao) TBL	in³¹ mɔʔ⁵⁵  | 0699.29	sleep dream		225 224	TBL		2374	in³¹mɔʔ⁵⁵	in³¹mɔʔ⁵⁵	dream	i n ³¹ + m ɔ ʔ ⁵⁵	380977	127 126	9832
+5255	1153	noun	- e ʔ ⁴ + m ɛ ʔ ⁴	the dream	Rangoon		0699.27			sleep dream		225 224	TBL		2374	eʔ⁴mɛʔ⁴	eʔ⁴mɛʔ⁴	dream	e ʔ ⁴ + m ɛ ʔ ⁴	380975	127 126	3882
+980	1153	noun	- i t ⁵⁵ + m ɔ ʔ ⁵⁵	the dream	Achang_Longchuan	dream n	0699.28	Achang (Longchuan) TBL	it⁵⁵ mɔʔ⁵⁵  | 0699.28	sleep dream		225 224	TBL		2374	it⁵⁵mɔʔ⁵⁵	it⁵⁵mɔʔ⁵⁵	dream	i t ⁵⁵ + m ɔ ʔ ⁵⁵	380976	127 126	5415
+983	1153	noun	j ɔ̰ p ⁵⁵ + m ɔ ʔ ³¹	the dream	Lashi	dream n	0699.33	Leqi (Luxi) TBL	jɔ̱p⁵⁵ mɔʔ³¹  | 0699.33	sleep dream		225 224	TBL		2374	jɔ̱p⁵⁵mɔʔ³¹	jɔ̱p⁵⁵mɔʔ³¹	dream	j ɔ̰ p ⁵⁵ + m ɔ ʔ ³¹	380981	127 126	9382
+984	1153	noun	j a̰ p ³¹ + m ɔ ʔ ³¹	the dream	Maru	dream n	0699.31	Langsu (Luxi) TBL	ja̱p³¹ mɔʔ³¹  | 0699.31	dream mo-suffix		225 224	TBL		2374	ja̱p³¹mɔʔ³¹	ja̱p³¹mɔʔ³¹	dream	j a̰ p ³¹ + m ɔ ʔ ³¹	380979	127 126	491
 #
-6219	198		young	Maru	young	1059.31	Langsu (Luxi)	ŋai³¹	small		677	TBL		1207		ŋai³¹		ŋ a i ³¹	44231	ŋ a i - ³¹	90	13451
+1097	1158	noun	n i ³¹ + ʈʂʰ u a ³¹	the ear	Achang_Longchuan	ear n	0081.28	Achang (Longchuan) TBL	ni³¹ tʂhua³¹  | 0081.28	ear hole?		242 244	TBL		1247	ni³¹tʂhua³¹	ni³¹tʂhua³¹	ear	n i ³¹ + ʈʂʰ u a ³¹	349172	811 816	8277
+1100	1158	noun	n ŏ ²¹ + pʰ j o ²¹	the ear	Atsi	ear n	0081.30	Atsi [Zaiwa] TBL	nŏ²¹ phjo²¹  | 0081.30	ear ?		242 1040	TBL		1247	nŏ²¹phjo²¹	nŏ²¹phjo²¹	ear	n ŏ ²¹ + pʰ j o ²¹	349174	811 812	10077
+1103	1158	noun	n ə̆ ³¹ + kʰ j ɛ ʔ ⁵⁵	the ear	Bola	ear n	0081.32	Bola (Luxi) TBL	nə̆³¹ khj⁵⁵  | 0081.32	ear		242 243	TBL		1247	nə̆³¹khj⁵⁵	nə̆³¹khj⁵⁵	ear	n ə̆ ³¹ + kʰ j ɛ ʔ ⁵⁵	349176	811 823	1299
+1111	1158	noun	n ə̆ ³¹ + kʰ j ɛ ʔ ⁵⁵	the ear	Maru	ear n	0081.31	Langsu (Luxi) TBL	nə̆³¹ khjɛʔ⁵⁵  | 0081.31			242 243	TBL		1247	nə̆³¹khjɛʔ⁵⁵	nə̆³¹khjɛʔ⁵⁵	ear	n ə̆ ³¹ + kʰ j ɛ ʔ ⁵⁵	349175	811 823	10424
+1113	1158	noun	n̥ a ³¹ + ʈʂʰ - ɔ ³¹	the ear	Xiandao	ear n	0081.29	Achang (Xiandao) TBL	n̥a³¹ tʂhɔ³¹  | 0081.29	ear ???		242 244	TBL		1247	n̥a³¹tʂhɔ³¹	n̥a³¹tʂhɔ³¹	ear	n̥ a ³¹ + ʈʂʰ ɔ ³¹	349173	811 816	12874
+5556	1158	noun	n ɑ ⁵⁵	the ear	Rangoon		0081.27					242	TBL		1247	nɑ⁵⁵	nɑ⁵⁵	ear	n ɑ ⁵⁵	349171	811	9051
+#
+5619	451	noun	m j e ²²	the earth (soil)	Rangoon		0040.27					1168	TBL		1228	mje²²	mje²²	soil / earth	m j e ²²	347040	2453	4302
+#
+6421	68		t i ²²	the earthworm	Rangoon	earthworm	0363.27	Burmese (Rangoon)	ti²²			963	TBL		2350		ti²²		t i ²²	34365	2808	3488
+#
+1140	1159	noun	ṵ - - ³⁵	the egg	Bola	egg n	0450.32	Bola (Luxi) TBL	u̱³⁵  | 0450.32	egg		246	TBL		744	u̱³⁵	u̱³⁵	egg	ṵ ³⁵	368076	301	8082
+1144	1159	noun	a̰ u - ⁵⁵	the egg	Maru	egg n	0450.31	Langsu (Luxi) TBL	a̱u⁵⁵  | 0450.31	egg		246	TBL		744	a̱u⁵⁵	a̱u⁵⁵	egg	a̰ u ⁵⁵	368075	301	467
+5427	1159	noun	u - - ⁵³	the egg	Rangoon		0450.27					246	TBL		744	û⁵³	û⁵³	egg	u ⁵³	368071	301	5865
+#
+1184	1160	noun	m j ɔ ʔ ³¹ + tʃ i k ⁵⁵	the eye	Maru	eye	0079.31	Langsu (Luxi) TBL	mjɔʔ³¹ tʃik⁵⁵  | 0079.31	eye stone		250 1041	TBL		1248	mjɔʔ³¹tʃik⁵⁵	mjɔʔ³¹tʃik⁵⁵	eye	m j ɔ ʔ ³¹ + tʃ i k ⁵⁵	349074	681 1401	10342
+1177	1160	noun	m j a ʔ ³¹ + tʃ ɿ - ³⁵	the eye	Bola	eye	0079.32	Bola (Luxi) TBL	mjaʔ³¹ tʃɿ³⁵  | 0079.32	eye small-stone-2		250 40038	TBL		1248	mjaʔ³¹tʃɿ³⁵	mjaʔ³¹tʃɿ³⁵	eye	m j a ʔ ³¹ + tʃ ɿ ³⁵	349075	681 10038	1206
+5494	1160	noun	m j ɛ ʔ ⁴ + s i - ⁵³	the eye	Rangoon		0079.27					250 40132	TBL		1248	mjɛʔ⁴si⁵³	mjɛʔ⁴si⁵³	eye	m j ɛ ʔ ⁴ + s i ⁵³	349070	681 10132	8236
+#
+1298	194	noun	a ³¹ + m u i ³¹	the feather	Achang_Longchuan	feather / plume n	0299.28	Achang (Longchuan) TBL	a³¹ mui³¹  | 0299.28	a-prefix hair		40014 1043	TBL		1201	a³¹mui³¹	a³¹mui³¹	feather / plume	a ³¹ + m u i ³¹	360599	10014 363	5331
+1299	194	noun	ʃ ŏ ²¹ + m a u ⁵⁵	the feather	Atsi	feather / plume n	0299.30	Atsi [Zaiwa] TBL	ʃŏ²¹ mau⁵⁵  | 0299.30	meat hair		40163 1043	TBL		1201	ʃŏ²¹mau⁵⁵	ʃŏ²¹mau⁵⁵	feather / plume	ʃ ŏ ²¹ + m a u ⁵⁵	360601	10163 363	5196
+1301	194	noun	a ³¹ + m a u ³⁵	the feather	Bola	feather / plume n	0299.32	Bola (Luxi) TBL	a³¹ mau³⁵  | 0299.32	a-prefix feather		40036 1043	TBL		1201	a³¹mau³⁵	a³¹mau³⁵	feather / plume	a ³¹ + m a u ³⁵	360603	10036 363	6416
+5607	194	noun	ŋ̊ ɛ ʔ ⁴ + m w e ⁵⁵	the feather	Rangoon		0299.27					40129 1043	TBL		1201	ŋ̊ɛʔ⁴mwe⁵⁵	ŋ̊ɛʔ⁴mwe⁵⁵	feather / plume	ŋ̊ ɛ ʔ ⁴ + m w e ⁵⁵	360598	10129 363	5943
+#
+5299	208	noun	ŋ ɑ ⁵⁵	the fish	Rangoon		0351.27					287	TBL		227	ŋɑ⁵⁵	ŋɑ⁵⁵	fish	ŋ ɑ ⁵⁵	437161	1455	5939
+1407	208	noun	ŋ a ³¹ + ʂ u a ³¹	the fish	Achang_Longchuan	fish n	0351.28	Achang (Longchuan) TBL	ŋa³¹ ʂua³¹  | 0351.28	fish meat		287 40019	TBL		227	ŋa³¹ʂua³¹	ŋa³¹ʂua³¹	fish	ŋ a ³¹ + ʂ u a ³¹	437162	1455 10019	2678
+1410	208	noun	ŋ ŏ ²¹ + ts o ²¹	the fish	Atsi	fish n	0351.30	Atsi [Zaiwa] TBL	ŋŏ²¹ tso²¹  | 0351.30	fish child?		287 40170	TBL		227	ŋŏ²¹tso²¹	ŋŏ²¹tso²¹	fish	ŋ ŏ ²¹ + ts o ²¹	437164	1455 10170	5150
+1411	208	noun	ŋ ə̆ ³¹ + t a ³¹	the fish	Bola	fish n	0351.32	Bola (Luxi) TBL	ŋə̆³¹ ta³¹  | 0351.32	fish eat		287 40042	TBL		227	ŋə̆³¹ta³¹	ŋə̆³¹ta³¹	fish	ŋ ə̆ ³¹ + t a ³¹	437166	1455 10042	8153
+1414	208	noun	ŋ ə̆ ³¹ + ts o ³³	the fish	Lashi	fish n	0351.33	Leqi (Luxi) TBL	ŋə̆³¹ tso³³  | 0351.33	fish food?		287 40102	TBL		227	ŋə̆³¹tso³³	ŋə̆³¹tso³³	fish	ŋ ə̆ ³¹ + ts o ³³	437167	1455 10102	7075
+1415	208	noun	ŋ ə̆ ³¹ + ts ɔ ³¹	the fish	Maru	fish n	0351.31	Langsu (Luxi) TBL	ŋə̆³¹ tsɔ³¹  | 0351.31	fish1 food		287 40058	TBL		227	ŋə̆³¹tsɔ³¹	ŋə̆³¹tsɔ³¹	fish	ŋ ə̆ ³¹ + ts ɔ ³¹	437165	1455 10058	9248
+1417	208	noun	ŋ̊ ɔ̆ ³¹ + ʂ - ɔ ³¹	the fish	Xiandao	fish n	0351.29	Achang (Xiandao) TBL	ŋ̊ɔ̆³¹ ʂɔ³¹  | 0351.29	fish meat		287 40082	TBL		227	ŋ̊ɔ̆³¹ʂɔ³¹	ŋ̊ɔ̆³¹ʂɔ³¹	fish	ŋ̊ ɔ̆ ³¹ + ʂ ɔ ³¹	437163	1455 10082	6575
+#
+6190	56		f u - - ³¹ + l a i ³¹	the flea	Xiandao	flea	0355.29	Achang (Xiandao)	fu³¹lai³¹	??? flea		1236 952	TBL		232		fu³¹lai³¹		f u ³¹ + l a i ³¹	38026	1764 2414	9830
+6243	56		kʰ ə̆ - ³¹ + l ṵ i ³⁵	the flea	Bola	flea	0355.32	Bola (Luxi)	khə̆³¹lu̱i³⁵	fleat-1 flea-2		1237 952	TBL		232		kʰə̆³¹lu̱i³⁵		kʰ ə̆ ³¹ + l ṵ i ³⁵	45300	1764 2414	1087
+6340	56		l̥ i - ³¹	the flea	Achang_Longchuan	flea	0355.28	Achang (Longchuan)	l̥i³¹	flea		952	TBL		232		l̥i³¹		l̥ i ³¹	36251	2414	5699
+6416	56		ɬ e - ⁵⁵	the flea	Rangoon	flea	0355.27	Burmese (Rangoon)	ɬe⁵⁵			952	TBL		232		ɬe⁵⁵		ɬ e ⁵⁵	34357	2414	6173
+6478	56		kʰ ĕ - ⁵⁵ + l a̰ i ²¹	the flea	Atsi	flea	0355.30	Atsi [Zaiwa]	khĕ⁵⁵la̱i²¹	? flea		1237 952	TBL		232		kʰĕ⁵⁵la̱i²¹		kʰ ĕ ⁵⁵ + l a̰ i ²¹	41658	1764 2414	7371
+6399	56		kʰ ə̆ - ³¹ + l a̰ - ³⁵	the flea	Maru	flea	0355.31	Langsu (Luxi)	khə̆³¹la̱³⁵	flea-1 flea-2		1237 952	TBL		232		kʰə̆³¹la̱³⁵		kʰ ə̆ ³¹ + l a̰ ³⁵	43528	1764 2414	10232
+6129	56		kʰ u k ⁵⁵ + l ḛ i ⁵⁵	the flea	Lashi	flea	0355.33	Leqi (Luxi)	khuk⁵⁵le̱i⁵⁵			1237 952	TBL		232		kʰuk⁵⁵le̱i⁵⁵		kʰ u k ⁵⁵ + l ḛ i ⁵⁵	47130	1764 2414	9419
+#
+1458	209	noun	p - a n ²¹	the flower	Atsi	flower	0377.30	Atsi [Zaiwa] TBL	pan²¹  | 0377.30	flower		296	TBL		239	pan²¹	pan²¹	flower	p a n ²¹	364314	2153	4825
+1462	209	noun	p - a n ³³	the flower	Lashi	flower	0377.33	Leqi (Luxi) TBL	pan³³  | 0377.33	flower		296	TBL		239	pan³³	pan³³	flower	p a n ³³	364317	2153	4764
+#
+6280	3		cʰ - i - ⁵⁵	the foot	Xiandao	foot	0103.29	Achang (Xiandao)	chi⁵⁵	foot		19	TBL		1301		chi⁵⁵		cʰ i ⁵⁵	37770	335	9788
+6420	3		tɕʰ - i - ⁵⁵	the foot	Achang_Longchuan	foot	0103.28	Achang (Longchuan)	tɕhi⁵⁵	foot		19	TBL		1301		ʨʰi⁵⁵		tɕʰ i ⁵⁵	35994	335	2415
+6429	3		kʰ j i - ⁵¹	the foot	Atsi	foot	0103.30	Atsi [Zaiwa]	khji⁵¹	foot		19	TBL		1301		kʰji⁵¹		kʰ j i ⁵¹	41400	335	7397
+6472	3		kʰ j e i ³³	the foot	Lashi	foot	0103.33	Leqi (Luxi)	khjei³³	foot		19	TBL		1301		kʰjei³³		kʰ j e i ³³	46877	335	9399
+6645	3		kʰ j i - ⁵³	the foot	Bola	foot	0103.32	Bola (Luxi)	khji⁵³	foot		19	TBL		1301		kʰji⁵³		kʰ j i ⁵³	45044	335	1066
+#
+6409	78		m j e - ²² + kʰ w e - ⁵⁵	the fox	Rangoon	fox	0325.27	Burmese (Rangoon)	mje²²khwe⁵⁵			40128 216	TBL		1312		mje²²kʰwe⁵⁵		m j e ²² + kʰ w e ⁵⁵	34326	10128 1764	4304
+#
+5604	221	noun	pʰ a ⁵⁵	the frog	Rangoon		0349.27					313	TBL		503	pha⁵⁵	pʰa⁵⁵	frog	pʰ a ⁵⁵	437061	2148	9072
+1555	221	noun	pʰ ɔ ³¹	the frog	Achang_Longchuan	frog	0349.28	Achang (Longchuan) TBL	phɔ³¹  | 0349.28	frog		313	TBL		503	phɔ³¹	phɔ³¹	frog	pʰ ɔ ³¹	437062	2148	8369
+1558	221	noun	p a̰ ³⁵	the frog	Bola	frog	0349.32	Bola (Luxi) TBL	pa̱³⁵  | 0349.32	frog		313	TBL		503	pa̱³⁵	pa̱³⁵	frog	p a̰ ³⁵	437066	2148	1332
+1561	221	noun	p ɑ̰ ⁵⁵	the frog	Lashi	frog	0349.33	Leqi (Luxi) TBL	pɑ̱⁵⁵  | 0349.33	frog		313	TBL		503	pɑ̱⁵⁵	pɑ̱⁵⁵	frog	p ɑ̰ ⁵⁵	437067	2148	12037
+1562	221	noun	p ɔ̰ ³⁵	the frog	Maru	frog	0349.31	Langsu (Luxi) TBL	pɔ̱³⁵  | 0349.31	frog		313	TBL		503	pɔ̱³⁵	pɔ̱³⁵	frog	p ɔ̰ ³⁵	437065	2148	10513
+1563	221	noun	pʰ ă ³¹ + c - a k ³⁵	the frog	Xiandao	frog	0349.29	Achang (Xiandao) TBL	phă³¹ cak³⁵  | 0349.29			313 40075	TBL		503	phă³¹cak³⁵	phă³¹cak³⁵	frog	pʰ ă ³¹ + c a k ³⁵	437063	2148 10075	12935
+1557	221	noun	p ŏ̰ ²¹ + k j ḛ k ⁵⁵	the frog	Atsi	frog	0349.30	Atsi [Zaiwa] TBL	pŏ̱²¹ kje̱k⁵⁵  | 0349.30	frog ?		313 40159	TBL		503	pŏ̱²¹kje̱k⁵⁵	pŏ̱²¹kje̱k⁵⁵	frog	p ŏ̰ ²¹ + k j ḛ k ⁵⁵	437064	2148 10159	10167
+#
+6388	77		ɲ ɔ ʔ ⁵⁵ + s a i - ³⁵	the front (front side)	Xiandao	front	0712.29	Achang (Xiandao)	ɲɔʔ⁵⁵sai³⁵	face front		40069 1248	TBL		2194		ɲɔʔ⁵⁵sai³⁵		ɲ ɔ ʔ ⁵⁵ + s a i ³⁵	38387	10069 1214	1812
+6439	77		x ə i - ³⁵	the front (front side)	Bola	front	0712.32	Bola (Luxi)	xəi³⁵	front		1248	TBL		2194		xəi³⁵		x ə i ³⁵	45670	1214	8122
+6513	77		nʲ ɔ ʔ ⁵⁵ + s i - ʔ ³¹	the front (front side)	Achang_Longchuan	front	0712.28	Achang (Longchuan)	ȵɔʔ⁵⁵siʔ³¹	face front		40007 1248	TBL		2194		ȵɔʔ⁵⁵siʔ³¹		nʲ ɔ ʔ ⁵⁵ + s i ʔ ³¹	36610	10007 1214	8801
+6138	77		x i - - ⁵⁵	the front (front side)	Atsi	front	0712.30	Atsi [Zaiwa]	xi⁵⁵	front		1248	TBL		2194		xi⁵⁵		x i ⁵⁵	42028	1214	4926
+#
+6153	105		ŋ̊ a n ⁵⁵	the frost	Achang_Longchuan	frost	0014.28	Achang (Longchuan)	ŋ̊an⁵⁵	frost		390	TBL		2034		ŋ̊an⁵⁵		ŋ̊ a n ⁵⁵	35905	3565	2693
+6211	105		ŋ a̰ ŋ ³¹	the frost	Maru	frost	0014.31	Langsu (Luxi)	ŋa̱ŋ³¹	dew-frost		390	TBL		2034		ŋa̱ŋ³¹		ŋ a̰ ŋ ³¹	43184	3565	9228
+6297	105		ŋ a̰ n ⁵¹ + pʰ j u ⁵¹	the frost	Atsi	frost	0014.30	Atsi [Zaiwa]	ŋa̱n⁵¹phju⁵¹	cold-thing white		390 40142	TBL		2034		ŋa̱n⁵¹pʰju⁵¹		ŋ a̰ n ⁵¹ + pʰ j u ⁵¹	41310	3565 10142	5109
+6323	105		ŋ ɛ̰̃ ∼ ⁵⁵	the frost	Bola	frost	0014.32	Bola (Luxi)	ŋɛ̱̃⁵⁵	icy-thing		390	TBL		2034		ŋɛ̱̃⁵⁵		ŋ ɛ̰̃ ∼ ⁵⁵	44950	3565	8156
+6486	105		ŋ a̰ n ³³ + pʰ i u ³³	the frost	Lashi	frost	0014.33	Leqi (Luxi)	ŋa̱n³³phiu³³	icy-thing white		390 40086	TBL		2034		ŋa̱n³³pʰiu³³		ŋ a̰ n ³³ + pʰ i u ³³	46788	3565 10086	7008
+6543	105		ŋ̊ a n ⁵⁵	the frost	Xiandao	frost	0014.29	Achang (Xiandao)	ŋ̊an⁵⁵	frost		390	TBL		2034		ŋ̊an⁵⁵		ŋ̊ a n ⁵⁵	37681	3565	6569
+6592	105		n̥ ĩ - ⁵⁵ + kʰ ɛ - ⁵⁵	the frost	Rangoon	frost	0014.27	Burmese (Rangoon)	hnĩ⁵⁵khɛ⁵⁵	frost frozen		390 40107	TBL		2034		hnĩ⁵⁵kʰɛ⁵⁵		n̥ ĩ ∼ ⁵⁵ + kʰ ɛ ⁵⁵	34008	3565 10107	3909
+#
+1571	6	noun	ʃ i ²¹	the fruit	Atsi	fruit	0378.30	Atsi [Zaiwa] TBL	ʃi²¹  | 0378.30	fruit		315	TBL		1507	ʃi²¹	ʃi²¹	fruit	ʃ i ²¹	364365	1019	4985
+1575	6	noun	ʃ ɿ ⁵⁵	the fruit	Lashi	fruit	0378.33	Leqi (Luxi) TBL	ʃɿ⁵⁵  | 0378.33	fruit		315	TBL		1507	ʃɿ⁵⁵	ʃɿ⁵⁵	fruit	ʃ ɿ ⁵⁵	364368	1019	6334
+1576	6	noun	ʃ i ³⁵	the fruit	Maru	fruit	0378.31	Langsu (Luxi) TBL	ʃi³⁵  | 0378.31	fruit		315	TBL		1507	ʃi³⁵	ʃi³⁵	fruit	ʃ i ³⁵	364366	1019	4492
+#
+6205	183		j ɔ̃ ∼ ⁵⁵	the goat	Bola	goat	0276.32	Bola (Luxi)	jɔ̃⁵⁵	goat	Borrowing from Chinese, @lingulist	1313	TBL		1502		jɔ̃⁵⁵		j ɔ̃ ∼ ⁵⁵	45221	6028	1018
+6379	182		sʰ e ʔ ⁴	the goat	Rangoon	goat	0276.27	Burmese (Rangoon)	sheʔ⁴			1316	TBL		1502		sheʔ⁴		sʰ e ʔ ⁴	34276	1226	9135
+#
+5651	228	noun	m j ɛ ʔ ⁴	the grass	Rangoon		0436.27					1064	TBL		606	mjɛʔ⁴	mjɛʔ⁴	grass	m j ɛ ʔ ⁴	367343	2460	8231
+1667	230	noun	s a ⁵⁵	the grass	Achang_Longchuan	grass 2	0436.28	Achang (Longchuan) TBL	sa⁵⁵  | 0436.28	grass		333	TBL		606	sa⁵⁵	sa⁵⁵	grass	s a ⁵⁵	367344	5642	8410
+1677	230	noun	s a ⁵⁵	the grass	Xiandao	grass 2	0436.29	Achang (Xiandao) TBL	sa⁵⁵  | 0436.29	grass		333	TBL		606	sa⁵⁵	sa⁵⁵	grass	s a ⁵⁵	367345	5642	571
+#
+5326	144	noun	sʰ ɑ̃ ∼ ²² + p ĩ ∼ ²²	the hair (of the head)	Rangoon		0075.27					339 40119	TBL		1040	shɑ̃²²pĩ²²	shɑ̃²²pĩ²²	hair	sʰ ɑ̃ ∼ ²² + p ĩ ∼ ²²	348864	366 10119	3326
+1714	1173	noun	u ³¹ + m - u i - ³¹	the hair (of the head)	Achang_Longchuan	hair n	0075.28	Achang (Longchuan) TBL	u³¹ mui³¹  | 0075.28	head hair		338 273	TBL		1040	u³¹mui³¹	u³¹mui³¹	hair	u ³¹ + m u i ³¹	348865	385 363	2558
+1717	144	noun	u ²¹ + tsʰ a m ⁵¹	the hair (of the head)	Atsi	hair n	0075.30	Atsi [Zaiwa] TBL	u²¹ tsham⁵¹  | 0075.30	head head-hair		338 339	TBL		1040	u²¹tsham⁵¹	u²¹tsham⁵¹	hair	u ²¹ + tsʰ a m ⁵¹	348867	385 366	5009
+1718	144	noun	tsʰ ɛ̃ ∼ ⁵⁵	the hair (of the head)	Bola	hair n	0075.32	Bola (Luxi) TBL	tshɛ̃⁵⁵  | 0075.32	head-hair		339	TBL		1040	tshɛ̃⁵⁵	tshɛ̃⁵⁵	hair	tsʰ ɛ̃ ∼ ⁵⁵	348869	366	1494
+1720	144	noun	tsʰ a m ³³	the hair (of the head)	Lashi	hair n	0075.33	Leqi (Luxi) TBL	tsham³³  | 0075.33	head-hair		339	TBL		1040	tsham³³	tsham³³	hair	tsʰ a m ³³	348870	366	6710
+1722	144	noun	tsʰ ɛ̃ ∼ ³¹	the hair (of the head)	Maru	hair n	0075.31	Langsu (Luxi) TBL	tshɛ̃³¹  | 0075.31	hair		339	TBL		1040	tshɛ̃³¹	tshɛ̃³¹	hair	tsʰ ɛ̃ ∼ ³¹	348868	366	10601
+1724	1174	noun	u ³¹	the hair (of the head)	Xiandao	hair n	0075.29	Achang (Xiandao) TBL	u³¹  | 0075.29	egg-head	I suspect something is wrong or missing here	338	TBL		1040	u³¹	u³¹	hair	u ³¹	348866	385	907
+#
+5627	238	noun	l ɛ ʔ ⁴	the hand	Rangoon		0107.27					1068	TBL		1277	lɛʔ⁴	lɛʔ⁴	hand	l ɛ ʔ ⁴	350515	695	4212
+1746	238	noun	l a ʔ ³¹	the hand	Bola	hand	0107.32	Bola (Luxi) TBL	laʔ³¹  | 0107.32	hand		1068	TBL		1277	laʔ³¹	laʔ³¹	hand	l a ʔ ³¹	350520	695	1127
+1752	238	noun	l ɔ ʔ ³¹	the hand	Maru	hand	0107.31	Langsu (Luxi) TBL	lɔʔ³¹  | 0107.31	hand		1068	TBL		1277	lɔʔ³¹	lɔʔ³¹	hand	l ɔ ʔ ³¹	350519	695	10278
+1754	238	noun	l ɔ ʔ ⁵⁵ + n̥ a u ³¹	the hand	Xiandao	hand	0107.29	Achang (Xiandao) TBL	lɔʔ⁵⁵ n̥au³¹  | 0107.29	hand hand-2		1068 40076	TBL		1277	lɔʔ⁵⁵n̥au³¹	lɔʔ⁵⁵n̥au³¹	hand	l ɔ ʔ ⁵⁵ + n̥ a u ³¹	350517	695 10076	9927
+#
+1773	1175	noun	n i ³¹ + k u a ŋ ³¹	the head	Achang_Longchuan	head n	0074.28	Achang (Longchuan) TBL	ni³¹ kuaŋ³¹  | 0074.28	head1 head2		40009 350	TBL		1256	ni³¹kuaŋ³¹	ni³¹kuaŋ³¹	head	n i ³¹ + k u a ŋ ³¹	348809	10009 387	8273
+1776	1176	noun	- u - ²¹ + l ṵ m ²¹	the head	Atsi	head n	0074.30	Atsi [Zaiwa] TBL	u²¹ lu̱m²¹  | 0074.30	head round		348 349	TBL		1256	u²¹lu̱m²¹	u²¹lu̱m²¹	head	u ²¹ + l ṵ m ²¹	348811	385 690	5005
+1778	1176	noun	- ṵ - ³⁵ + l a m ³¹	the head	Bola	head n	0074.32	Bola (Luxi) TBL	u̱³⁵ lam³¹  | 0074.32	egg round-1		348 40033	TBL		1256	u̱³⁵lam³¹	u̱³⁵lam³¹	head	ṵ ³⁵ + l a m ³¹	348813	385 10033	8086
+1782	1176	noun	w o̰ - ⁵⁵ + l ɔ̰ m ⁵³	the head	Lashi	head n	0074.33	Leqi (Luxi) TBL	wo̱⁵⁵ lɔ̱m⁵³  | 0074.33			348 349	TBL		1256	wo̱⁵⁵lɔ̱m⁵³	wo̱⁵⁵lɔ̱m⁵³	head	w o̰ ⁵⁵ + l ɔ̰ m ⁵³	348814	385 690	6960
+1784	1176	noun	- a u ³⁵ + l a m ³⁵	the head	Maru	head n	0074.31	Langsu (Luxi) TBL	au³⁵ lam³⁵  | 0074.31	head round		348 349	TBL		1256	au³⁵lam³⁵	au³⁵lam³⁵	head	a u ³⁵ + l a m ³⁵	348812	385 690	426
+1787	1175	noun	- u - ³¹ + k ɔ - ŋ ³¹	the head	Xiandao	head n	0074.29	Achang (Xiandao) TBL	u³¹ kɔŋ³¹  | 0074.29	egg-head round-thing		348 350	TBL		1256	u³¹kɔŋ³¹	u³¹kɔŋ³¹	head	u ³¹ + k ɔ ŋ ³¹	348810	385 387	910
+#
+5665	246	noun	n̥ ɑ - ⁵³ + l õ - ⁵⁵	the heart	Rangoon		0144.27					353 354	TBL		1223	hnɑ⁵³lõ⁵⁵	hnɑ⁵³lõ⁵⁵	heart	n̥ ɑ ⁵³ + l õ ∼ ⁵⁵	352411	1385 1381	3912
+1819	246	noun	n̥ʲ a - ⁵⁵ + l u m ³¹	the heart	Achang_Longchuan	heart n	0144.28	Achang (Longchuan) TBL	ȵ̥a⁵⁵ lum³¹  | 0144.28	heart round		353 354	TBL		1223	ȵ̥a⁵⁵lum³¹	ȵ̥a⁵⁵lum³¹	heart	n̥ʲ a ⁵⁵ + l u m ³¹	352412	251 1381	9663
+1822	246	noun	n ḭ k ⁵⁵ + l ṵ m ²¹	the heart	Atsi	heart n	0144.30	Atsi [Zaiwa] TBL	ni̱k⁵⁵ lu̱m²¹  | 0144.30	heart round		353 354	TBL		1223	ni̱k⁵⁵lu̱m²¹	ni̱k⁵⁵lu̱m²¹	heart	n ḭ k ⁵⁵ + l ṵ m ²¹	352414	1385 1381	10064
+1825	246	noun	n a̰ k ⁵⁵ + l a m ³¹	the heart	Bola	heart n	0144.32	Bola (Luxi) TBL	na̱k⁵⁵ lam³¹  | 0144.32	heart round-1		353 354	TBL		1223	na̱k⁵⁵lam³¹	na̱k⁵⁵lam³¹	heart	n a̰ k ⁵⁵ + l a m ³¹	352416	1385 1381	1268
+1830	246	noun	n ə̰ k ⁵⁵ + l ɔ m ³³	the heart	Lashi	heart n	0144.33	Leqi (Luxi) TBL	nə̱k⁵⁵ lɔm³³  | 0144.33	heart round		353 354	TBL		1223	nə̱k⁵⁵lɔm³³	nə̱k⁵⁵lɔm³³	heart	n ə̰ k ⁵⁵ + l ɔ m ³³	352417	1385 1381	11968
+1833	246	noun	n a̰ k ⁵⁵ + l a m ³⁵	the heart	Maru	heart n	0144.31	Langsu (Luxi) TBL	na̱k⁵⁵ lam³⁵  | 0144.31	heart round		353 354	TBL		1223	na̱k⁵⁵lam³⁵	na̱k⁵⁵lam³⁵	heart	n a̰ k ⁵⁵ + l a m ³⁵	352415	1385 1381	10387
+1836	246	noun	n̥ ɔ ʔ ³¹ + l u m ³¹	the heart	Xiandao	heart n	0144.29	Achang (Xiandao) TBL	n̥ɔʔ³¹ lum³¹  | 0144.29	heart round		353 354	TBL		1223	n̥ɔʔ³¹lum³¹	n̥ɔʔ³¹lum³¹	heart	n̥ ɔ ʔ ³¹ + l u m ³¹	352413	1385 1381	12881
+#
+6199	83		kʰ j i - ⁵⁵ + s a ŋ ³⁵	the hoof	Bola	hoof	0264.32	Bola (Luxi)	khji⁵⁵saŋ³⁵	foot hoof		19 40030	TBL		152		kʰji⁵⁵saŋ³⁵		kʰ j i ⁵⁵ + s a ŋ ³⁵	45209	335 10030	1070
+6372	81		kʰ w ɑ ²²	the hoof	Rangoon	hoof	0264.27	Burmese (Rangoon)	khwɑ²²			33	TBL		152		kʰwɑ²²		kʰ w ɑ ²²	34264	417	4048
+6389	83		kʰ j e i ³³ + s ə ŋ ⁵⁵	the hoof	Lashi	hoof	0264.33	Leqi (Luxi)	khjei³³səŋ⁵⁵	foot nail		19 40092	TBL		152		kʰjei³³səŋ⁵⁵		kʰ j e i ³³ + s ə ŋ ⁵⁵	47038	335 10092	9402
+6405	83		kʰ j u k ⁵⁵ + s a ŋ ³⁵	the hoof	Maru	hoof	0264.31	Langsu (Luxi)	khjuk⁵⁵saŋ³⁵	foot nail		19 40051	TBL		152		kʰjuk⁵⁵saŋ³⁵		kʰ j u k ⁵⁵ + s a ŋ ³⁵	43437	335 10051	10218
+6433	83		kʰ j i - ⁵¹ + s i ŋ ²¹	the hoof	Atsi	hoof	0264.30	Atsi [Zaiwa]	khji⁵¹siŋ²¹	foot nail		19 40153	TBL		152		kʰji⁵¹siŋ²¹		kʰ j i ⁵¹ + s i ŋ ²¹	41565	335 10153	7402
+#
+1986	1183	noun	kʰ j u - ⁵⁵	the horn (keratinized skin)	Bola	horn	0263.32	Bola (Luxi) TBL	khju⁵⁵  | 0263.32	horn		381	TBL		1393	khju⁵⁵	khju⁵⁵	horn	kʰ j u ⁵⁵	358739	819	1074
+#
+5466	249	noun	m j ĩ - ⁵⁵	the horse	Rangoon		0268.27					382	TBL		615	mjĩ⁵⁵	mjĩ⁵⁵	horse	m j ĩ ⁵⁵	359004	1431	4313
+1996	249	noun	m̥ ʐ a ŋ ³¹	the horse	Achang_Longchuan	horse	0268.28	Achang (Longchuan) TBL	m̥ʐaŋ³¹  | 0268.28 | cf. 0761.28	horse		382	TBL		615	m̥ʐaŋ³¹	m̥ʐaŋ³¹	horse	m̥ ʐ a ŋ ³¹	359005	1431	5811
+1998	249	noun	m j a ŋ ²¹	the horse	Atsi	horse	0268.30	Atsi [Zaiwa] TBL	mjaŋ²¹  | 0268.30  | cf. 0761.30	horse		382	TBL		615	mjaŋ²¹	mjaŋ²¹	horse	m j a ŋ ²¹	359007	1431	9989
+1999	249	noun	m j ɔ̃ ∼ ³¹	the horse	Bola	horse	0268.32	Bola (Luxi) TBL	mjɔ̃³¹  | 0268.32 | cf. 0761.32	horse		382	TBL		615	mjɔ̃³¹	mjɔ̃³¹	horse	m j ɔ̃ ∼ ³¹	359009	1431	1210
+2002	249	noun	m j a ŋ ³³	the horse	Lashi	horse	0268.33	Leqi (Luxi) TBL	mjaŋ³³  | 0268.33 | 0761.33			382	TBL		615	mjaŋ³³	mjaŋ³³	horse	m j a ŋ ³³	359010	1431	9545
+2003	249	noun	m j ɔ̃ ∼ ³⁵	the horse	Maru	horse	0268.31	Langsu (Luxi) TBL	mjɔ̃³⁵  | 0268.31 | cf. 0761.31			382	TBL		615	mjɔ̃³⁵	mjɔ̃³⁵	horse	m j ɔ̃ ∼ ³⁵	359008	1431	10345
+#
+2012	251	noun	j ṵ m ⁵¹	the house	Atsi	house n	0494.30	Atsi [Zaiwa] TBL	ju̱m⁵¹  | 0494.30	house		383	TBL		1252	ju̱m⁵¹	ju̱m⁵¹	house	j ṵ m ⁵¹	370349	1612	7285
+2013	251	noun	j a̰ m ⁵⁵	the house	Bola	house n	0494.32	Bola (Luxi) TBL	ja̱m⁵⁵  | 0494.32	house		383	TBL		1252	ja̱m⁵⁵	ja̱m⁵⁵	house	j a̰ m ⁵⁵	370351	1612	6482
+5662	251	noun	- ẽ - ²²	the house	Rangoon		0494.27					383	TBL		1252	ẽ²²	ẽ²²	house	ẽ ∼ ²²	370346	1612	3877
+2010	251	noun	- i n ⁵⁵	the house	Achang_Longchuan	house n	0494.28	Achang (Longchuan) TBL	in⁵⁵  | 0494.28	house		383	TBL		1252	in⁵⁵	in⁵⁵	house	i n ⁵⁵	370347	1612	5408
+2016	251	noun	j ɔ̰ m ³³	the house	Lashi	house n	0494.33	Leqi (Luxi) TBL	jɔ̱m³³  | 0494.33	house		383	TBL		1252	jɔ̱m³³	jɔ̱m³³	house	j ɔ̰ m ³³	370352	1612	9377
+2017	251	noun	j a̰ m ³¹	the house	Maru	house n	0494.31	Langsu (Luxi) TBL	ja̱m³¹  | 0494.31	house		383	TBL		1252	ja̱m³¹	ja̱m³¹	house	j a̰ m ³¹	370350	1612	485
+2018	251	noun	- i n ⁵⁵	the house	Xiandao	house n	0494.29	Achang (Xiandao) TBL	in⁵⁵  | 0494.29	house		383	TBL		1252	in⁵⁵	in⁵⁵	house	i n ⁵⁵	370348	1612	9834
+#
+2092	255	noun	ŋ a̰ n ⁵¹ + tʰ u ŋ ²¹	the ice	Atsi	ice n	0017.30	Atsi [Zaiwa] TBL	ŋa̱n⁵¹ thuŋ²¹  | 0017.30	cold-thing ?		1088 40158	TBL		617	ŋa̱n⁵¹thuŋ²¹	ŋa̱n⁵¹thuŋ²¹	ice	ŋ a̰ n ⁵¹ + tʰ u ŋ ²¹	345845	3565 10158	5110
+2096	255	noun	ŋ a̰ n ³³	the ice	Lashi	ice n	0017.33	Leqi (Luxi) TBL	ŋa̱n³³  | 0017.33	icy-thing		1088	TBL		617	ŋa̱n³³	ŋa̱n³³	ice	ŋ a̰ n ³³	345848	3565	7007
+2094	255	noun	ŋ ɛ̰̃ ∼ ⁵⁵	the ice	Bola	ice n	0017.32	Bola (Luxi) TBL	ŋɛ̱̃⁵⁵  | 0017.32	icy-thing		1088	TBL		617	ŋɛ̱̃⁵⁵	ŋɛ̱̃⁵⁵	ice	ŋ ɛ̰̃ ∼ ⁵⁵	345847	3565	8158
+5254	259	noun	j e ²² + kʰ ɛ - ⁵⁵	the ice	Rangoon		0017.27			water frozen		1090 40125	TBL		617	je²²khɛ⁵⁵	je²²kʰɛ⁵⁵	ice	j e ²² + kʰ ɛ ⁵⁵	345842	3565 10125	3935
+#
+2197	269	noun	tɕʰ - i - ⁵⁵ + nʲ ɔ ʔ ⁵⁵	the knee	Achang_Longchuan	knee n	0101.28	Achang (Longchuan) TBL	tɕhi⁵⁵ ȵɔʔ⁵⁵  | 0101.28	foot knee		40006 1094	TBL		1371	tɕhi⁵⁵ȵɔʔ⁵⁵	tɕhi⁵⁵ȵɔʔ⁵⁵	knee	tɕʰ i ⁵⁵ + nʲ ɔ ʔ ⁵⁵	350211	10006 681	2424
+2202	269	noun	p ɔ̰ t ⁵⁵ + l a u ʔ ⁵⁵	the knee	Bola	knee n	0101.32	Bola (Luxi) TBL	pɔ̱t⁵⁵ lauʔ⁵⁵  | 0101.32	knee-1 knee-2		405 40029	TBL		1371	pɔ̱t⁵⁵lauʔ⁵⁵	pɔ̱t⁵⁵lauʔ⁵⁵	knee	p ɔ̰ t ⁵⁵ + l a u ʔ ⁵⁵	350215	436 10029	1395
+2205	269	noun	p ɔ̰ t ⁵³ + l u - ʔ ³¹	the knee	Lashi	knee n	0101.33	Leqi (Luxi) TBL	pɔ̱t⁵³ luʔ³¹  | 0101.33	knee-1 knee-2		405 40091	TBL		1371	pɔ̱t⁵³luʔ³¹	pɔ̱t⁵³luʔ³¹	knee	p ɔ̰ t ⁵³ + l u ʔ ³¹	350216	436 10091	12032
+2209	269	noun	pʰ ɔ ʔ ³¹ + ʈʂʰ ɯ k ⁵⁵	the knee	Xiandao	knee n	0101.29	Achang (Xiandao) TBL	phɔʔ³¹ tʂhɯk⁵⁵  | 0101.29	knee joint		405 1095	TBL		1371	phɔʔ³¹tʂhɯk⁵⁵	phɔʔ³¹tʂhɯk⁵⁵	knee	pʰ ɔ ʔ ³¹ + ʈʂʰ ɯ k ⁵⁵	350212	436 418	12951
+2200	269	noun	kʰ j i - ⁵¹ + pʰ u t ⁵⁵	the knee	Atsi	knee n	0101.30	Atsi [Zaiwa] TBL	khji⁵¹ phut⁵⁵  | 0101.30	foot knee		40152 405	TBL		1371	khji⁵¹phut⁵⁵	khji⁵¹phut⁵⁵	knee	kʰ j i ⁵¹ + pʰ u t ⁵⁵	350213	10152 436	7399
+2207	269	noun	p a̰ t ⁵⁵ + l a u k ³¹	the knee	Maru	knee n	0101.31	Langsu (Luxi) TBL	pa̱t⁵⁵ lauk³¹  | 0101.31			405 40050	TBL		1371	pa̱t⁵⁵lauk³¹	pa̱t⁵⁵lauk³¹	knee	p a̰ t ⁵⁵ + l a u k ³¹	350214	436 10050	10461
+5489	8	noun	d u ⁵⁵	the knee	Rangoon		0101.27					404	TBL		1371	du⁵⁵	du⁵⁵	knee	d u ⁵⁵	350210	306	3857
+#
+8400	0		a ³¹ + xʐ o ʔ ⁵⁵	the leaf	Xiandao		0376.29	Achang (Xiandao)		a-prefix leaf		40077 415		leaf	2250	a³¹xʐoʔ⁵⁵	a³¹◦xʐoʔ⁵⁵		a ³¹ + xʐ o ʔ ⁵⁵	364257	10077 2085	9762
+2266	274	noun	a ³¹ + x ʐ o ʔ ⁵⁵	the leaf	Achang_Longchuan	leaf	0376.28	Achang (Longchuan) TBL	a³¹ xʐoʔ⁵⁵  | 0376.28	a-prefix leaf		40013 415	TBL		2250	a³¹xʐoʔ⁵⁵	a³¹xʐoʔ⁵⁵	leaf	a ³¹ + x ʐ o ʔ ⁵⁵	364256	10013 2085	5375
+2268	274	noun	a ²¹ + x - a ʔ ⁵⁵	the leaf	Atsi	leaf	0376.30	Atsi [Zaiwa] TBL	a²¹ xaʔ⁵⁵  | 0376.30	a-prefix leaf		40160 415	TBL		2250	a²¹xaʔ⁵⁵	a²¹xaʔ⁵⁵	leaf	a ²¹ + x a ʔ ⁵⁵	364258	10160 2085	7187
+2275	274	noun	a ³¹ + x ʐ o ʔ ⁵⁵	the leaf	Xiandao	leaf	0376.29	Achang (Xiandao) TBL	a³¹ xʐoʔ⁵⁵  | 0376.29	a-prefix leaf		40078 415	TBL		2250	a³¹xʐoʔ⁵⁵	a³¹xʐoʔ⁵⁵	leaf	a ³¹ + x ʐ o ʔ ⁵⁵	364257	10078 2085	9762
+8563	0		a ²¹ + x a ʔ ⁵⁵	the leaf	Atsi		0376.30	Atsi [Zaiwa]		a-prefix leaf		40161 415		leaf	2250	a²¹xaʔ⁵⁵	a²¹◦xaʔ⁵⁵		a ²¹ + x a ʔ ⁵⁵	364258	10161 2085	7187
+8236	0		a ³¹ + xʐ o ʔ ⁵⁵	the leaf	Achang_Longchuan		0376.28	Achang (Longchuan)		a-prefix leaf		40012 415		leaf	2250	a³¹xʐoʔ⁵⁵	a³¹◦xʐoʔ⁵⁵		a ³¹ + xʐ o ʔ ⁵⁵	364256	10012 2085	5375
+#
+6189	170		n̥ʲ o - t ⁵⁵ + t u ŋ ⁵⁵	the lip (the lips)	Achang_Longchuan	lip	0085.28	Achang (Longchuan)	ȵ̥ot⁵⁵tuŋ⁵⁵	mouth wing		480 1305	TBL		478		ȵ̥ot⁵⁵tuŋ⁵⁵		n̥ʲ o t ⁵⁵ + t u ŋ ⁵⁵	35976	471 785	9670
+6266	167		n̥ o - ʔ ⁴ + kʰ - ɑ̃ ∼ - ⁵⁵	the lip (the lips)	Rangoon	lip	0085.27	Burmese (Rangoon)	n̥oʔ⁴khɑ̃⁵⁵	mouth ?		480 1009	TBL		478		n̥oʔ⁴kʰɑ̃⁵⁵		n̥ o ʔ ⁴ + kʰ ɑ̃ ∼ ⁵⁵	34080	471 586	9057
+6367	168		n a̰ - t ⁵⁵ + k a̰ u k ⁵⁵	the lip (the lips)	Maru	lip	0085.31	Langsu (Luxi)	na̱t⁵⁵ka̱uk⁵⁵	mouth skin?		480 937	TBL		478		na̱t⁵⁵ka̱uk⁵⁵		n a̰ t ⁵⁵ + k a̰ u k ⁵⁵	43256	471 586	10390
+6519	168		n u a̰ t ⁵⁵ + k ṵ - k ⁵⁵	the lip (the lips)	Lashi	lip	0085.33	Leqi (Luxi)	nua̱t⁵⁵ku̱k⁵⁵	mouth skin		480 937	TBL		478		nua̱t⁵⁵ku̱k⁵⁵		n u a̰ t ⁵⁵ + k ṵ k ⁵⁵	46859	471 586	9628
+6577	172		n̥ u - t ⁵⁵ + ʐ ɿ ⁵⁵	the lip (the lips)	Xiandao	lip	0085.29	Achang (Xiandao)	n̥ut⁵⁵ʐɿ⁵⁵	mouth skin		480 936	TBL		478		n̥ut⁵⁵ʐɿ⁵⁵		n̥ u t ⁵⁵ + ʐ ɿ ⁵⁵	37752	471 596	12880
+6636	168		n ɔ̰ - t ⁵⁵ + k a̰ u ʔ ⁵⁵	the lip (the lips)	Bola	lip	0085.32	Bola (Luxi)	nɔ̱t⁵⁵ka̱uʔ⁵⁵	mouth skin		480 937	TBL		478		nɔ̱t⁵⁵ka̱uʔ⁵⁵		n ɔ̰ t ⁵⁵ + k a̰ u ʔ ⁵⁵	45026	471 586	1292
+6341	168		n ṵ - t ⁵⁵ + k ṵ ʔ - ⁵⁵	the lip (the lips)	Atsi	lip	0085.30	Atsi [Zaiwa]	nu̱t⁵⁵ku̱ʔ⁵⁵	mouth skin		480 937	TBL		478		nu̱t⁵⁵ku̱ʔ⁵⁵		n ṵ t ⁵⁵ + k ṵ ʔ ⁵⁵	41382	471 586	10098
+#
+2420	296	noun	a ³¹ + ʂ ə ŋ ³¹	the liver	Achang_Longchuan	liver nbp	0145.28	Achang (Longchuan) TBL	a³¹ ʂəŋ³¹  | 0145.28	a-prefix liver		40001 442	TBL		1224	a³¹ʂəŋ³¹	a³¹ʂəŋ³¹	liver	a ³¹ + ʂ ə ŋ ³¹	352463	10001 1390	5384
+2426	296	noun	s a ŋ ³⁵	the liver	Bola	liver nbp	0145.32	Bola (Luxi) TBL	saŋ³⁵  | 0145.32	liver		442	TBL		1224	saŋ³⁵	saŋ³⁵	liver	s a ŋ ³⁵	352467	1390	1422
+2431	296	noun	s ə ŋ ⁵⁵	the liver	Lashi	liver nbp	0145.33	Leqi (Luxi) TBL	səŋ⁵⁵  | 0145.33	liver		442	TBL		1224	səŋ⁵⁵	səŋ⁵⁵	liver	s ə ŋ ⁵⁵	352468	1390	12050
+2434	296	noun	s a ŋ ³⁵	the liver	Maru	liver nbp	0145.31	Langsu (Luxi) TBL	saŋ³⁵  | 0145.31	liver		442	TBL		1224	saŋ³⁵	saŋ³⁵	liver	s a ŋ ³⁵	352466	1390	10534
+2436	296	noun	a ³¹ + ʂ ɯ ŋ ³¹	the liver	Xiandao	liver nbp	0145.29	Achang (Xiandao) TBL	a³¹ ʂɯŋ³¹  | 0145.29	a-prefix liver		40060 442	TBL		1224	a³¹ʂɯŋ³¹	a³¹ʂɯŋ³¹	liver	a ³¹ + ʂ ɯ ŋ ³¹	352464	10060 1390	9767
+2423	296	noun	s i ŋ ²¹	the liver	Atsi	liver nbp	0145.30	Atsi [Zaiwa] TBL	siŋ²¹  | 0145.30	liver		442	TBL		1224	siŋ²¹	siŋ²¹	liver	s i ŋ ²¹	352465	1390	2790
+5610	296	noun	ɑ ⁵³ + tθ ɛ - ⁵⁵	the liver	Rangoon		0145.27					40108 442	TBL		1224	ɑ⁵³tθɛ⁵⁵	ɑ⁵³tθɛ⁵⁵	liver	ɑ ⁵³ + tθ ɛ ⁵⁵	352462	10108 1390	6108
+#
+2468	299	noun	ʂ a n ³¹	the louse	Achang_Longchuan	louse n	0356.28	Achang (Longchuan) TBL	ʂan³¹  | 0356.28	louse		1107	TBL		1392	ʂan³¹	ʂan³¹	louse	ʂ a n ³¹	363228	2652	9681
+2471	299	noun	ʃ i n ²¹	the louse	Atsi	louse n	0356.30	Atsi [Zaiwa] TBL	ʃin²¹  | 0356.30	louse		1107	TBL		1392	ʃin²¹	ʃin²¹	louse	ʃ i n ²¹	363230	2652	5172
+2473	299	noun	ʃ ɔ n ³⁵	the louse	Bola	louse n	0356.32	Bola (Luxi) TBL	ʃɔn³⁵  | 0356.32	louse		1107	TBL		1392	ʃɔn³⁵	ʃɔn³⁵	louse	ʃ ɔ n ³⁵	363232	2652	8207
+2475	299	noun	ʃ ɛ̰ n ⁵⁵	the louse	Lashi	louse n	0356.33	Leqi (Luxi) TBL	ʃɛ̱n⁵⁵  | 0356.33	louse		1107	TBL		1392	ʃɛ̱n⁵⁵	ʃɛ̱n⁵⁵	louse	ʃ ɛ̰ n ⁵⁵	363233	2652	6326
+2478	299	noun	ʂ a n ³¹	the louse	Xiandao	louse n	0356.29	Achang (Xiandao) TBL	ʂan³¹  | 0356.29	louse		1107	TBL		1392	ʂan³¹	ʂan³¹	louse	ʂ a n ³¹	363229	2652	6614
+2476	299	noun	ʃ i ŋ ³⁵	the louse	Maru	louse n	0356.31	Langsu (Luxi) TBL	ʃiŋ³⁵  | 0356.31	louse		1107	TBL		1392	ʃiŋ³⁵	ʃiŋ³⁵	louse	ʃ i ŋ ³⁵	363231	2652	9282
+5280	299	noun	tθ ɑ̃ ∼ ⁵⁵	the louse	Rangoon		0356.27					1107	TBL		1392	tθɑ̃⁵⁵	tθɑ̃⁵⁵	louse	tθ ɑ̃ ∼ ⁵⁵	363227	2652	5837
+#
+2534	307	noun	ʂ u a ³¹	the meat	Achang_Longchuan	meat n	0443.28	Achang (Longchuan) TBL	ʂua³¹  | 0443.28	meat	bad concept	1109	TBL		634	ʂua³¹	ʂua³¹	meat	ʂ u a ³¹	367712	34	9684
+2535	307	noun	ʃ - o ²¹	the meat	Atsi	meat n	0443.30	Atsi [Zaiwa] TBL	ʃo²¹  | 0443.30	meat	bad concept	1109	TBL		634	ʃo²¹	ʃo²¹	meat	ʃ o ²¹	367714	34	5189
+2536	307	noun	ʃ - a ³⁵	the meat	Bola	meat n	0443.32	Bola (Luxi) TBL	ʃa³⁵  | 0443.32	meat	bad concept	1109	TBL		634	ʃa³⁵	ʃa³⁵	meat	ʃ a ³⁵	367716	34	8189
+2537	307	noun	ʃ - o ⁵⁵	the meat	Lashi	meat n	0443.33	Leqi (Luxi) TBL	ʃo⁵⁵  | 0443.33	meat	bad concept	1109	TBL		634	ʃo⁵⁵	ʃo⁵⁵	meat	ʃ o ⁵⁵	367717	34	7104
+2538	307	noun	ʃ - ɔ ³⁵	the meat	Maru	meat n	0443.31	Langsu (Luxi) TBL	ʃɔ³⁵  | 0443.31	meat	bad concept	1109	TBL		634	ʃɔ³⁵	ʃɔ³⁵	meat	ʃ ɔ ³⁵	367715	34	9292
+2539	307	noun	ʂ - ɔ ³¹	the meat	Xiandao	meat n	0443.29	Achang (Xiandao) TBL	ʂɔ³¹  | 0443.29	meat	bad concept	1109	TBL		634	ʂɔ³¹	ʂɔ³¹	meat	ʂ ɔ ³¹	367713	34	6626
+5457	307	noun	ɑ ⁵³ + tθ - ɑ ⁵⁵	the meat	Rangoon		0443.27					40126 1109	TBL		634	ɑ⁵³tθɑ⁵⁵	ɑ⁵³tθɑ⁵⁵	meat	ɑ ⁵³ + tθ ɑ ⁵⁵	367711	10126 34	6110
+#
+2602	319	noun	pʰ ă - ³¹ + l ɔ ʔ ³¹	the moon	Achang_Longchuan	moon	0004.28	Achang (Longchuan) TBL	phă³¹ lɔʔ³¹  | 0004.28	moon-1 moon-2		40008 465	TBL		1313	phă³¹lɔʔ³¹	phă³¹lɔʔ³¹	moon	pʰ ă ³¹ + l ɔ ʔ ³¹	345172	10008 1016	8349
+2609	319	noun	l o̰ - ⁵³	the moon	Lashi	moon	0004.33	Leqi (Luxi) TBL	lo̱⁵³  | 0004.33	moon		465	TBL		1313	lo̱⁵³	lo̱⁵³	moon	l o̰ ⁵³	345177	1016	9492
+2610	319	noun	l ɔ̰ - ⁵⁵	the moon	Maru	moon	0004.31	Langsu (Luxi) TBL	lɔ̱⁵⁵  | 0004.31			465	TBL		1313	lɔ̱⁵⁵	lɔ̱⁵⁵	moon	l ɔ̰ ⁵⁵	345175	1016	10294
+2611	319	noun	p a u ⁵⁵ + l̥ ɔ - ³¹	the moon	Xiandao	moon	0004.29	Achang (Xiandao) TBL	pau⁵⁵ l̥ɔ³¹  | 0004.29	moon		40070 465	TBL		1313	pau⁵⁵l̥ɔ³¹	pau⁵⁵l̥ɔ³¹	moon	p a u ⁵⁵ + l̥ ɔ ³¹	345173	10070 1016	12920
+5548	319	noun	l ɑ - ⁵³	the moon	Rangoon		0004.27					465	TBL		1313	lɑ⁵³	lɑ⁵³	moon	l ɑ ⁵³	345171	1016	4260
+#
+6161	65		k j ɔ̰̃ ∼ ³¹	the mosquito	Maru	mosquito	0360.31	Langsu (Luxi)	kjɔ̱̃³¹			959	TBL		1509		kjɔ̱̃³¹		k j ɔ̰̃ ∼ ³¹	43533	2328	10242
+6247	65		k j ɔ̰̃ ∼ ⁵⁵	the mosquito	Bola	mosquito	0360.32	Bola (Luxi)	kjɔ̱̃⁵⁵	mosquito		959	TBL		1509		kjɔ̱̃⁵⁵		k j ɔ̰̃ ∼ ⁵⁵	45305	2328	1098
+6296	65		tɕʰ - ĩ - ²²	the mosquito	Rangoon	mosquito	0360.27	Burmese (Rangoon)	tɕhĩ²²			959	TBL		1509		ʨʰĩ²²		tɕʰ ĩ ∼ ²²	34362	2328	3618
+6482	65		k j a̰ ŋ ⁵¹	the mosquito	Atsi	mosquito	0360.30	Atsi [Zaiwa]	kja̱ŋ⁵¹	mosquito		959	TBL		1509		kja̱ŋ⁵¹		k j a̰ ŋ ⁵¹	41663	2328	7455
+6564	65		c a ŋ ³¹ + kʰ ʐ a ŋ ⁵⁵	the mosquito	Xiandao	mosquito	0360.29	Achang (Xiandao)	caŋ³¹khʐaŋ⁵⁵			40071 959	TBL		1509		caŋ³¹kʰʐaŋ⁵⁵		c a ŋ ³¹ + kʰ ʐ a ŋ ⁵⁵	38031	10071 2328	9779
+6132	65		k j a̰ ŋ ³³	the mosquito	Lashi	mosquito	0360.33	Leqi (Luxi)	kja̱ŋ³³	mosquito		959	TBL		1509		kja̱ŋ³³		k j a̰ ŋ ³³	47135	2328	9433
+#
+2641	325	noun	p u m ⁵⁵	the mountain	Achang_Longchuan	hill / mountain n	0023.28	Achang (Longchuan) TBL	pum⁵⁵  | 0023.28	mountain		1111	TBL		639	pum⁵⁵	pum⁵⁵	hill / mountain	p u m ⁵⁵	346152	163	8387
+2644	325	noun	p u m ⁵¹	the mountain	Atsi	hill / mountain n	0023.30	Atsi [Zaiwa] TBL	pum⁵¹  | 0023.30	mountain		1111	TBL		639	pum⁵¹	pum⁵¹	hill / mountain	p u m ⁵¹	346154	163	2719
+2646	325	noun	p a m ⁵⁵	the mountain	Bola	hill / mountain n	0023.32	Bola (Luxi) TBL	pam⁵⁵  | 0023.32	mountain		1111	TBL		639	pam⁵⁵	pam⁵⁵	hill / mountain	p a m ⁵⁵	346156	163	1314
+2649	325	noun	p ɔ m ³¹	the mountain	Lashi	hill / mountain n	0023.33	Leqi (Luxi) TBL	pɔm³¹  | 0023.33	mountain		1111	TBL		639	pɔm³¹	pɔm³¹	hill / mountain	p ɔ m ³¹	346157	163	12028
+2650	325	noun	p a m ³¹	the mountain	Maru	hill / mountain n	0023.31	Langsu (Luxi) TBL	pam³¹  | 0023.31			1111	TBL		639	pam³¹	pam³¹	hill / mountain	p a m ³¹	346155	163	10437
+2652	325	noun	p u m ⁵⁵	the mountain	Xiandao	hill / mountain n	0023.29	Achang (Xiandao) TBL	pum⁵⁵  | 0023.29	mountain		1111	TBL		639	pum⁵⁵	pum⁵⁵	hill / mountain	p u m ⁵⁵	346153	163	12969
+#
+6175	143		k ʐ - o ʔ ⁵⁵	the mouse or rat	Xiandao	mouse	0320.29	Achang (Xiandao)	kʐoʔ⁵⁵	mouse		74	TBL		2139		kʐoʔ⁵⁵		k ʐ o ʔ ⁵⁵	37991	2630	9892
+6185	143		k ʐ - o ʔ ⁵⁵	the mouse or rat	Achang_Longchuan	mouse	0320.28	Achang (Longchuan)	kʐoʔ⁵⁵	mouse		74	TBL		2139		kʐoʔ⁵⁵		k ʐ o ʔ ⁵⁵	36216	2630	5571
+6226	146		ɣ - - ɔ ʔ ³¹ + n a ʔ ³¹	the mouse or rat	Bola	mouse	0320.32	Bola (Luxi)	ɣɔʔ³¹naʔ³¹	vermin black		74 40037	TBL		2139		ɣɔʔ³¹naʔ³¹		ɣ ɔ ʔ ³¹ + n a ʔ ³¹	45265	2630 10037	8174
+6407	143		tɕ - w ɛ ʔ ⁴	the mouse or rat	Rangoon	mouse	0320.27	Burmese (Rangoon)	tɕwɛʔ⁴			74	TBL		2139		ʨwɛʔ⁴		tɕ w ɛ ʔ ⁴	34321	2630	3703
+6566	146		ɣ - - u k ³¹ + n ɔ ʔ ³¹	the mouse or rat	Maru	mouse	0320.31	Langsu (Luxi)	ɣuk³¹nɔʔ³¹	mouse black		74 40054	TBL		2139		ɣuk³¹nɔʔ³¹		ɣ u k ³¹ + n ɔ ʔ ³¹	43493	2630 10054	9259
+#
+2694	1150	noun	l o ʔ ²¹ + s i ŋ ²¹	the nail (fingernail or claw)	Atsi	nail nbp	0113.30	Atsi [Zaiwa] TBL	loʔ²¹ siŋ²¹  | 0113.30	hand nail		143 1114	TBL		2128	loʔ²¹siŋ²¹	loʔ²¹siŋ²¹	nail	l o ʔ ²¹ + s i ŋ ²¹	350822	695 512	9944
+2697	1150	noun	l ɔ ʔ ³¹ + s ə̰ ŋ ⁵⁵	the nail (fingernail or claw)	Lashi	nail nbp	0113.33	Leqi (Luxi) TBL	lɔʔ³¹ sə̱ŋ⁵⁵  | 0113.33	hand nail		143 1114	TBL		2128	lɔʔ³¹sə̱ŋ⁵⁵	lɔʔ³¹sə̱ŋ⁵⁵	nail	l ɔ ʔ ³¹ + s ə̰ ŋ ⁵⁵	350825	695 512	9509
+5318	1150	noun	l ɛ ʔ ⁴ + tθ ɛ - ⁵⁵	the nail (fingernail or claw)	Rangoon		0113.27					143 40140	TBL		2128	lɛʔ⁴tθɛ⁵⁵	lɛʔ⁴tθɛ⁵⁵	nail	l ɛ ʔ ⁴ + tθ ɛ ⁵⁵	350819	695 10140	4235
+#
+2716	341	noun	a ³¹ + nʲ - i ŋ ⁵⁵	the name	Achang_Longchuan	name n	0687.28	Achang (Longchuan) TBL	a³¹ ȵiŋ⁵⁵  | 0687.28	a-prefix name	bad concept	40018 486	TBL		1405	a³¹ȵiŋ⁵⁵	a³¹ȵiŋ⁵⁵	name	a ³¹ + nʲ i ŋ ⁵⁵	380344	10018 2450	5379
+2718	341	noun	m j i ŋ ⁵¹	the name	Atsi	name n	0687.30	Atsi [Zaiwa] TBL	mjiŋ⁵¹  | 0687.30	name	bad concept	486	TBL		1405	mjiŋ⁵¹	mjiŋ⁵¹	name	m j i ŋ ⁵¹	380346	2450	10018
+2719	341	noun	m - a ŋ ⁵⁵	the name	Bola	name n	0687.32	Bola (Luxi) TBL	maŋ⁵⁵  | 0687.32	name	bad concept	486	TBL		1405	maŋ⁵⁵	maŋ⁵⁵	name	m a ŋ ⁵⁵	380348	2450	1179
+2723	341	noun	m - a ŋ ³¹	the name	Maru	name n	0687.31	Langsu (Luxi) TBL	maŋ³¹  | 0687.31		bad concept	486	TBL		1405	maŋ³¹	maŋ³¹	name	m a ŋ ³¹	380347	2450	10308
+2724	341	noun	a ³¹ + n - i ŋ ⁵⁵	the name	Xiandao	name n	0687.29	Achang (Xiandao) TBL	a³¹ niŋ⁵⁵  | 0687.29	a-prefix name	bad concept	40081 486	TBL		1405	a³¹niŋ⁵⁵	a³¹niŋ⁵⁵	name	a ³¹ + n i ŋ ⁵⁵	380345	10081 2450	9728
+2722	341	noun	m j i ŋ ³¹	the name	Lashi	name n	0687.33	Leqi (Luxi) TBL	mjiŋ³¹  | 0687.33	name	bad concept	486	TBL		1405	mjiŋ³¹	mjiŋ³¹	name	m j i ŋ ³¹	380349	2450	9575
+#
+2781	345	noun	l a ŋ ³¹ + ts ə ŋ ³¹	the neck	Achang_Longchuan	neck	0089.28	Achang (Longchuan) TBL	laŋ³¹ tsəŋ³¹  | 0089.28	neck		503 504	TBL		1333	laŋ³¹tsəŋ³¹	laŋ³¹tsəŋ³¹	neck	l a ŋ ³¹ + ts ə ŋ ³¹	349589	479 255	5622
+2786	345	noun	l a ŋ ⁵⁵ + t a ŋ ³¹	the neck	Bola	neck	0089.32	Bola (Luxi) TBL	laŋ⁵⁵ taŋ³¹  | 0089.32	neck-1 neck-2		503 504	TBL		1333	laŋ⁵⁵taŋ³¹	laŋ⁵⁵taŋ³¹	neck	l a ŋ ⁵⁵ + t a ŋ ³¹	349593	479 255	1126
+2792	345	noun	l a ŋ ³¹ + ts a ŋ ³⁵	the neck	Maru	neck	0089.31	Langsu (Luxi) TBL	laŋ³¹ tsaŋ³⁵  | 0089.31			503 504	TBL		1333	laŋ³¹tsaŋ³⁵	laŋ³¹tsaŋ³⁵	neck	l a ŋ ³¹ + ts a ŋ ³⁵	349592	479 255	10266
+5629	345	noun	l ɛ - ²² + p ĩ ⁵⁵ -	the neck	Rangoon		0089.27					503 40139	TBL		1333	lɛ²²pĩ⁵⁵	lɛ²²pĩ⁵⁵	neck	l ɛ ²² + p ĩ ∼ ⁵⁵	349588	479 10139	4209
+#
+2854	355	noun	n̥ʲ ɔ ŋ ⁵⁵	the nose	Achang_Longchuan	nose	0080.28	Achang (Longchuan) TBL	ȵ̥ɔŋ⁵⁵  | 0080.28	nose		516	TBL		1221	ȵ̥ɔŋ⁵⁵	ȵ̥ɔŋ⁵⁵	nose	n̥ʲ ɔ ŋ ⁵⁵	349121	803	9673
+2860	354	noun	n a̰ - ⁵⁵	the nose	Bola	nose	0080.32	Bola (Luxi) TBL	na̱⁵⁵  | 0080.32	nose		516	TBL		1221	na̱⁵⁵	na̱⁵⁵	nose	n a̰ ⁵⁵	349125	803	1270
+2866	354	noun	n ɔ̰ - ³¹	the nose	Maru	nose	0080.31	Langsu (Luxi) TBL	nɔ̱³¹  | 0080.31			516	TBL		1221	nɔ̱³¹	nɔ̱³¹	nose	n ɔ̰ ³¹	349124	803	10421
+5337	354	noun	n̥ ɑ - ²² + kʰ ɑ̃ u ∼ ⁵⁵	the nose	Rangoon		0080.27					516 517	TBL		1221	n̥ɑ²²khɑ̃u⁵⁵	n̥ɑ²²kʰɑ̃u⁵⁵	nose	n̥ ɑ ²² + kʰ ɑ̃ u ∼ ⁵⁵	349120	803 809	9058
+#
+2964	359	noun	s a m ⁵⁵	the otter	Achang_Longchuan	otter 1	0317.28	Achang (Longchuan) TBL	sam⁵⁵  | 0317.28	otter		537	TBL		15	sam⁵⁵	sam⁵⁵	otter	s a m ⁵⁵	361533	2595	8404
+2966	359	noun	x a m ⁵¹	the otter	Atsi	otter 1	0317.30	Atsi [Zaiwa] TBL	xam⁵¹  | 0317.30	otter		537	TBL		15	xam⁵¹	xam⁵¹	otter	x a m ⁵¹	361535	2595	5070
+2970	359	noun	ʃ a̰ m ³³	the otter	Lashi	otter 1	0317.33	Leqi (Luxi) TBL	ʃa̱m³³  | 0317.33	otter		537	TBL		15	ʃa̱m³³	ʃa̱m³³	otter	ʃ a̰ m ³³	361538	2595	7092
+2971	359	noun	x ɛ̃ ∼ ³¹	the otter	Maru	otter 1	0317.31	Langsu (Luxi) TBL	xɛ̃ ³¹  | 0317.31			537	TBL		15	xɛ̃ ³¹	xɛ̃³¹	otter	x ɛ̃ ∼ ³¹	361536	2595	9223
+2967	359	noun	x ɛ̃ ∼ ⁵⁵	the otter	Bola	otter 1	0317.32	Bola (Luxi) TBL	xɛ̃⁵⁵  | 0317.32	otter		537	TBL		15	xɛ̃⁵⁵	xɛ̃⁵⁵	otter	x ɛ̃ ∼ ⁵⁵	361537	2595	8128
+#
+3027	374	noun	v a ʔ ²¹	the pig	Atsi	pig	0284.30	Atsi [Zaiwa] TBL	vaʔ²¹  | 0284.30	pig		552	TBL		1337	vaʔ²¹	vaʔ²¹	pig	v a ʔ ²¹	359833	1006	5024
+3025	374	noun	- o ʔ ⁵⁵	the pig	Achang_Longchuan	pig	0284.28	Achang (Longchuan) TBL	oʔ⁵⁵  | 0284.28	pig		552	TBL		1337	oʔ⁵⁵	oʔ⁵⁵	pig	o ʔ ⁵⁵	359831	1006	8309
+3028	374	noun	v a ʔ ³¹	the pig	Bola	pig	0284.32	Bola (Luxi) TBL	vaʔ³¹  | 0284.32	pig		552	TBL		1337	vaʔ³¹	vaʔ³¹	pig	v a ʔ ³¹	359835	1006	8094
+3031	374	noun	v u ʔ ³¹	the pig	Lashi	pig	0284.33	Leqi (Luxi) TBL	vuʔ³¹  | 0284.33	pig		552	TBL		1337	vuʔ³¹	vuʔ³¹	pig	v u ʔ ³¹	359836	1006	6934
+3032	374	noun	v ɔ ʔ ³¹	the pig	Maru	pig	0284.31	Langsu (Luxi) TBL	vɔʔ³¹  | 0284.31	pig		552	TBL		1337	vɔʔ³¹	vɔʔ³¹	pig	v ɔ ʔ ³¹	359834	1006	9197
+5536	374	noun	w ɛ ʔ ⁴	the pig	Rangoon		0284.27					552	TBL		1337	wɛʔ⁴	wɛʔ⁴	pig	w ɛ ʔ ⁴	359830	1006	5891
+3033	374	noun	- o ʔ ⁵⁵	the pig	Xiandao	pig	0284.29	Achang (Xiandao) TBL	oʔ⁵⁵  | 0284.29	pig		552	TBL		1337	oʔ⁵⁵	oʔ⁵⁵	pig	o ʔ ⁵⁵	359832	1006	12899
+#
+3239	379	verb	m a u - ²¹	the rain	Atsi	rain n	0010.30	Atsi [Zaiwa] TBL	mau²¹  | 0010.30	sky-rain		1129	TBL		658	mau²¹	mau²¹	rain	m a u ²¹	345484	2473	9971
+5281	379	verb	m o - - ⁵⁵	the rain	Rangoon		0010.27				bad concept	1129	TBL		658	mo⁵⁵	mo⁵⁵	rain	m o ⁵⁵	345481	2473	8245
+3236	379	verb	m a u - ³¹ + ʐ o ⁵⁵	the rain	Achang_Longchuan	rain n	0010.28	Achang (Longchuan) TBL	mau³¹ ʐo⁵⁵  | 0010.28	sky rain		1129 1128	TBL		658	mau³¹ʐo⁵⁵	mau³¹ʐo⁵⁵	rain	m a u ³¹ + ʐ o ⁵⁵	345482	2473 2080	5728
+3246	379	verb	m o u - ³³ + w ɔ ³¹	the rain	Lashi	rain v	0010.33	Leqi (Luxi) TBL	mou³³ wɔ³¹  | 0010.33	sky rain		1129 1128	TBL		658	mou³³wɔ³¹	mou³³wɔ³¹	rain	m o u ³³ + w ɔ ³¹	345487	2473 2080	4731
+3250	379	verb	m a u - ³¹ + ʐ o ⁵⁵	the rain	Xiandao	rain n	0010.29	Achang (Xiandao) TBL	mau³¹ ʐo⁵⁵  | 0010.29	sky rain		1129 1128	TBL		658	mau³¹ʐo⁵⁵	mau³¹ʐo⁵⁵	rain	m a u ³¹ + ʐ o ⁵⁵	345483	2473 2080	12758
+#
+6169	93		s ə̰ ŋ ⁵⁵ + j a ŋ ³³ + j ɔ ³¹ + k a n ³³	the rainbow	Lashi	rainbow	0011.33	Leqi (Luxi)	sə̱ŋ⁵⁵jaŋ³³jɔ³¹kan³³			1004 1008 40088 1256	TBL		1733		sə̱ŋ⁵⁵jaŋ³³jɔ³¹kan³³		s ə̰ ŋ ⁵⁵ + j a ŋ ³³ + j ɔ ³¹ + k a n ³³	46785	6011 6007 10088 6013	12065
+6209	92		ɣ ɔ ʔ ³¹ + k a ŋ ³⁵ + s a ŋ ³¹ + ŋ j ɔ̃ ∼ ³¹	the rainbow	Maru	rainbow	0011.31	Langsu (Luxi)	ɣɔʔ³¹kaŋ³⁵saŋ³¹ŋjɔ̃³¹			40048 1006 1007 1008	TBL		1733		ɣɔʔ³¹kaŋ³⁵saŋ³¹ŋjɔ̃³¹		ɣ ɔ ʔ ³¹ + k a ŋ ³⁵ + s a ŋ ³¹ + ŋ j ɔ̃ ∼ ³¹	43181	10048 6013 6011 6007	9265
+6229	89		tθ ɛ ʔ ⁴ + t ɑ̃ ∼ ⁵³	the rainbow	Rangoon	rainbow	0011.27	Burmese (Rangoon)	tθɛʔ⁴tɑ̃⁵³			1002 40111	TBL		1733		tθɛʔ⁴tɑ̃⁵³		tθ ɛ ʔ ⁴ + t ɑ̃ ∼ ⁵³	34005	6011 10111	5816
+6294	92		v o ʔ ²¹ + k a n ²¹ + ʃ i ŋ ⁵⁵ + - j a ŋ ²¹	the rainbow	Atsi	rainbow	0011.30	Atsi [Zaiwa]	voʔ²¹kan²¹ʃiŋ⁵⁵jaŋ²¹	weave ? ? ?		40148 40149 40150 1008	TBL		1733		voʔ²¹kan²¹ʃiŋ⁵⁵jaŋ²¹		v o ʔ ²¹ + k a n ²¹ + ʃ i ŋ ⁵⁵ + j a ŋ ²¹	41307	10148 10149 10150 6007	5039
+6595	92		ɣ a ʔ ³¹ + k ɛ̃ ∼ ³¹ + s a ŋ ⁵⁵ + n j u ŋ ⁵⁵	the rainbow	Bola	rainbow	0011.32	Bola (Luxi)	ɣaʔ³¹kɛ̃³¹saŋ⁵⁵njuŋ⁵⁵	weave		40026 40027 1007 40028	TBL		1733		ɣaʔ³¹kɛ̃³¹saŋ⁵⁵njuŋ⁵⁵		ɣ a ʔ ³¹ + k ɛ̃ ∼ ³¹ + s a ŋ ⁵⁵ + n j u ŋ ⁵⁵	44947	10026 10027 6011 10028	8169
+6143	93		l̥ ɿ ⁵⁵ + ɲ̊ ɔ ʔ ⁵⁵ + l̥ a ŋ ³¹ + k a m ⁵⁵	the rainbow	Xiandao	rainbow	0011.29	Achang (Xiandao)	l̥ɿ⁵⁵ɲ̊ɔʔ⁵⁵l̥aŋ³¹kam⁵⁵			40064 40065 1255 1256	TBL		1733		l̥ɿ⁵⁵ɲ̊ɔʔ⁵⁵l̥aŋ³¹kam⁵⁵		l̥ ɿ ⁵⁵ + ɲ̊ ɔ ʔ ⁵⁵ + l̥ a ŋ ³¹ + k a m ⁵⁵	37678	10064 10065 6003 6013	12752
+#
+3370	400	noun	ɣ - ə i - ⁵⁵ + l ɔ̃ ∼ ⁵⁵	the river	Bola	river n	0030.32	Bola (Luxi) TBL	ɣəi⁵⁵ lɔ̃⁵⁵  | 0030.32	water long-thing		40035 609	TBL		666	ɣəi⁵⁵lɔ̃⁵⁵	ɣəi⁵⁵lɔ̃⁵⁵	river	ɣ ə i ⁵⁵ + l ɔ̃ ∼ ⁵⁵	346524	10035 191	8180
+3374	400	noun	ɣ - ə - k ³¹ + l ɔ̃ ∼ ³¹	the river	Maru	river n	0030.31	Langsu (Luxi) TBL	ɣək³¹ lɔ̃³¹  | 0030.31	water long-thing		40053 609	TBL		666	ɣək³¹lɔ̃³¹	ɣək³¹lɔ̃³¹	river	ɣ ə k ³¹ + l ɔ̃ ∼ ³¹	346523	10053 191	9271
+#
+3481	421	noun	tʰ a ³⁵	the salt	Bola	salt n	0061.32	Bola (Luxi) TBL	tha³⁵  | 0061.32	salt		624	TBL		1274	tha³⁵	tha³⁵	salt	tʰ a ³⁵	348139	2729	1472
+3484	421	noun	tsʰ o ⁵⁵	the salt	Lashi	salt n	0061.33	Leqi (Luxi) TBL	tsho⁵⁵  | 0061.33	salt		624	TBL		1274	tsho⁵⁵	tsho⁵⁵	salt	tsʰ o ⁵⁵	348140	2729	6734
+3485	421	noun	tsʰ ɔ ³⁵	the salt	Maru	salt n	0061.31	Langsu (Luxi) TBL	tshɔ³⁵  | 0061.31			624	TBL		1274	tshɔ³⁵	tshɔ³⁵	salt	tsʰ ɔ ³⁵	348138	2729	10596
+3487	421	noun	cʰ ɔ ³¹	the salt	Xiandao	salt n	0061.29	Achang (Xiandao) TBL	chɔ³¹  | 0061.29	salt		624	TBL		1274	chɔ³¹	chɔ³¹	salt	cʰ ɔ ³¹	348136	2729	9804
+5653	421	noun	sʰ ɑ ⁵⁵	the salt	Rangoon		0061.27					624	TBL		1274	shɑ⁵⁵	shɑ⁵⁵	salt	sʰ ɑ ⁵⁵	348134	2729	3335
+3476	421	noun	tɕʰ ɔ ³¹	the salt	Achang_Longchuan	salt n	0061.28	Achang (Longchuan) TBL	tɕhɔ³¹  | 0061.28	salt		624	TBL		1274	tɕhɔ³¹	tɕhɔ³¹	salt	tɕʰ ɔ ³¹	348135	2729	2432
+#
+3494	422	noun	s ă ²¹ + m u i ⁵¹	the sand	Atsi	sand n	0044.30	Atsi [Zaiwa] TBL	să²¹ mui⁵¹  | 0044.30	sand-1 sand-2		625 40156	TBL		671	să²¹mui⁵¹	să²¹mui⁵¹	sand	s ă ²¹ + m u i ⁵¹	347250	587 10156	2763
+3491	422	noun	s ă ³¹ + l e ⁵⁵	the sand	Achang_Longchuan	sand n	0044.28	Achang (Longchuan) TBL	să³¹ le⁵⁵  | 0044.28			625 40010	TBL		671	să³¹|le⁵⁵	să³¹le⁵⁵	sand	s ă ³¹ + l e ⁵⁵	347248	587 10010	8405
+3499	422	noun	s ə̆ ⁵⁵ + m u i ³¹	the sand	Lashi	sand n	0044.33	Leqi (Luxi) TBL	sə̆⁵⁵ mui³¹  | 0044.33			625 40095	TBL		671	sə̆⁵⁵mui³¹	sə̆⁵⁵mui³¹	sand	s ə̆ ⁵⁵ + m u i ³¹	347253	587 10095	12054
+3502	422	noun	s a ³¹ + l ɛ ³¹	the sand	Xiandao	sand n	0044.29	Achang (Xiandao) TBL	sa³¹ lɛ³¹  | 0044.29	sand-1 sand-2		625 40074	TBL		671	sa³¹|lɛ³¹	sa³¹lɛ³¹	sand	s a ³¹ + l ɛ ³¹	347249	587 10074	565
+#
+3582	430	noun	a ³³ + m j o u - ³³	the seed	Lashi	seed n	0405.33	Leqi (Luxi) TBL	a³³ mjou³³  | 0405.33	a-prefix seed		40104 640	TBL		714	a³³mjou³³	a³³mjou³³	seed	a ³³ + m j o u ³³	365758	10104 2463	9321
+5658	430	noun	m j o - - ⁵⁵ + s i - - ⁵³	the seed	Rangoon		0405.27					640 1155	TBL		714	mjo⁵⁵si⁵³	mjo⁵⁵si⁵³	seed	m j o ⁵⁵ + s i ⁵³	365752	2463 3559	8229
+3577	430	noun	a ²¹ + m j i - - ²¹	the seed	Atsi	seed n	0405.30	Atsi [Zaiwa] TBL	a²¹ mji²¹  | 0405.30	a-prefix seed		40172 640	TBL		714	a²¹mji²¹	a²¹mji²¹	seed	a ²¹ + m j i ²¹	365755	10172 2463	7157
+3579	430	noun	a ³¹ + m j u - ŋ ³¹	the seed	Bola	seed n	0405.32	Bola (Luxi) TBL	a³¹ mjuŋ³¹  | 0405.32	a-prefix seed		40044 640	TBL		714	a³¹mjuŋ³¹	a³¹mjuŋ³¹	seed	a ³¹ + m j u ŋ ³¹	365757	10044 2463	6418
+3583	430	noun	m j u - k ⁵⁵	the seed	Maru	seed n	0405.31	Langsu (Luxi) TBL	mjuk⁵⁵  | 0405.31			640	TBL		714	mjuk⁵⁵	mjuk⁵⁵	seed	m j u k ⁵⁵	365756	2463	10338
+3585	430	noun	a ³¹ + ɲ - a u - ⁵¹	the seed	Xiandao	seed n	0405.29	Achang (Xiandao) TBL	a³¹ ɲau⁵¹  | 0405.29	a-prefix noun		40083 640	TBL		714	a³¹ɲau⁵¹	a³¹ɲau⁵¹	seed	a ³¹ + ɲ a u ⁵¹	365754	10083 2463	9763
+#
+6224	100		tθ o ⁵⁵	the sheep	Rangoon	sheep	0275.27	Burmese (Rangoon)	tθo⁵⁵			40	TBL		1331		tθo⁵⁵		tθ o ⁵⁵	34275	6080	3793
+6442	100		s a u ²¹ + m j ḭ ⁵⁵	the sheep	Atsi	sheep	0275.30	Atsi [Zaiwa]	sau²¹mji̱⁵⁵	sheep-1 sheep-2		1263 40166	TBL		1331		sau²¹mji̱⁵⁵		s a u ²¹ + m j ḭ ⁵⁵	41577	6080 10166	2760
+6623	103		tʃʰ ɔ t ⁵⁵ + p a t ³¹ + n u ⁵⁵	the sheep	Lashi	sheep	0275.33	Leqi (Luxi)	tʃhɔt⁵⁵pat³¹nu⁵⁵	goat-sheep-1 goat-sheep-2 ?		41 40097 40098	TBL		1331		tʃhɔt⁵⁵pat³¹nu⁵⁵		tʃʰ ɔ t ⁵⁵ + p a t ³¹ + n u ⁵⁵	47049	1226 10097 10098	6880
+#
+6250	46		l ɔ ʔ ³¹ + s a ŋ ³¹	the shoulder	Maru	shoulder	0090.31	Langsu (Luxi)	lɔʔ³¹saŋ³¹	hand shoulder?		947 26	TBL		1482		lɔʔ³¹saŋ³¹		l ɔ ʔ ³¹ + s a ŋ ³¹	43261	695 3348	10282
+6344	46		k o ʔ ²¹ + s a n ⁵¹	the shoulder	Atsi	shoulder	0090.30	Atsi [Zaiwa]	koʔ²¹san⁵¹	split? ?		40165 26	TBL		1482		koʔ²¹san⁵¹		k o ʔ ²¹ + s a n ⁵¹	41387	10165 3348	7514
+6436	46		l ɔ ʔ ³¹ + s a̰ n ³³	the shoulder	Lashi	shoulder	0090.33	Leqi (Luxi)	lɔʔ³¹sa̱n³³	hand shoulder		947 26	TBL		1482		lɔʔ³¹sa̱n³³		l ɔ ʔ ³¹ + s a̰ n ³³	46864	695 3348	9508
+6580	46		l ɔ ʔ ³¹ + s a n ⁵⁵	the shoulder	Xiandao	shoulder	0090.29	Achang (Xiandao)	lɔʔ³¹san⁵⁵	hand shoulder		947 40079	TBL		1482		lɔʔ³¹san⁵⁵		l ɔ ʔ ³¹ + s a n ⁵⁵	37757	695 10079	9921
+6192	47		x u ŋ ³¹ + p a u ³¹	the shoulder	Achang_Longchuan	shoulder	0090.28	Achang (Longchuan)	xuŋ³¹pau³¹	shoulder1 shoulder2		40015 948	TBL		1482		xuŋ³¹pau³¹		x u ŋ ³¹ + p a u ³¹	35981	10015 3344	2651
+6127	46		l a ʔ ³¹ + s ɛ̃ ∼ ⁵⁵	the shoulder	Bola	shoulder	0090.32	Bola (Luxi)	laʔ³¹sɛ̃⁵⁵	hand shoulder		947 26	TBL		1482		laʔ³¹sɛ̃⁵⁵		l a ʔ ³¹ + s ɛ̃ ∼ ⁵⁵	45031	695 3348	1137
+#
+6263	38		ʃ ɔ̆ ³⁵ + j a m ⁵⁵	the skin	Maru	skin	0120.31	Langsu (Luxi)	ʃɔ̆³⁵jam⁵⁵	meat skin		452 1223	TBL		763		ʃɔ̆³⁵jam⁵⁵		ʃ ɔ̆ ³⁵ + j a m ⁵⁵	43291	34 795	9294
+6540	38		ʃ ŏ ⁵⁵ + k ṵ - k ⁵⁵	the skin	Lashi	skin	0120.33	Leqi (Luxi)	ʃŏ⁵⁵ku̱k⁵⁵	meat skin		452 937	TBL		763		ʃŏ⁵⁵ku̱k⁵⁵		ʃ ŏ ⁵⁵ + k ṵ k ⁵⁵	46894	34 586	7107
+6285	38		ɑ ⁵³ + tθ ɑ ⁵⁵ + ɑ ⁵³ + j e ²²	the skin	Rangoon	skin	0120.27	Burmese (Rangoon)	ɑ⁵³tθɑ⁵⁵ɑ⁵³je²²	a-prefix meat a-prefix skin		40114 40115 40116 936	TBL		763		ɑ⁵³tθɑ⁵⁵ɑ⁵³je²²		ɑ ⁵³ + tθ ɑ ⁵⁵ + ɑ ⁵³ + j e ²²	34117	10114 10115 10116 596	6112
+#
+5608	440	noun	m o - - ⁵⁵	the sky	Rangoon		0001.27					1159	TBL		1732	mo⁵⁵	mo⁵⁵	sky	m o ⁵⁵	345012	2473	8244
+3790	440	noun	m a u - ³¹	the sky	Achang_Longchuan	sky	0001.28	Achang (Longchuan) TBL	mau³¹  | 0001.28	sky		1159	TBL		1732	mau³¹	mau³¹	sky	m a u ³¹	345013	2473	5719
+3798	440	noun	m a u - ³¹	the sky	Xiandao	sky	0001.29	Achang (Xiandao) TBL	mau³¹  | 0001.29	sky		1159	TBL		1732	mau³¹	mau³¹	sky	m a u ³¹	345014	2473	12755
+#
+5452	441	noun	m - i ⁵⁵ + kʰ o - - ⁵⁵	the smoke	Rangoon		0019.27			fire smoke		285 681	TBL		778	mi⁵⁵kho⁵⁵	mi⁵⁵kʰo⁵⁵	smoke	m i ⁵⁵ + kʰ o ⁵⁵	345943	2136 2361	4289
+3853	441	noun	n - i ³¹ + x a u - ³¹	the smoke	Achang_Longchuan	smoke n	0019.28	Achang (Longchuan) TBL	ni³¹ xau³¹  | 0019.28	fire? smoke		285 681	TBL		778	ni³¹xau³¹	ni³¹xau³¹	smoke	n i ³¹ + x a u ³¹	345944	2136 2361	8279
+3862	441	noun	m j i ²¹ + kʰ u - k ⁵⁵	the smoke	Maru	smoke n	0019.31	Langsu (Luxi) TBL	mji²¹ khuk⁵⁵  | 0019.31	fire smoke		285 681	TBL		778	mji²¹khuk⁵⁵	mji²¹khuk⁵⁵	smoke	m j i ²¹ + kʰ u k ⁵⁵	345947	2136 2361	10324
+3864	441	noun	n̥ - i ³¹ + x a u - ³¹	the smoke	Xiandao	smoke n	0019.29	Achang (Xiandao) TBL	n̥i³¹ xau³¹  | 0019.29	fire smoke		40073 681	TBL		778	n̥i³¹xau³¹	n̥i³¹xau³¹	smoke	n̥ i ³¹ + x a u ³¹	345945	10073 2361	12877
+#
+3884	443	noun	l ɔ̃ ∼ ⁵⁵ + m - ø - ⁵⁵	the snake	Bola	snake n	0347.32	Bola (Luxi) TBL	lɔ̃⁵⁵ mø⁵⁵  | 0347.32	long-thing snake		684 40032	TBL		730	lɔ̃⁵⁵mø⁵⁵	lɔ̃⁵⁵mø⁵⁵	snake	l ɔ̃ ∼ ⁵⁵ + m ø ⁵⁵	436966	6112 10032	1154
+5360	443	noun	m - w e ²²	the snake	Rangoon		0347.27					683	TBL		730	mwe²²	mwe²²	snake	m w e ²²	436961	2623	9002
+3879	443	noun	m ʐ u i ⁵⁵	the snake	Achang_Longchuan	snake n	0347.28	Achang (Longchuan) TBL	mʐui⁵⁵  | 0347.28	snake		683	TBL		730	mʐui⁵⁵	mʐui⁵⁵	snake	m ʐ u i ⁵⁵	436962	2623	5784
+3882	443	noun	l a̰ ŋ ⁵¹ + m - u i ⁵¹	the snake	Atsi	snake n	0347.30	Atsi [Zaiwa] TBL	la̱ŋ⁵¹ mui⁵¹  | 0347.30	snake-1 snake-2		684 683	TBL		730	la̱ŋ⁵¹mui⁵¹	la̱ŋ⁵¹mui⁵¹	snake	l a̰ ŋ ⁵¹ + m u i ⁵¹	436964	6112 2623	7606
+3887	443	noun	l a̰ ŋ ³³ + m j u - ³¹	the snake	Lashi	snake n	0347.33	Leqi (Luxi) TBL	la̱ŋ³³ mju³¹  | 0347.33	snake		684 683	TBL		730	la̱ŋ³³mju³¹	la̱ŋ³³mju³¹	snake	l a̰ ŋ ³³ + m j u ³¹	436967	6112 2623	9483
+3888	443	noun	l ɔ̃ ∼ ³¹ + m - ɔ i ³¹	the snake	Maru	snake n	0347.31	Langsu (Luxi) TBL	lɔ̃³¹ mɔi³¹  | 0347.31	long-thing snake		684 683	TBL		730	lɔ̃³¹mɔi³¹	lɔ̃³¹mɔi³¹	snake	l ɔ̃ ∼ ³¹ + m ɔ i ³¹	436965	6112 2623	10290
+3890	443	noun	m ʐ u i ⁵⁵	the snake	Xiandao	snake n	0347.29	Achang (Xiandao) TBL	mʐui⁵⁵  | 0347.29	snake		683	TBL		730	mʐui⁵⁵	mʐui⁵⁵	snake	m ʐ u i ⁵⁵	436963	2623	12793
+#
+5669	447	noun	sʰ i ⁵⁵ + n̥ ĩ - ⁵⁵	the snow	Rangoon		0012.27					40120 390	TBL		784	shi⁵⁵n̥ĩ⁵⁵	shi⁵⁵n̥ĩ⁵⁵	snow	sʰ i ⁵⁵ + n̥ ĩ ∼ ⁵⁵	345583	10120 3565	9144
+3903	447	noun	ŋ ɛ̰̃ ∼ ⁵⁵	the snow	Bola	snow n	0012.32	Bola (Luxi) TBL	ŋɛ̱̃⁵⁵  | 0012.32	icy-thing		390	TBL		784	ŋɛ̱̃⁵⁵	ŋɛ̱̃⁵⁵	snow	ŋ ɛ̰̃ ∼ ⁵⁵	345588	3565	8155
+#
+6468	43		tʃ o ⁵¹ + kʰ j a ŋ ⁵⁵	the sparrow	Atsi	sparrow	0336.30	Atsi [Zaiwa]	tʃo⁵¹khjaŋ⁵⁵			946 40173	TBL		1854		tʃo⁵¹kʰjaŋ⁵⁵		tʃ o ⁵¹ + kʰ j a ŋ ⁵⁵	41639	5413 10173	3193
+6413	43		s ɑ ²²	the sparrow	Rangoon	sparrow	0336.27	Burmese (Rangoon)	sɑ²²			946	TBL		1854		sɑ²²		s ɑ ²²	34337	5413	3383
+6126	43		tʃ o ³¹ + kʰ j a ŋ ⁵³	the sparrow	Lashi	sparrow	0336.33	Leqi (Luxi)	tʃo³¹khjaŋ⁵³			946 40105	TBL		1854		tʃo³¹kʰjaŋ⁵³		tʃ o ³¹ + kʰ j a ŋ ⁵³	47111	5413 10105	6901
+#
+6194	66		k o ŋ ³¹ + k a u ⁵⁵	the spider	Xiandao	spider	0361.29	Achang (Xiandao)	koŋ³¹kau⁵⁵			960 40063	TBL		843		koŋ³¹kau⁵⁵		k o ŋ ³¹ + k a u ⁵⁵	38032	5400 10063	9877
+6248	66		pʰ i ³¹ + k ɔ̃ ∼ ³¹	the spider	Bola	spider	0361.32	Bola (Luxi)	phi³¹kɔ̃³¹	spider-1 spider-2		40025 960	TBL		843		pʰi³¹kɔ̃³¹		pʰ i ³¹ + k ɔ̃ ∼ ³¹	45306	10025 5400	1342
+6166	66		pʰ j ɔ̆ ³¹ + k ɔ̃ ∼ ³⁵	the spider	Maru	spider	0361.31	Langsu (Luxi)	phjɔ̆³¹kɔ̃³⁵			40047 960	TBL		843		pʰjɔ̆³¹kɔ̃³⁵		pʰ j ɔ̆ ³¹ + k ɔ̃ ∼ ³⁵	43534	10047 5400	10473
+6484	66		l ă - ²¹ + k a ŋ ²¹	the spider	Atsi	spider	0361.30	Atsi [Zaiwa]	lă²¹kaŋ²¹	one spider		40146 960	TBL		843		lă²¹kaŋ²¹		l ă ²¹ + k a ŋ ²¹	41665	10146 5400	7573
+6601	66		a ⁵⁵ + k a ŋ ²¹	the spider	Atsi	spider	0361.30	Atsi [Zaiwa]	a⁵⁵kaŋ²¹	a-prefix spider		40147 960	TBL		843		a⁵⁵kaŋ²¹		a ⁵⁵ + k a ŋ ²¹	41664	10147 5400	7573
+6133	66		l a ʔ ³¹ + k a ŋ ³³	the spider	Lashi	spider	0361.33	Leqi (Luxi)	laʔ³¹kaŋ³³			40087 960	TBL		843		laʔ³¹kaŋ³³		l a ʔ ³¹ + k a ŋ ³³	47136	10087 5400	9482
+#
+5572	454	noun	tɕ - ɛ - ²²	the star	Rangoon		0005.27					722	TBL		1430	tɕɛ²²	ʨɛ²²	star	tɕ ɛ ²²	345223	3574	3714
+4052	454	noun	kʰ ʐ ə - ⁵⁵	the star	Achang_Longchuan	star n	0005.28	Achang (Longchuan) TBL	khʐə⁵⁵  | 0005.28	star		722	TBL		1430	khʐə⁵⁵	khʐə⁵⁵	star	kʰ ʐ ə ⁵⁵	345224	3574	5499
+4055	454	noun	k j ḭ - ⁵¹	the star	Atsi	star n	0005.30	Atsi [Zaiwa] TBL	kji̱⁵¹  | 0005.30	star		722	TBL		1430	kji̱⁵¹	kji̱⁵¹	star	k j ḭ ⁵¹	345226	3574	7472
+4057	454	noun	k j ḭ - ⁵⁵	the star	Bola	star n	0005.32	Bola (Luxi) TBL	kji̱⁵⁵  | 0005.32	star		722	TBL		1430	kji̱⁵⁵	kji̱⁵⁵	star	k j ḭ ⁵⁵	345228	3574	1096
+4060	454	noun	k j ḭ - ³³	the star	Lashi	star n	0005.33	Leqi (Luxi) TBL	kji̱³³  | 0005.33	star		722	TBL		1430	kji̱³³	kji̱³³	star	k j ḭ ³³	345229	3574	9451
+4061	454	noun	k j ḭ - ³¹	the star	Maru	star n	0005.31	Langsu (Luxi) TBL	kji̱³¹  | 0005.31			722	TBL		1430	kji̱³¹	kji̱³¹	star	k j ḭ ³¹	345227	3574	10239
+#
+4138	462	noun	n i ³¹ + m ɔ ³¹	the sun	Achang_Longchuan	sun n	0002.28	Achang (Longchuan) TBL	ni³¹ mɔ³¹  | 0002.28	day-sun mo-suffix		1176 40020	TBL		1343	ni³¹mɔ³¹	ni³¹mɔ³¹	sun	n i ³¹ + m ɔ ³¹	345068	85 10020	8275
+4152	462	noun	n - ³¹ + m ɔ ³¹	the sun	Xiandao	sun n	0002.29	Achang (Xiandao) TBL	n³¹ mɔ³¹  | 0002.29	day-sun mo-suffix		1176 40084	TBL		1343	n³¹mɔ³¹	n³¹mɔ³¹	sun	n ³¹ + m ɔ ³¹	345069	85 10084	12856
+5287	462	noun	n e ²²	the sun	Rangoon		0002.27					1176	TBL		1343	ne²²	ne²²	sun	n e ²²	345067	85	9018
+#
+4223	465	noun	ʃ ŏ ²¹ - + m j i ²¹	the tail	Atsi	tail n	0267.30	Atsi [Zaiwa] TBL	ʃŏ²¹ mji²¹  | 0267.30	meat tail		1179 747	TBL		1220	ʃŏ²¹mji²¹	ʃŏ²¹mji²¹	tail	ʃ ŏ ²¹ + m j i ²¹	358952	34 1288	5197
+4231	465	noun	ʃ - ŏ ⁵⁵ + m j i ³³	the tail	Lashi	tail n	0267.33	Leqi (Luxi) TBL	ʃŏ⁵⁵ mji³³  | 0267.33	meat tail		1179 747	TBL		1220	ʃŏ⁵⁵mji³³	ʃŏ⁵⁵mji³³	tail	ʃ ŏ ⁵⁵ + m j i ³³	358955	34 1288	7108
+4234	465	noun	ʃ ɔ̆ ³⁵ - + m j i ³¹	the tail	Maru	tail n	0267.31	Langsu (Luxi) TBL	ʃɔ̆³⁵ mji³¹  | 0267.31	meat tail		1179 747	TBL		1220	ʃɔ̆³⁵mji³¹	ʃɔ̆³⁵mji³¹	tail	ʃ ɔ̆ ³⁵ + m j i ³¹	358953	34 1288	9296
+5271	465	noun	ɑ ⁵³ + m j i ⁵⁵	the tail	Rangoon		0267.27					40127 747	TBL		1220	ɑ⁵³mji⁵⁵	ɑ⁵³mji⁵⁵	tail	ɑ ⁵³ + m j i ⁵⁵	358949	10127 1288	6039
+#
+6216	189		- l a ³¹	the tiger	Bola	tiger	0304.32	Bola (Luxi)	la³¹	tiger		104	TBL		846		la³¹		l a ³¹	45249	5560	1122
+6402	189		- l ɔ̆ ³¹ + m ɔ ³¹ + m u t ³⁵	the tiger	Xiandao	tiger	0304.29	Achang (Xiandao)	lɔ̆³¹mɔ³¹mut³⁵	tiger mo-suffix ???		104 40066 40067	TBL		846		lɔ̆³¹mɔ³¹mut³⁵		l ɔ̆ ³¹ + m ɔ ³¹ + m u t ³⁵	37975	5560 10066 10067	9937
+6457	189		- l o ²¹ + m o ⁵⁵	the tiger	Atsi	tiger	0304.30	Atsi [Zaiwa]	lo²¹mo⁵⁵	tiger mo-suffix		104 40151	TBL		846		lo²¹mo⁵⁵		l o ²¹ + m o ⁵⁵	41606	5560 10151	7630
+6570	189		- l ə̆ ³³ + m o ⁵⁵	the tiger	Lashi	tiger	0304.33	Leqi (Luxi)	lə̆³³mo⁵⁵	tiger mo-suffix		104 40089	TBL		846		lə̆³³mo⁵⁵		l ə̆ ³³ + m o ⁵⁵	47079	5560 10089	9519
+6303	189		- l ɔ ³¹	the tiger	Achang_Longchuan	tiger	0304.28	Achang (Longchuan)	lɔ³¹	tiger		104	TBL		846		lɔ³¹		l ɔ ³¹	36200	5560	5663
+6371	189		- l ɔ ³⁵	the tiger	Maru	tiger	0304.31	Langsu (Luxi)	lɔ³⁵			104	TBL		846		lɔ³⁵		l ɔ ³⁵	43477	5560	10274
+6395	189		tɕ - ɑ ⁵⁵	the tiger	Rangoon	tiger	0304.27	Burmese (Rangoon)	tɕɑ⁵⁵			104	TBL		846		ʨɑ⁵⁵		tɕ ɑ ⁵⁵	34304	5560	3760
+#
+4594	472	noun	ɕ - ɔ ⁵⁵	the tongue	Achang_Longchuan	tongue nbp	0139.28	Achang (Longchuan) TBL	ɕɔ⁵⁵  | 0139.28	tongue		814	TBL		1205	ɕɔ⁵⁵	ɕɔ⁵⁵	tongue	ɕ ɔ ⁵⁵	352159	623	9677
+4610	472	noun	ç - ɔ ⁵⁵	the tongue	Xiandao	tongue nbp	0139.29	Achang (Xiandao) TBL	çɔ⁵⁵  | 0139.29	tongue		814	TBL		1205	çɔ⁵⁵	çɔ⁵⁵	tongue	ç ɔ ⁵⁵	352160	623	9816
+#
+4639	479	noun	s a ŋ ³¹ + ts e ŋ ⁵⁵	the tree	Achang_Longchuan	tree n	0372.28	Achang (Longchuan) TBL	saŋ³¹ tseŋ⁵⁵  | 0372.28	tree1 tree2		40000 1191	TBL		906	saŋ³¹tseŋ⁵⁵	saŋ³¹tseŋ⁵⁵	tree	s a ŋ ³¹ + ts e ŋ ⁵⁵	364051	10000 6123	8406
+4642	479	noun	s i k ⁵⁵	the tree	Atsi	tree n	0372.30	Atsi [Zaiwa] TBL	sik⁵⁵  | 0372.30	tree		1190	TBL		906	sik⁵⁵	sik⁵⁵	tree	s i k ⁵⁵	364053	2658	2782
+4644	479	noun	s a k ⁵⁵	the tree	Bola	tree n	0372.32	Bola (Luxi) TBL	sak⁵⁵  | 0372.32	tree		1190	TBL		906	sak⁵⁵	sak⁵⁵	tree	s a k ⁵⁵	364055	2658	1407
+4647	479	noun	s ə̰ k ⁵⁵	the tree	Lashi	tree n	0372.33	Leqi (Luxi) TBL	sə̱k⁵⁵  | 0372.33	tree		1190	TBL		906	sə̱k⁵⁵	sə̱k⁵⁵	tree	s ə̰ k ⁵⁵	364056	2658	12059
+4648	479	noun	s a̰ k ⁵⁵	the tree	Maru	tree n	0372.31	Langsu (Luxi) TBL	sa̱k⁵⁵  | 0372.31	tree		1190	TBL		906	sa̱k⁵⁵	sa̱k⁵⁵	tree	s a̰ k ⁵⁵	364054	2658	10536
+4650	479	noun	ʂ ɯ k ⁵⁵	the tree	Xiandao	tree n	0372.29	Achang (Xiandao) TBL	ʂɯk⁵⁵  | 0372.29	tree		1190	TBL		906	ʂɯk⁵⁵	ʂɯk⁵⁵	tree	ʂ ɯ k ⁵⁵	364052	2658	6629
+5505	479	noun	tθ i ʔ ⁴ + p ĩ ²²	the tree	Rangoon		0372.27					1190 40106	TBL		906	tθiʔ⁴pĩ²²	tθiʔ⁴pĩ²²	tree	tθ i ʔ ⁴ + p ĩ ∼ ²²	364050	2658 10106	3776
+#
+4865	486	noun	t i ⁵⁵	the water	Achang_Longchuan	water n	0047.28	Achang (Longchuan) TBL	ti⁵⁵  | 0047.28	water		867	TBL		948	ti⁵⁵	ti⁵⁵	water	t i ⁵⁵	347401	298	2236
+4879	486	noun	t i ⁵⁵	the water	Xiandao	water n	0047.29	Achang (Xiandao) TBL	ti⁵⁵  | 0047.29	water		867	TBL		948	ti⁵⁵	ti⁵⁵	water	t i ⁵⁵	347402	298	698
+#
+5049	492	noun	nʲ - i ³¹ + m ɔ ʔ ³¹	the wife	Achang_Longchuan	wife n	0248.28	Achang (Longchuan) TBL	ȵi³¹ mɔʔ³¹  | 0248.28	woman mo-suffix		899 40003	TBL		1199	ȵi³¹mɔʔ³¹	ȵi³¹mɔʔ³¹	wife	nʲ i ³¹ + m ɔ ʔ ³¹	357911	1618 10003	9648
+5052	491	noun	m j i ²¹	the wife	Atsi	wife n	0248.30	Atsi [Zaiwa] TBL	mji²¹  | 0248.30	woman-1		899	TBL		1199	mji²¹	mji²¹	wife	m j i ²¹	357913	1618	10002
+5054	491	noun	j õ ³¹ + m - i ³¹	the wife	Bola	wife n	0248.32	Bola (Luxi) TBL	jõ³¹ mi³¹  | 0248.32	wife woman-1		40024 899	TBL		1199	jõ³¹mi³¹	jõ³¹mi³¹	wife	j õ ³¹ + m i ³¹	357915	10024 1618	1009
+5057	491	noun	m j i ³³	the wife	Lashi	wife n	0248.33	Leqi (Luxi) TBL	mji³³  | 0248.33	woman-1		899	TBL		1199	mji³³	mji³³	wife	m j i ³³	357916	1618	9556
+5058	491	noun	m j i ³⁵	the wife	Maru	wife n	0248.31	Langsu (Luxi) TBL	mji³⁵  | 0248.31	woman-1		899	TBL		1199	mji³⁵	mji³⁵	wife	m j i ³⁵	357914	1618	10326
+5060	492	noun	n - i ⁵⁵ + m ɔ - ³¹	the wife	Xiandao	wife n	0248.29	Achang (Xiandao) TBL	ni⁵⁵ mɔ³¹  | 0248.29	woman mo-suffix		899 40062	TBL		1199	ni⁵⁵mɔ³¹	ni⁵⁵mɔ³¹	wife	n i ⁵⁵ + m ɔ ³¹	357912	1618 10062	12835
+#
+5066	495	noun	l̥ i - ⁵⁵	the wind	Achang_Longchuan	wind n	0009.28	Achang (Longchuan) TBL	l̥i⁵⁵  | 0009.28	wind		904	TBL		960	l̥i⁵⁵	l̥i⁵⁵	wind	l̥ i ⁵⁵	345429	2412	5701
+5069	495	noun	l a i ⁵¹	the wind	Atsi	wind n	0009.30	Atsi [Zaiwa] TBL	lai⁵¹  | 0009.30	wind-n		904	TBL		960	lai⁵¹	lai⁵¹	wind	l a i ⁵¹	345431	2412	7558
+5071	495	noun	l i - ⁵⁵	the wind	Bola	wind n	0009.32	Bola (Luxi) TBL	li⁵⁵  | 0009.32	wind-n		904	TBL		960	li⁵⁵	li⁵⁵	wind	l i ⁵⁵	345433	2412	1156
+5074	495	noun	l e i ³¹	the wind	Lashi	wind n	0009.33	Leqi (Luxi) TBL	lei³¹  | 0009.33	wind		904	TBL		960	lei³¹	lei³¹	wind	l e i ³¹	345434	2412	9487
+5075	495	noun	l a - ³¹	the wind	Maru	wind n	0009.31	Langsu (Luxi) TBL	la³¹  | 0009.31	wind		904	TBL		960	la³¹	la³¹	wind	l a ³¹	345432	2412	10261
+5469	495	noun	l e - ²²	the wind	Rangoon		0009.27					904	TBL		960	le²²	le²²	wind	l e ²²	345428	2412	4164
+5077	495	noun	l a i ⁵⁵	the wind	Xiandao	wind n	0009.29	Achang (Xiandao) TBL	lai⁵⁵  | 0009.29	wind-n		904	TBL		960	lai⁵⁵	lai⁵⁵	wind	l a i ⁵⁵	345430	2412	9902
+#
+5089	500	noun	a ³¹ - - + t - u ŋ ⁵⁵	the wing	Achang_Longchuan	wing n	0298.28	Achang (Longchuan) TBL	a³¹ tuŋ⁵⁵  | 0298.28	a-prefix wing		40005 905	TBL		1257	a³¹tuŋ⁵⁵	a³¹tuŋ⁵⁵	wing	a ³¹ + t u ŋ ⁵⁵	360549	10005 711	5366
+5092	500	noun	t - u ŋ ⁵¹	the wing	Atsi	wing n	0298.30	Atsi [Zaiwa] TBL	tuŋ⁵¹  | 0298.30	wing		905	TBL		1257	tuŋ⁵¹	tuŋ⁵¹	wing	t u ŋ ⁵¹	360551	711	3072
+5094	500	noun	t a u ŋ ⁵⁵	the wing	Bola	wing n	0298.32	Bola (Luxi) TBL	tauŋ⁵⁵  | 0298.32	wing		905	TBL		1257	tauŋ⁵⁵	tauŋ⁵⁵	wing	t a u ŋ ⁵⁵	360553	711	1443
+5098	500	noun	t - u ŋ ³¹	the wing	Lashi	wing n	0298.33	Leqi (Luxi) TBL	tuŋ³¹  | 0298.33			905	TBL		1257	tuŋ³¹	tuŋ³¹	wing	t u ŋ ³¹	360554	711	6793
+5100	500	noun	t a u ŋ ³¹	the wing	Maru	wing n	0298.31	Langsu (Luxi) TBL	tauŋ³¹  | 0298.31			905	TBL		1257	tauŋ³¹	tauŋ³¹	wing	t a u ŋ ³¹	360552	711	10549
+5476	500	noun	t ɑ̃ u ∼ ²² + p ɑ̃ ∼ ²²	the wing	Rangoon		0298.27					905 40112	TBL		1257	tɑ̃u²²pɑ̃²²	tɑ̃u²²pɑ̃²²	wing	t ɑ̃ u ∼ ²² + p ɑ̃ ∼ ²²	360548	711 10112	3567
+5103	500	noun	a ³¹ - - + t - u ŋ ⁵⁵	the wing	Xiandao	wing n	0298.29	Achang (Xiandao) TBL	a³¹ tuŋ⁵⁵  | 0298.29	a-prefix wing		40068 905	TBL		1257	a³¹tuŋ⁵⁵	a³¹tuŋ⁵⁵	wing	a ³¹ + t u ŋ ⁵⁵	360550	10068 711	9750
+#
+6178	148		p u m ⁵⁵ + f u i - ³¹	the wolf	Xiandao	wolf	0324.29	Achang (Xiandao)	pum⁵⁵fui³¹	mountain dog		40061 1298	TBL		522		pum⁵⁵fui³¹		p u m ⁵⁵ + f u i ³¹	37995	10061 1764	12972
+6238	148		p u m ⁵⁵ + x u i - ³¹	the wolf	Achang_Longchuan	wolf	0324.28	Achang (Longchuan)	pum⁵⁵xui³¹	mountain dog		40002 1298	TBL		522		pum⁵⁵xui³¹		p u m ⁵⁵ + x u i ³¹	36220	10002 1764	8389
+6251	149		m j a ŋ ⁵⁵ + kʰ u i - ³⁵	the wolf	Bola	wolf	0324.32	Bola (Luxi)	mjaŋ⁵⁵khui³⁵	thunder dog		40023 1298	TBL		522		mjaŋ⁵⁵kʰui³⁵		m j a ŋ ⁵⁵ + kʰ u i ³⁵	45269	10023 1764	1201
+6382	149		m j a ŋ ³¹ + kʰ - a - ³⁵	the wolf	Maru	wolf	0324.31	Langsu (Luxi)	mjaŋ³¹◦kha³⁵	thunder dog		40046 1298	TBL		522		mjaŋ³¹◦kʰa³⁵		m j a ŋ ³¹ + kʰ a ³⁵	43497	10046 1764	10316
+6408	147		w ũ - ²² + p u ⁵³ + l w e ²²	the wolf	Rangoon	wolf	0324.27	Burmese (Rangoon)	wũ²²pu⁵³lwe²²	bear ? ?		1300 40109 40110	TBL		522		wũ²²pu⁵³lwe²²		w ũ ∼ ²² + p u ⁵³ + l w e ²²	34325	2777 10109 10110	5881
+6463	151		v a m ⁵¹ + kʰ u i - ²¹ + m o ⁵⁵	the wolf	Atsi	wolf	0324.30	Atsi [Zaiwa]	vam⁵¹khui²¹mo⁵⁵	bear dog mo-suffix		1300 1298 40143	TBL		522		vam⁵¹kʰui²¹mo⁵⁵		v a m ⁵¹ + kʰ u i ²¹ + m o ⁵⁵	41626	2777 1764 10143	5017
+6649	151		w ɔ m ³¹ + kʰ u i - ⁵⁵	the wolf	Lashi	wolf	0324.33	Leqi (Luxi)	wɔm³¹khui⁵⁵	bear dog		1300 1298	TBL		522		wɔm³¹kʰui⁵⁵		w ɔ m ³¹ + kʰ u i ⁵⁵	47099	2777 1764	6975
+#
+5135	501	noun	m j i ³³ + j i ³³	the woman	Lashi	woman n	0174.33	Leqi (Luxi) TBL	mji³³ ji³³  | 0174.33	woman-1 woman-2		899 40094	TBL		962	mji³³ji³³	mji³³ji³³	woman	m j i ³³ + j i ³³	353966	1618 10094	9558
+5130	501	noun	m j i ²¹ + v e ²¹	the woman	Atsi	woman n	0174.30	Atsi [Zaiwa] TBL	mji²¹ ve²¹  | 0174.30	woman-1 woman-2		899 40154	TBL		962	mji²¹ve²¹	mji²¹ve²¹	woman	m j i ²¹ + v e ²¹	353963	1618 10154	10013
+#
+5148	506	noun	ʂ ə k ⁵⁵	the wood (material)	Achang_Longchuan	wood / log n	0511.28	Achang (Longchuan) TBL	ʂək⁵⁵  | 0511.28	tree		1218	TBL		1803	ʂək⁵⁵	ʂək⁵⁵	wood / log	ʂ ə k ⁵⁵	371215	2658	9686
+5150	506	noun	s i k ⁵⁵ + t ṵ m ⁵⁵	the wood (material)	Atsi	wood / log n	0511.30	Atsi [Zaiwa] TBL	sik⁵⁵ tu̱m⁵⁵  | 0511.30	tree section		1218 912	TBL		1803	sik⁵⁵ tu̱m⁵⁵	sik⁵⁵tu̱m⁵⁵	wood / log	s i k ⁵⁵ + t ṵ m ⁵⁵	371217	2658 5779	2783
+5152	506	noun	s a k ⁵⁵ + t a̰ m ³⁵	the wood (material)	Bola	wood / log n	0511.32	Bola (Luxi) TBL	sak⁵⁵ ta̱m³⁵  | 0511.32	wood section		1218 40034	TBL		1803	sak⁵⁵ta̱m³⁵	sak⁵⁵ta̱m³⁵	wood / log	s a k ⁵⁵ + t a̰ m ³⁵	371219	2658 10034	1417
+5155	506	noun	s ə̰ k ⁵⁵ + t ɔ̰ m ⁵³	the wood (material)	Lashi	wood / log n	0511.33	Leqi (Luxi) TBL	sə̱k⁵⁵ tɔ̱m⁵³  | 0511.33	tree wood		1218 912	TBL		1803	sə̱k⁵⁵tɔ̱m⁵³	sə̱k⁵⁵tɔ̱m⁵³	wood / log	s ə̰ k ⁵⁵ + t ɔ̰ m ⁵³	371220	2658 5779	12062
+5156	506	noun	s a k ⁵⁵ + tʰ a u ŋ ³⁵	the wood (material)	Maru	wood / log n	0511.31	Langsu (Luxi) TBL	sak⁵⁵ thauŋ³⁵  | 0511.31	tree wood		1218 40052	TBL		1803	sak⁵⁵thauŋ³⁵	sak⁵⁵thauŋ³⁵	wood / log	s a k ⁵⁵ + tʰ a u ŋ ³⁵	371218	2658 10052	10528
+5472	506	noun	tθ i ʔ ⁴ + t õ - ⁵⁵	the wood (material)	Rangoon		0511.27					1218 912	TBL		1803	tθiʔ⁴tõ⁵⁵	tθiʔ⁴tõ⁵⁵	wood / log	tθ i ʔ ⁴ + t õ ∼ ⁵⁵	371214	2658 5779	3777
+#
+4364	523	other	tʰ - uː ³³	thick	Lashi	thick adj	0980.33	Leqi (Luxi) TBL	thuː³³  | 0980.33	thick		777	TBL		1244	thuː³³	thuː³³	thick	tʰ uː ³³	395520	183	6675
+4365	523	other	tʰ a u ³¹	thick	Maru	thick adj	0980.31	Langsu (Luxi) TBL	thau³¹  | 0980.31			777	TBL		1244	thau³¹	thau³¹	thick	tʰ a u ³¹	395518	183	8936
+5361	523	other	tʰ - u ²²	thick	Rangoon		0980.27					777	TBL		1244	thu²²	tʰu²²	thick	tʰ u ²²	395514	183	3444
+4359	523	other	tʰ - u ⁵¹	thick	Atsi	thick adj	0980.30	Atsi [Zaiwa] TBL	thu⁵¹  | 0980.30	thick		777	TBL		1244	thu⁵¹	thu⁵¹	thick	tʰ u ⁵¹	395517	183	2920
+#
+5559	579	other	tθ i - ²²	this	Rangoon		0942.27					791	TBL		1214	tθi²²	tθi²²	this	tθ i ²²	393491	2195	3822
+5560	579	other	d i - ²²	this	Rangoon		0942.27					791	TBL		1214	(di²²)	(di²²)	this	d i ²²	393516	2195	3822
+#
+5230	1105	other	n a - ŋ ⁵¹	thou [second person singular]	Atsi	you pron	0931.30	Atsi [Zaiwa] TBL	naŋ⁵¹  | 0931.30		bad concept	927	TBL		1215	naŋ⁵¹	naŋ⁵¹	you	n a ŋ ⁵¹	392904	2489	10058
+5232	1105	other	n a - ŋ ³¹	thou [second person singular]	Lashi	you pron	0931.33	Leqi (Luxi) TBL	naŋ³¹  | 0931.33		bad concept	927	TBL		1215	naŋ³¹	naŋ³¹	you	n a ŋ ³¹	392907	2489	9619
+#
+4527	582	other	s u m ²¹	three	Atsi	three num	0799.30	Atsi [Zaiwa] TBL	sum²¹  | 0799.30	three		801	TBL		492	sum²¹	sum²¹	three	s u m ²¹	386158	2666	2806
+4533	582	other	s a m ³¹	three	Maru	three num	0799.31	Langsu (Luxi) TBL	sam³¹  | 0799.31			801	TBL		492	sam³¹	sam³¹	three	s a m ³¹	386159	2666	10529
+4535	582	other	s u m ³¹	three	Xiandao	three num	0799.29	Achang (Xiandao) TBL	sum³¹  | 0799.29	three		801	TBL		492	sum³¹	sum³¹	three	s u m ³¹	386157	2666	589
+4524	582	other	s u m ³¹	three	Achang_Longchuan	three num	0799.28	Achang (Longchuan) TBL	sum³¹  | 0799.28	three		801	TBL		492	sum³¹	sum³¹	three	s u m ³¹	386156	2666	8426
+4532	582	other	s ɔ m ⁵⁵	three	Lashi	three num	0799.33	Leqi (Luxi) TBL	sɔm⁵⁵  | 0799.33	three		801	TBL		492	sɔm⁵⁵	sɔm⁵⁵	three	s ɔ m ⁵⁵	386161	2666	12046
+4529	582	other	s a m ⁵⁵	three	Bola	three num	0799.32	Bola (Luxi) TBL	sam⁵⁵  | 0799.32	three		801	TBL		492	sam⁵⁵	sam⁵⁵	three	s a m ⁵⁵	386160	2666	1418
+5453	582	other	tθ õ - ⁵⁵	three	Rangoon		0799.27					801	TBL		492	tθõ⁵⁵	tθõ⁵⁵	three	tθ õ ∼ ⁵⁵	386155	2666	3795
+#
+343	594	verb	p ɛ̃ ∼ ³¹	to bite	Bola	bite v.	1753.32	Bola (Luxi) TBL	pɛ̃³¹  | 1753.32	bite	bad concept	89	TBL		1403	pɛ̃³¹	pɛ̃³¹	bite	p ɛ̃ ∼ ³¹	431353	1774	2198
+350	595	verb	ŋ aː t ³¹	to bite	Lashi	bite v.	1753.33	Leqi (Luxi) TBL	ŋaːt³¹  | 1753.33		bad concept	1024	TBL		1403	ŋaːt³¹	ŋaːt³¹	bite	ŋ aː t ³¹	431354	1761	7002
+#
+5500	1134	verb	n̥ ɑ ʔ ⁴ + nʲ i ʔ ⁴	to blow (of wind)	Rangoon		1738.27					13 40141	TBL		175	n̥ɑʔ⁴ȵiʔ⁴	n̥ɑʔ⁴ȵiʔ⁴	blow (one's nose)	n̥ ɑ ʔ ⁴ + nʲ i ʔ ⁴	430648	805 10141	8763
+#
+6396	140		v ɔ ³⁵	to chew	Maru	chew	1424.31	Langsu (Luxi)	vɔ³⁵	chew		73	TBL		321		vɔ³⁵		v ɔ ³⁵	44547	688	4416
+6465	140		w ɑ ⁵⁵	to chew	Rangoon	chew	1424.27	Burmese (Rangoon)	wɑ⁵⁵			73	TBL		321		wɑ⁵⁵		w ɑ ⁵⁵	35484	688	5910
+6504	140		v a ³¹	to chew	Bola	chew	1424.32	Bola (Luxi)	va³¹	chew		73	TBL		321		va³¹		v a ³¹	46376	688	8623
+#
+697	621	verb	l ɔ ⁵⁵	to come	Xiandao	come v.	1491.29	Achang (Xiandao) TBL	lɔ⁵⁵  | 1491.29	come		157	TBL		1446	lɔ⁵⁵	lɔ⁵⁵	come	l ɔ ⁵⁵	419017	3569	12119
+5625	621	verb	l ɑ ²²	to come	Rangoon		1491.27					157	TBL		1446	lɑ²²	lɑ²²	come	l ɑ ²²	419015	3569	4245
+#
+5522	1145	verb	j e ²²	to count	Rangoon		1640.27			count		166	TBL		1420	je²²	je²²	count (numbers)	j e ²²	426044	2738	3934
+#
+6300	80		ŋ a u - ⁵⁵	to cry (weep)	Bola	cry	1485.32	Bola (Luxi)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	46434	1104	8646
+6377	80		ŋ a u - ⁵⁵	to cry (weep)	Achang_Longchuan	cry	1485.28	Achang (Longchuan)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	37346	1104	2676
+6418	80		ŋ u - k ³¹	to cry (weep)	Maru	cry	1485.31	Langsu (Luxi)	ŋuk³¹			32	TBL		1420		ŋuk³¹		ŋ u k ³¹	44602	1104	4458
+6496	80		ŋ o - - ²²	to cry (weep)	Rangoon	cry	1485.27	Burmese (Rangoon)	ŋo²²			32	TBL		1420		ŋo²²		ŋ o ²²	35547	1104	5921
+6556	80		ŋ a u - ⁵¹	to cry (weep)	Atsi	cry	1485.30	Atsi [Zaiwa]	ŋau⁵¹	cry		32	TBL		1420		ŋau⁵¹		ŋ a u ⁵¹	42831	1104	4945
+6197	80		ŋ a u - ⁵⁵	to cry (weep)	Xiandao	cry	1485.29	Achang (Xiandao)	ŋau⁵⁵	cry		32	TBL		1420		ŋau⁵⁵		ŋ a u ⁵⁵	39059	1104	986
+6140	80		ŋ aː u - ³¹	to cry (weep)	Lashi	cry	1485.33	Leqi (Luxi)	ŋaːu³¹	cry		32	TBL		1420		ŋaːu³¹		ŋ aː u ³¹	48174	1104	7005
+#
+888	670	verb	ʃ ɿ - - ⁵⁵	to die	Bola	die	1651.32	Bola (Luxi) TBL	ʃɿ⁵⁵  | 1651.32	die		199	TBL		1494	ʃɿ⁵⁵	ʃɿ⁵⁵	die	ʃ ɿ ⁵⁵	426591	27	8706
+893	670	verb	ʃ eː i - ³³	to die	Lashi	die	1651.33	Leqi (Luxi) TBL	ʃeːi³³  | 1651.33	die		199	TBL		1494	ʃeːi³³	ʃeːi³³	die	ʃ eː i ³³	426592	27	7101
+896	670	verb	ʃ i - k ³¹	to die	Maru	die	1651.31	Langsu (Luxi) TBL	ʃik³¹  | 1651.31	die		199	TBL		1494	ʃik³¹	ʃik³¹	die	ʃ i k ³¹	426590	27	4491
+898	670	verb	ʂ ɿ - - ⁵⁵	to die	Xiandao	die	1651.29	Achang (Xiandao) TBL	ʂɿ⁵⁵  | 1651.29	die		199	TBL		1494	ʂɿ⁵⁵	ʂɿ⁵⁵	die	ʂ ɿ ⁵⁵	426588	27	1841
+5451	1146	verb	tθ e - - ²²	to die	Rangoon		1651.27					199	TBL		1494	tθe²²	tθe²²	die	tθ e ²²	426586	27	3765
+#
+917	675	verb	t uː - ³³	to dig	Lashi	dig / scoop out v.	1698.33	Leqi (Luxi) TBL	tuː³³  | 1698.33		bad concept	204	TBL		1418	khaːi⁵³	tuː³³	dig / scoop out	t uː ³³	428804	3573	6801
+920	675	verb	t u - ³¹	to dig	Xiandao	dig / scoop out v.	1698.29	Achang (Xiandao) TBL	tu³¹  | 1698.29		bad concept	204	TBL		1418	tu³¹	tu³¹	dig / scoop out	t u ³¹	428800	3573	789
+921	675	verb	t u - ³¹	to dig	Achang_Longchuan	dig / scoop out v.	1698.28	Achang (Longchuan) TBL	tu³¹  | 1698.28		bad concept	204	TBL		1418	tu³¹	tu³¹	dig / scoop out	t u ³¹	428799	3573	2326
+5516	675	verb	t u - ⁵⁵	to dig	Rangoon		1698.27				bad concept	204	TBL		1418	tu⁵⁵	tu⁵⁵	dig / scoop out	t u ⁵⁵	428798	3573	3530
+#
+1012	174	verb	ʃ a u ʔ ⁵⁵	to drink	Bola	drink v.	1370.32	Bola (Luxi) TBL	ʃauʔ⁵⁵  | 1370.32	drink		228	TBL		1401	ʃauʔ⁵⁵	ʃauʔ⁵⁵	drink	ʃ a u ʔ ⁵⁵	413617	3462	8698
+1015	174	verb	ʃ uː - k ⁵⁵	to drink	Lashi	drink v.	1370.33	Leqi (Luxi) TBL	ʃuːk⁵⁵  | 1370.33	drink		228	TBL		1401	ʃuːk⁵⁵	ʃuːk⁵⁵	drink	ʃ uː k ⁵⁵	413618	3462	7114
+1017	174	verb	ʃ a u k ⁵⁵	to drink	Maru	drink v.	1370.31	Langsu (Luxi) TBL	ʃauk⁵⁵  | 1370.31			228	TBL		1401	ʃauk⁵⁵	ʃauk⁵⁵	drink	ʃ a u k ⁵⁵	413616	3462	4489
+5542	174	verb	tθ ɑ u ʔ ⁴	to drink	Rangoon		1370.27					228	TBL		1401	tθɑuʔ⁴	tθɑuʔ⁴	drink	tθ ɑ u ʔ ⁴	413612	3462	5820
+#
+1129	700	verb	ts ɔː ³³	to eat	Lashi	eat	1198.33	Leqi (Luxi) TBL	tsɔː³³  | 1198.33	eat		245	TBL		1336	tsɔː³³	tsɔː³³	eat	ts ɔː ³³	405917	36	6768
+1132	700	verb	ts ɔ ³⁵	to eat	Maru	eat	1198.31	Langsu (Luxi) TBL	tsɔ³⁵  | 1198.31	eat		245	TBL		1336	tsɔ³⁵	tsɔ³⁵	eat	ts ɔ ³⁵	405915	36	13402
+#
+1447	726	verb	j u i - ⁵¹	to flow	Atsi	flow 2	1502.30	Atsi [Zaiwa] TBL	jui⁵¹  | 1502.30	flow		294	TBL		2003	jui⁵¹	jui⁵¹	flow (of water)	j u i ⁵¹	419568	2428	7274
+#
+5462	732	verb	p j ɑ̃ ∼ ²²	to fly (move through air)	Rangoon		1318.27					299	TBL		1441	pjɑ̃²²	pjɑ̃²²	fly	p j ɑ̃ ∼ ²²	411258	2588	10797
+#
+5250	1167	verb	p - e - - ⁵⁵	to give	Rangoon		1345.27					321	TBL		1447	pe⁵⁵	pe⁵⁵	give	p e ⁵⁵	412457	2158	8773
+1605	1167	verb	p j i - - ²¹	to give	Atsi	give v.	1345.30	Atsi [Zaiwa] TBL	pji²¹  | 1345.30	give		321	TBL		1447	pji²¹	pji²¹	give	p j i ²¹	412460	2158	4863
+1606	1167	verb	p - i - - ³¹	to give	Bola	give v.	1345.32	Bola (Luxi) TBL	pi³¹  | 1345.32	give		321	TBL		1447	pi³¹	pi³¹	give	p i ³¹	412462	2158	2170
+1608	1167	verb	p j eː i - ³³	to give	Lashi	give v.	1345.33	Leqi (Luxi) TBL	pjeːi³³  | 1345.33	give		321	TBL		1447	pjeːi³³	pjeːi³³	give	p j eː i ³³	412463	2158	4793
+1609	1167	verb	p j i - k ⁵⁵	to give	Maru	give v.	1345.31	Langsu (Luxi) TBL	pjik⁵⁵  | 1345.31	give		321	TBL		1447	pjik⁵⁵	pjik⁵⁵	give	p j i k ⁵⁵	412461	2158	13626
+#
+5353	1177	verb	tɕ - ɑ - ⁵⁵	to hear	Rangoon		1682.27					351	TBL		1408	tɕɑ⁵⁵	ʨɑ⁵⁵	hear	tɕ ɑ ⁵⁵	428064	1411	3763
+1806	1177	verb	v o ⁵⁵ + k j o - ²¹	to hear	Atsi	hear v.	1682.30	Atsi [Zaiwa] TBL	vo⁵⁵ kjo²¹  | 1682.30	have hear		40171 351	TBL		1408	vo⁵⁵kjo²¹	vo⁵⁵kjo²¹	hear	v o ⁵⁵ + k j o ²¹	428067	10171 1411	4898
+1807	1177	verb	ɣ ə̆ ³¹ + k j a - ³¹	to hear	Bola	hear v.	1682.32	Bola (Luxi) TBL	ɣə̆³¹ kja³¹  | 1682.32	hear listen		40043 351	TBL		1408	ɣə̆³¹kja³¹	ɣə̆³¹kja³¹	hear	ɣ ə̆ ³¹ + k j a ³¹	428069	10043 1411	8687
+1810	1177	verb	j ɔː ⁵⁵ + k j ɔː - ³³	to hear	Lashi	hear v.	1682.33	Leqi (Luxi) TBL	jɔː⁵⁵ kjɔː³³  | 1682.33	hear listen		40103 351	TBL		1408	jɔː⁵⁵kjɔː³³	jɔː⁵⁵kjɔː³³	hear	j ɔː ⁵⁵ + k j ɔː ³³	428070	10103 1411	4552
+1812	1177	verb	ɣ ɔ ⁵⁵ + k j ɔ - ³⁵	to hear	Maru	hear v.	1682.31	Langsu (Luxi) TBL	ɣɔ⁵⁵ kjɔ³⁵  | 1682.31	hear listen		40059 351	TBL		1408	ɣɔ⁵⁵kjɔ³⁵	ɣɔ⁵⁵kjɔ³⁵	hear	ɣ ɔ ⁵⁵ + k j ɔ ³⁵	428068	10059 1411	4478
+1815	1177	verb	k ʐ ɔ - ³¹	to hear	Xiandao	hear v.	1682.29	Achang (Xiandao) TBL	kʐɔ³¹  | 1682.29	hear		351	TBL		1408	kʐɔ³¹	kʐɔ³¹	hear	k ʐ ɔ ³¹	428066	1411	12099
+#
+5593	1180	verb	pʰ w ɛ ʔ ⁴	to hide (conceal)	Rangoon		1169.27				bad concept	1367	TBL		602	phwɛʔ⁴	pʰwɛʔ⁴	hide (sthg.)	pʰ w ɛ ʔ ⁴	404629	2550	10737
+#
+2187	798	verb	s a t ²¹	to kill	Atsi	kill v.	1602.30	Atsi [Zaiwa] TBL	sat²¹  | 1602.30	kill	bad concept	403	TBL		1417	sat²¹	sat²¹	kill / slaughter (an animal)	s a t ²¹	424242	1018	2759
+2189	798	verb	s ɛ̰ ʔ ⁵⁵	to kill	Bola	kill v.	1602.32	Bola (Luxi) TBL	sɛ̱ʔ⁵⁵  | 1602.32	kill	bad concept	403	TBL		1417	sɛ̱ʔ⁵⁵	sɛ̱ʔ⁵⁵	kill / slaughter (an animal)	s ɛ̰ ʔ ⁵⁵	424244	1018	8468
+2194	798	verb	s a t ⁵⁵ + pʰ u t ⁵⁵	to kill	Xiandao	kill v.	1602.29	Achang (Xiandao) TBL	sat⁵⁵ phut⁵⁵  | 1602.29	kill	bad concept	403 40072	TBL		1417	sat⁵⁵ phut⁵⁵	sat⁵⁵phut⁵⁵	kill / slaughter (an animal)	s a t ⁵⁵ + pʰ u t ⁵⁵	424241	1018 10072	560
+2184	798	verb	s a t ⁵⁵	to kill	Achang_Longchuan	kill v.	1602.28	Achang (Longchuan) TBL	sat⁵⁵  | 1602.28	kill	bad concept	403	TBL		1417	sat⁵⁵	sat⁵⁵	kill / slaughter (an animal)	s a t ⁵⁵	424240	1018	11032
+2192	798	verb	s ɛ̰ ʔ ⁵⁵	to kill	Maru	kill v.	1602.31	Langsu (Luxi) TBL	sɛ̱ʔ⁵⁵  | 1602.31		bad concept	403	TBL		1417	sɛ̱ʔ⁵⁵	sɛ̱ʔ⁵⁵	kill / slaughter (an animal)	s ɛ̰ ʔ ⁵⁵	424243	1018	13679
+2191	798	verb	s a̰ː t ⁵⁵	to kill	Lashi	kill v.	1602.33	Leqi (Luxi) TBL	sa̱ːt⁵⁵  | 1602.33	kill	bad concept	403	TBL		1417	sa̱ːt⁵⁵	sa̱ːt⁵⁵	kill / slaughter (an animal)	s a̰ː t ⁵⁵	424245	1018	11150
+#
+2254	806	verb	ɣ ə i ⁵⁵	to laugh	Bola	laugh	1735.32	Bola (Luxi) TBL	ɣəi⁵⁵  | 1735.32	laugh-smile		414	TBL		1355	ɣəi⁵⁵	ɣəi⁵⁵	laugh / smile	ɣ ə i ⁵⁵	430505	1108	8683
+2258	806	verb	j iː - ³¹	to laugh	Lashi	laugh	1735.33	Leqi (Luxi) TBL	jiː³¹  | 1735.33	laugh-smile		414	TBL		1355	jiː³¹	jiː³¹	laugh / smile	j iː ³¹	430506	1108	4529
+2261	806	verb	ɣ ə - ³¹	to laugh	Maru	laugh	1735.31	Langsu (Luxi) TBL	ɣə³¹  | 1735.31	laugh-smile		414	TBL		1355	ɣə³¹	ɣə³¹	laugh / smile	ɣ ə ³¹	430504	1108	4481
+5483	806	verb	j i - ²²	to laugh	Rangoon		1735.27					414	TBL		1355	ji²²	ji²²	laugh / smile	j i ²²	430500	1108	3953
+#
+2345	808	verb	j a ʔ ³¹	to lick	Bola	lick	1674.32	Bola (Luxi) TBL	jaʔ³¹  | 1674.32	lick		424	TBL		319	jaʔ³¹	jaʔ³¹	lick / lap	j a ʔ ³¹	427688	629	1889
+2349	808	verb	j ɔː ʔ ³¹	to lick	Lashi	lick	1674.33	Leqi (Luxi) TBL	jɔːʔ³¹  | 1674.33	lick		424	TBL		319	jɔːʔ³¹	jɔːʔ³¹	lick / lap	j ɔː ʔ ³¹	427689	629	4549
+2352	808	verb	j ɔ ʔ ³¹	to lick	Maru	lick	1674.31	Langsu (Luxi) TBL	jɔʔ³¹  | 1674.31			424	TBL		319	jɔʔ³¹	jɔʔ³¹	lick / lap	j ɔ ʔ ³¹	427687	629	12374
+5642	808	verb	j ɛ ʔ ⁴	to lick	Rangoon		1674.27					424	TBL		319	jɛʔ⁴	jɛʔ⁴	lick / lap	j ɛ ʔ ⁴	427683	629	3988
+#
+3058	833	verb	ts e ʔ ⁵⁵	to play	Achang_Longchuan	play v. 1	1703.28	Achang (Longchuan) TBL	tseʔ⁵⁵  | 1703.28	play		557	TBL		1413	tseʔ⁵⁵	tseʔ⁵⁵	play / amuse oneself	ts e ʔ ⁵⁵	429043	2746	2267
+3067	833	verb	ts ɛ ʔ ⁵⁵	to play	Xiandao	play v. 1	1703.29	Achang (Xiandao) TBL	tsɛʔ⁵⁵  | 1703.29	play		557	TBL		1413	tsɛʔ⁵⁵	tsɛʔ⁵⁵	play / amuse oneself	ts ɛ ʔ ⁵⁵	429044	2746	775
+#
+3102	835	verb	ʃ ɛ ⁵⁵	to pull	Bola	pull / lead (a cow) along v.	1568.32	Bola (Luxi) TBL	ʃɛ⁵⁵  | 1568.32	pull		566	TBL		1455	ʃɛ⁵⁵	ʃɛ⁵⁵	pull / lead (a cow) along	ʃ ɛ ⁵⁵	422646	5618	8703
+3104	835	verb	ʃ ɛ ³¹	to pull	Maru	pull / lead (a cow) along v.	1568.31	Langsu (Luxi) TBL	ʃɛ³¹  | 1568.31			566	TBL		1455	ʃɛ³¹	ʃɛ³¹	pull / lead (a cow) along	ʃ ɛ ³¹	422645	5618	4496
+3101	835	verb	ʃ e ⁵¹	to pull	Atsi	pull / lead (a cow) along v.	1568.30	Atsi [Zaiwa] TBL	ʃe⁵¹  | 1568.30	pull		566	TBL		1455	ʃe⁵¹	ʃe⁵¹	pull / lead (a cow) along	ʃ e ⁵¹	422644	5618	4983
+3103	835	verb	ʃ ɛ̰ ³³	to pull	Lashi	pull / lead (a cow) along v.	1568.33	Leqi (Luxi) TBL	ʃɛ̱³³  | 1568.33			566	TBL		1455	ʃɛ̱³³	ʃɛ̱³³	pull / lead (a cow) along	ʃ ɛ̰ ³³	422647	5618	6330
+#
+3559	922	verb	m j a ŋ ⁵¹	to see	Atsi	see v.	1471.30	Atsi [Zaiwa] TBL	mjaŋ⁵¹  | 1471.30	see		639	TBL		1409	mjaŋ⁵¹	mjaŋ⁵¹	see	m j a ŋ ⁵¹	418075	1227	11225
+5322	922	verb	m j ĩ - ²²	to see	Rangoon		1471.27					639	TBL		1409	mjĩ²²	mjĩ²²	see	m j ĩ ∼ ²²	418072	1227	4309
+3556	922	verb	e n ³¹ + m ʐ a ŋ ⁵⁵	to see	Achang_Longchuan	see v.	1471.28	Achang (Longchuan) TBL	en³¹ mʐaŋ⁵⁵  | 1471.28	see		1153 639	TBL		1409	en³¹mʐaŋ⁵⁵	en³¹mʐaŋ⁵⁵	see	e n ³¹ + m ʐ a ŋ ⁵⁵	418073	1410 1227	5400
+3561	922	verb	m j ɔ̃ ∼ ⁵⁵	to see	Bola	see v.	1471.32	Bola (Luxi) TBL	mjɔ̃⁵⁵  | 1471.32	see		639	TBL		1409	mjɔ̃⁵⁵	mjɔ̃⁵⁵	see	m j ɔ̃ ∼ ⁵⁵	418077	1227	2102
+3565	922	verb	m j aː ŋ ³¹	to see	Lashi	see v.	1471.33	Leqi (Luxi) TBL	mjaːŋ³¹  | 1471.33	see		639	TBL		1409	mjaːŋ³¹	mjaːŋ³¹	see	m j aː ŋ ³¹	418078	1227	4700
+3567	922	verb	m j ɔ̃ ∼ ³¹	to see	Maru	see v.	1471.31	Langsu (Luxi) TBL	mjɔ̃³¹  | 1471.31	see		639	TBL		1409	mjɔ̃³¹	mjɔ̃³¹	see	m j ɔ̃ ∼ ³¹	418076	1227	13504
+3569	922	verb	m ʐ a ŋ ⁵⁵	to see	Xiandao	see v.	1471.29	Achang (Xiandao) TBL	mʐaŋ⁵⁵  | 1471.29	see		639	TBL		1409	mʐaŋ⁵⁵	mʐaŋ⁵⁵	see	m ʐ a ŋ ⁵⁵	418074	1227	12162
+#
+3671	929	verb	p ə k ⁵⁵	to shoot (an arrow)	Achang_Longchuan	shoot (an arrow) v.	1611.28	Achang (Longchuan) TBL	pək⁵⁵  | 1611.28	shoot		388	TBL		1172	pək⁵⁵	pək⁵⁵	shoot (an arrow)	p ə k ⁵⁵	424673	5411	11008
+3674	929	verb	p i k ²¹	to shoot (an arrow)	Atsi	shoot (an arrow) v.	1611.30	Atsi [Zaiwa] TBL	pik²¹  | 1611.30	shoot		388	TBL		1172	pik²¹	pik²¹	shoot (an arrow)	p i k ²¹	424675	5411	4858
+3676	929	verb	p a k ³¹	to shoot (an arrow)	Bola	shoot (an arrow) v.	1611.32	Bola (Luxi) TBL	pak³¹  | 1611.32	shoot		388	TBL		1172	pak³¹	pak³¹	shoot (an arrow)	p a k ³¹	424677	5411	2138
+3679	929	verb	p əː k ³¹	to shoot (an arrow)	Lashi	shoot (an arrow) v.	1611.33	Leqi (Luxi) TBL	pəːk³¹  | 1611.33	shoot		388	TBL		1172	pəːk³¹	pəːk³¹	shoot (an arrow)	p əː k ³¹	424678	5411	4820
+3680	929	verb	p a k ³¹	to shoot (an arrow)	Maru	shoot (an arrow) v.	1611.31	Langsu (Luxi) TBL	pak³¹  | 1611.31	shoot		388	TBL		1172	pak³¹	pak³¹	shoot (an arrow)	p a k ³¹	424676	5411	13578
+3682	929	verb	p ɤ k ⁵⁵	to shoot (an arrow)	Xiandao	shoot (an arrow) v.	1611.29	Achang (Xiandao) TBL	pɤk⁵⁵  | 1611.29	shoot		388	TBL		1172	pɤk⁵⁵	pɤk⁵⁵	shoot (an arrow)	p ɤ k ⁵⁵	424674	5411	536
+#
+5544	951	verb	- e ʔ ⁴	to sleep	Rangoon		1646.27			sleep		1160	TBL		1585	eʔ⁴	eʔ⁴	sleep	e ʔ ⁴	426327	127	3881
+3802	951	verb	- e - ³¹	to sleep	Achang_Longchuan	sleep v.	1646.28	Achang (Longchuan) TBL	e³¹  | 1646.28	sleep		1160	TBL		1585	e³¹	e³¹	sleep	e ³¹	426328	127	5403
+3805	951	verb	j ṵ p ⁵⁵	to sleep	Atsi	sleep v.	1646.30	Atsi [Zaiwa] TBL	ju̱p⁵⁵  | 1646.30	sleep		1160	TBL		1585	ju̱p⁵⁵	ju̱p⁵⁵	sleep	j ṵ p ⁵⁵	426330	127	7292
+3807	951	verb	j a̰ p ⁵⁵	to sleep	Bola	sleep v.	1646.32	Bola (Luxi) TBL	ja̱p⁵⁵  | 1646.32	sleep		1160	TBL		1585	ja̱p⁵⁵	ja̱p⁵⁵	sleep	j a̰ p ⁵⁵	426332	127	1891
+3811	951	verb	j ṵː p ⁵⁵	to sleep	Lashi	sleep v.	1646.33	Leqi (Luxi) TBL	ju̱ːp⁵⁵  | 1646.33	sleep		1160	TBL		1585	ju̱ːp⁵⁵	ju̱ːp⁵⁵	sleep	j ṵː p ⁵⁵	426333	127	4544
+3813	951	verb	j a p ³¹	to sleep	Maru	sleep v.	1646.31	Langsu (Luxi) TBL	jap³¹  | 1646.31			1160	TBL		1585	jap³¹	jap³¹	sleep	j a p ³¹	426331	127	12345
+3816	951	verb	- i t ⁵⁵	to sleep	Xiandao	sleep v.	1646.29	Achang (Xiandao) TBL	it⁵⁵  | 1646.29	sleep		1160	TBL		1585	it⁵⁵	it⁵⁵	sleep	i t ⁵⁵	426329	127	11439
+#
+5417	955	verb	n ɑ̃ ∼ ⁵⁵	to smell (perceive odor) [transitive]	Rangoon		1707.27					678	TBL		1586	nɑ̃⁵⁵	nɑ̃⁵⁵	smell	n ɑ̃ ∼ ⁵⁵	429229	1415	8754
+3840	955	verb	n ɛ̰̃ ∼ ⁵⁵	to smell (perceive odor) [transitive]	Bola	smell v	1707.32	Bola (Luxi) TBL	nɛ̱̃⁵⁵  | 1707.32	smell-tr		678	TBL		1586	nɛ̱̃⁵⁵	nɛ̱̃⁵⁵	smell	n ɛ̰̃ ∼ ⁵⁵	429234	1415	2136
+3845	955	verb	n aː m ³¹	to smell (perceive odor) [transitive]	Lashi	smell v	1707.33	Leqi (Luxi) TBL	naːm³¹  | 1707.33	smell		678	TBL		1586	naːm³¹	naːm³¹	smell	n aː m ³¹	429235	1415	4743
+3848	955	verb	n ɛ̃ ∼ ³¹	to smell (perceive odor) [transitive]	Maru	smell v	1707.31	Langsu (Luxi) TBL	nɛ̃³¹  | 1707.31			678	TBL		1586	nɛ̃³¹	nɛ̃³¹	smell	n ɛ̃ ∼ ³¹	429233	1415	13574
+#
+5541	963	verb	tʰ w e ⁵⁵	to spit	Rangoon		1688.27					702	TBL		1440	thwe⁵⁵	tʰwe⁵⁵	spit	tʰ w e ⁵⁵	428334	298	3447
+#
+4044	976	verb	j a p ²¹	to stand	Atsi	stand v.	1784.30	Atsi [Zaiwa] TBL	jap²¹  | 1784.30	stand	bad concept	721	TBL		1442	jap²¹	jap²¹	stand	j a p ²¹	432796	145	7245
+5332	976	verb	j ɑ ʔ ⁴	to stand	Rangoon		1784.27				bad concept	721	TBL		1442	jɑʔ⁴	jɑʔ⁴	stand	j ɑ ʔ ⁴	432793	145	4004
+4045	976	verb	j ɛ ʔ ⁵⁵	to stand	Bola	stand v.	1784.32	Bola (Luxi) TBL	jɛʔ⁵⁵  | 1784.32	stand	bad concept	721	TBL		1442	jɛʔ⁵⁵	jɛʔ⁵⁵	stand	j ɛ ʔ ⁵⁵	432798	145	1912
+4046	976	verb	j aː p ³¹	to stand	Lashi	stand v.	1784.33	Leqi (Luxi) TBL	jaːp³¹  | 1784.33	stand	bad concept	721	TBL		1442	jaːp³¹	jaːp³¹	stand	j aː p ³¹	432799	145	4518
+4047	976	verb	j ɛ ʔ ³¹	to stand	Maru	stand v.	1784.31	Langsu (Luxi) TBL	jɛʔ³¹  | 1784.31		bad concept	721	TBL		1442	jɛʔ³¹	jɛʔ³¹	stand	j ɛ ʔ ³¹	432797	145	12380
+4043	976	verb	ʑ a p ⁵⁵	to stand	Achang_Longchuan	stand v.	1784.28	Achang (Longchuan) TBL	ʑap⁵⁵  | 1784.28	stand	bad concept	721	TBL		1442	ʑap⁵⁵	ʑap⁵⁵	stand	ʑ a p ⁵⁵	432794	145	11377
+4048	976	verb	j a p ⁵⁵	to stand	Xiandao	stand v.	1784.29	Achang (Xiandao) TBL	jap⁵⁵  | 1784.29	stand	bad concept	721	TBL		1442	jap⁵⁵	jap⁵⁵	stand	j a p ⁵⁵	432795	145	11449
+#
+5573	978	verb	kʰ o - - ⁵⁵	to steal	Rangoon		1686.27					723	TBL		713	kho⁵⁵	kʰo⁵⁵	steal	kʰ o ⁵⁵	428236	2365	4031
+4077	978	verb	kʰ - u k ⁵⁵	to steal	Maru	steal v.	1686.31	Langsu (Luxi) TBL	khuk⁵⁵  | 1686.31	steal		723	TBL		713	khuk⁵⁵	khuk⁵⁵	steal	kʰ u k ⁵⁵	428240	2365	12425
+#
+4456	992	verb	m j i t ²¹	to think (reflect)	Atsi	think v.	1726.30	Atsi [Zaiwa] TBL	mjit²¹  | 1726.30	think		789	TBL		1415	mjit²¹	mjit²¹	think	m j i t ²¹	430116	1383	11228
+4460	992	verb	m j iː t ³¹	to think (reflect)	Lashi	think v.	1726.33	Leqi (Luxi) TBL	mjiːt³¹  | 1726.33	think		789	TBL		1415	mjiːt³¹	mjiːt³¹	think	m j iː t ³¹	430119	1383	4709
+4461	992	verb	m j i k ³¹	to think (reflect)	Maru	think v.	1726.31	Langsu (Luxi) TBL	mjik³¹  | 1726.31	think		789	TBL		1415	mjik³¹	mjik³¹	think	m j i k ³¹	430117	1383	13487
+#
+4793	1034	verb	pʰ a t ⁵⁵	to vomit	Xiandao	throw up / vomit v.	1535.29	Achang (Xiandao) TBL	phat⁵⁵  | 1535.29	vomit		856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421101	1145	12206
+4780	1034	verb	pʰ a t ⁵⁵	to vomit	Achang_Longchuan	throw up / vomit v.	1535.28	Achang (Longchuan) TBL	phat⁵⁵  | 1535.28			856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421100	1145	10954
+4783	1034	verb	pʰ a t ⁵⁵	to vomit	Atsi	throw up / vomit v.	1535.30	Atsi [Zaiwa] TBL	phat⁵⁵  | 1535.30	vomit		856	TBL		1278	phat⁵⁵	phat⁵⁵	throw up / vomit	pʰ a t ⁵⁵	421102	1145	4843
+4788	1034	verb	pʰ aː t ⁵⁵	to vomit	Lashi	throw up / vomit v.	1535.33	Leqi (Luxi) TBL	phaːt⁵⁵  | 1535.33	vomit		856	TBL		1278	phaːt⁵⁵	phaːt⁵⁵	throw up / vomit	pʰ aː t ⁵⁵	421105	1145	4777
+5264	1035	verb	ɑ̃ ∼ ²²	to vomit	Rangoon		1535.27					858	TBL		1278	ɑ̃²²	ɑ̃²²	throw up / vomit	ɑ̃ ∼ ²²	421099	1796	5996
+#
+5116	1046	verb	s uː t ⁵⁵	to wipe	Lashi	wipe (the table)	1163.33	Leqi (Luxi) TBL	suːt⁵⁵  | 1163.33	wipe		908	TBL		1454	suːt⁵⁵	suːt⁵⁵	wipe (the table)	s uː t ⁵⁵	404352	5594	12313
+5117	1046	verb	s a̰ t ⁵⁵	to wipe	Maru	wipe (the table)	1163.31	Langsu (Luxi) TBL	sa̱t⁵⁵  | 1163.31			908	TBL		1454	sa̱t⁵⁵	sa̱t⁵⁵	wipe (the table)	s a̰ t ⁵⁵	404350	5594	13670
+5120	1046	verb	s u t ⁵⁵	to wipe	Xiandao	wipe (the table)	1163.29	Achang (Xiandao) TBL	sut⁵⁵  | 1163.29	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404348	5594	591
+5113	1046	verb	s ɔ t ⁵⁵	to wipe	Bola	wipe (the table)	1163.32	Bola (Luxi) TBL	sɔt⁵⁵  | 1163.32	wipe		908	TBL		1454	sɔt⁵⁵	sɔt⁵⁵	wipe (the table)	s ɔ t ⁵⁵	404351	5594	12609
+5111	1046	verb	s u t ⁵⁵	to wipe	Atsi	wipe (the table)	1163.30	Atsi [Zaiwa] TBL	sut⁵⁵  | 1163.30	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404349	5594	2815
+5108	1046	verb	s u t ⁵⁵	to wipe	Achang_Longchuan	wipe (the table)	1163.28	Achang (Longchuan) TBL	sut⁵⁵  | 1163.28	wipe		908	TBL		1454	sut⁵⁵	sut⁵⁵	wipe (the table)	s u t ⁵⁵	404347	5594	11062
+#
+4706	1048	other	- ə̰ - ⁵⁵ + tsʰ e - ³³	twenty	Lashi	twenty num	0816.33	Leqi (Luxi) TBL	ə̱⁵⁵ tshe³³  | 0816.33	two ten		1193 1196	TBL		1710	ə̱⁵⁵tshe³³	ə̱⁵⁵tshe³³	twenty	ə̰ ⁵⁵ + tsʰ e ³³	387021	2504 2748	7086
+4707	1048	other	ʃ ḭ k ⁵⁵ + tsʰ ɛ - ³¹	twenty	Maru	twenty num	0816.31	Langsu (Luxi) TBL	ʃi̱k⁵⁵ tshɛ³¹  | 0816.31	two ten		1194 1196	TBL		1710	ʃi̱k⁵⁵tshɛ³¹	ʃi̱k⁵⁵tshɛ³¹	twenty	ʃ ḭ k ⁵⁵ + tsʰ ɛ ³¹	387019	2504 2748	9286
+#
+4716	1051	other	i - ⁵⁵	two	Atsi	two num	0798.30	Atsi [Zaiwa] TBL	i⁵⁵  | 0798.30	two		838	TBL		1498	i⁵⁵	i⁵⁵	two	i ⁵⁵	386107	2504	7227
+4721	1051	other	ə̰ k ⁵⁵	two	Lashi	two num	0798.33	Leqi (Luxi) TBL	ə̱k⁵⁵  | 0798.33	two		838	TBL		1498	ə̱k⁵⁵	ə̱k⁵⁵	two	ə̰ k ⁵⁵	386110	2504	7084
+4722	1051	other	ʃ ḭ k ⁵⁵	two	Maru	two num	0798.31	Langsu (Luxi) TBL	ʃi̱k⁵⁵  | 0798.31	two		839	TBL		1498	ʃi̱k⁵⁵	ʃi̱k⁵⁵	two	ʃ ḭ k ⁵⁵	386108	2504	9284
+#
+4963	424	other	p i ³¹ + s i ⁵⁵	what	Achang_Longchuan	what intg	0954.28	Achang (Longchuan) TBL	pi³¹ si⁵⁵  | 0954.28	what1 what2		890 40016	TBL		1236	pi³¹ si⁵⁵	pi³¹si⁵⁵	what	p i ³¹ + s i ⁵⁵	394129	167 10016	8381
+4968	424	other	p ɛ̰ ⁵⁵ + tʃ u ŋ ³¹	what	Bola	what intg	0954.32	Bola (Luxi) TBL	pɛ̱⁵⁵ tʃuŋ³¹  | 0954.32			890 40039	TBL		1236	pɛ̱⁵⁵ tʃuŋ³¹	pɛ̱⁵⁵tʃuŋ³¹	what	p ɛ̰ ⁵⁵ + tʃ u ŋ ³¹	394133	167 10039	1404
+4971	424	other	p ɛ̰ ⁵⁵	what	Maru	what intg	0954.31	Langsu (Luxi) TBL	pɛ̱⁵⁵  | 0954.31			890	TBL		1236	pɛ̱⁵⁵	pɛ̱⁵⁵	what	p ɛ̰ ⁵⁵	394132	167	10525
+4973	424	other	p ɛ ³¹	what	Xiandao	what intg	0954.29	Achang (Xiandao) TBL	pɛ³¹  | 0954.29			890	TBL		1236	pɛ³¹	pɛ³¹	what	p ɛ ³¹	394130	167	527
+5512	27	other	ɑ ⁵³ + b ɛ - ²²	what	Rangoon		0954.27					40134 1201	TBL		1236	ɑ⁵³bɛ²²	ɑ⁵³bɛ²²	what	ɑ ⁵³ + b ɛ ²²	394128	10134 167	6001
+#
+5677	28	other	ɑ ⁵³ + b ɛ - ²² + m̥ ɑ ²²	where	Rangoon		0955.27					40130 1209 40131	TBL		1237	ɑ⁵³ bɛ²²m̥ɑ²²	ɑ⁵³◦bɛ²²m̥ɑ²²	where	ɑ ⁵³ + b ɛ ²² + m̥ ɑ ²²	394183	10130 167 10131	6000
+#
+4998	1086	other	pʰ ʐ o ⁵⁵	white	Achang_Longchuan	white	1006.28	Achang (Longchuan) TBL	phʐo⁵⁵  | 1006.28	white		1211	TBL		1335	phʐo⁵⁵	phʐo⁵⁵	white	pʰ ʐ o ⁵⁵	396857	1235	10979
+5000	1086	other	pʰ j u ⁵¹	white	Atsi	white	1006.30	Atsi [Zaiwa] TBL	phju⁵¹  | 1006.30	white		1211	TBL		1335	phju⁵¹	phju⁵¹	white	pʰ j u ⁵¹	396859	1235	13299
+5001	1086	other	pʰ j u ⁵⁵	white	Bola	white	1006.32	Bola (Luxi) TBL	phju⁵⁵  | 1006.32	white		1211	TBL		1335	phju⁵⁵	phju⁵⁵	white	pʰ j u ⁵⁵	396861	1235	5294
+5004	1086	other	pʰ j uː ³³	white	Lashi	white	1006.33	Leqi (Luxi) TBL	phjuː³³  | 1006.33	white		1211	TBL		1335	phjuː³³	phjuː³³	white	pʰ j uː ³³	396862	1235	12287
+5005	1086	other	pʰ j u ³¹	white	Maru	white	1006.31	Langsu (Luxi) TBL	phju³¹  | 1006.31			1211	TBL		1335	phju³¹	phju³¹	white	pʰ j u ³¹	396860	1235	13601
+5006	1086	other	pʰ ʐ u ⁵⁵	white	Xiandao	white	1006.29	Achang (Xiandao) TBL	phʐu⁵⁵  | 1006.29	white		1211	TBL		1335	phʐu⁵⁵	phʐu⁵⁵	white	pʰ ʐ u ⁵⁵	396858	1235	12962
+5534	1086	other	pʰ j u ²²	white	Rangoon		1006.27					1211	TBL		1335	phju²²	pʰju²²	white	pʰ j u ²²	396856	1235	10715
+#
+5428	1090	other	m i - ²² + tθ u ²²	who	Rangoon		0953.27					40135 1212	TBL		1235	mi²²tθu²²	mi²²tθu²²	who	m i ²² + tθ u ²²	394071	10135 5632	4278
+5429	1090	other	b ɛ - ²² + tθ u ²²	who	Rangoon		0953.27					40136 1212	TBL		1235	bɛ²²tθu²²	bɛ²²tθu²²	who	b ɛ ²² + tθ u ²²	394096	10136 5632	4278
+#
+5268	1101	other	w a ²²	yellow	Rangoon		1008.27					919	TBL		1424	wa²²	wa²²	yellow	w a ²²	396958	165	5873
+#
+6219	198		ŋ a i ³¹	young	Maru	young	1059.31	Langsu (Luxi)	ŋai³¹	small		677	TBL		1207		ŋai³¹		ŋ a i ³¹	44231	90	13451
