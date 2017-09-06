@@ -43,7 +43,6 @@ def make_base_list(wordlist, name):
         out += [tmp]
     with open(name, 'w') as f:
         for line in out:
-            print(line)
             f.write('\t'.join(line)+'\n')
 
 def make_cognates(wordlist, name):
