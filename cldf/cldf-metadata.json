@@ -55,13 +55,13 @@
      {
       "name": "Parameter_ID", 
       "datatype": "string",
-      "propertyUrl": "http://cldf.clld.org/cldf/ConceptSet",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#conceptSet",
       "valueUrl": "http://concepticon.clld.org/parameters/{Parameter_ID}"
      },
      {
       "name": "Value", 
       "datatype": "string",
-      "propertyUrl": "http://cldf.clld.org/cldf/LexicalUnit"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#exicalUnit"
      },
      {
       "name": "Form", 
@@ -71,19 +71,19 @@
      {
       "name": "Segments", 
       "datatype": "string", "separator" : " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/SoundSequence",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#SoundSequence",
       "valueUrl": "http://clpn.clld.org/parameters/{Segments}"
      },
      {
       "name": "Motivation_structure", 
       "datatype": "string", 
       "separator": " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/MotivationStructure"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#otivationStructure"
      },
      {"name": "Source", 
       "datatype": "string",
       "separator": ",",
-      "propertyUrl": "http://purl.org/dc/terms/source",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
       "valueUrl": "http://evobib.lingpy.org?key={Source}"
      },
      {
@@ -111,19 +111,19 @@
      {
       "name": "Cognate_set_ID", 
       "datatype": "integer",
-      "propertyUrl": "http://cldf.clld.org/cldf/Cognate_Set"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognateSet"
      },
      {
       "name": "Segments", 
       "datatype": "string", "separator" : " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/SoundSequence",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#soundSequence",
       "valueUrl": "http://clpn.clld.org/paramters/{Segments}"
      },  
      {
       "name": "Alignment", 
       "datatype": "string", 
       "separator": " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/Alignment"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#alignment"
      },
      {
       "name": "Doubt",
@@ -135,7 +135,9 @@
      },
      {
       "name": "Cognate_source",
-      "datatype": "string"
+      "datatype": "string",
+      "separator": ",",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source"
      },
      {
       "name": "Alignment_method",
@@ -143,7 +145,9 @@
      },
      {
       "name": "Alignment_source",
-      "datatype": "string"
+      "datatype": "string",
+      "separator": ",",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source"
      }
     ]
    }
@@ -160,23 +164,23 @@
      {
       "name": "Segments", 
       "datatype": "string", "separator" : " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/SoundSequence",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#soundSequence",
       "valueUrl": "http://clpn.clld.org/paramters/{Segments}"
      },     {
       "name": "Cognate_set_ID", 
       "datatype": "integer",
-      "propertyUrl": "http://cldf.clld.org/cldf/Cognate_Set"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognateSet"
      },
      {
       "name": "Alignment", 
       "datatype": "string", 
       "separator": " ",
-      "propertyUrl": "http://cldf.clld.org/cldf/Alignment"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#alignment"
      },
      {
       "name": "Segment_slice", 
       "datatype": "integer", "separator" : ",",
-      "propertyUrl": "http://cldf.clld.org/cldf/SubSequence"
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#subSequence"
      },
      {
       "name": "Doubt",
@@ -188,7 +192,9 @@
      },
      {
       "name": "Cognate_source",
-      "datatype": "string"
+      "datatype": "string",
+      "separator": ",",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source"
      },
      {
       "name": "Alignment_method",
@@ -196,7 +202,9 @@
      },
      {
       "name": "Alignment_source",
-      "datatype": "string"
+      "datatype": "string",
+      "separator": ",",
+      "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source"
      }
     ]
    }
@@ -222,7 +230,6 @@
         },
         {
           "datatype": "string",
-          "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
           "name": "glottolog_name"
         },
         {
@@ -277,3 +284,4 @@
   }
  ]
 } 
+
