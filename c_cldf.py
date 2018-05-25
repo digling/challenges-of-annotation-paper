@@ -1,6 +1,7 @@
 from lingpy import *
 from pyconcepticon.api import Concepticon
 from lingpy.compare.partial import Partial
+from lingpy.convert.cldf import to_cldf
 
 def get_changer():
     changer = {
@@ -75,7 +76,6 @@ def make_partial(wordlist, name):
             f.write('\t'.join(line)+'\n')
 
 if __name__ == "__main__":
-    wl = Wordlist('d_bed.tsv')
-    make_base_list(wl, 'cldf/forms.tsv')
-    make_cognates(wl, 'cldf/cognates.tsv')
-    make_partial(wl, 'cldf/partial.tsv')
+    wl = Wordlist('d_bed.tsv')    
+    to_cldf(wl, 'cldf')
+
